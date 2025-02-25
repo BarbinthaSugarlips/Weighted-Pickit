@@ -265,7 +265,9 @@
 
 // stats stacker //
 
-[Category] == "Amulet" && [Rarity] == "Rare" # [WeightedSum(additional_all_attributes:3,additional_intelligence:1,additional_strength:1,additional_dexterity:1)] >= "100" && [WeightedSum(base_maximum_energy_shield:0.5,maximum_life_+%:8,base_maximum_life:0.5)] >= "115" && [Stashitem] == "true"
+[Category] == "Amulet" && [Rarity] == "Rare" # [WeightedSum(additional_all_attributes:3,additional_intelligence:1,additional_strength:1,additional_dexterity:1)] >= "100" && [WeightedSum(base_maximum_energy_shield:0.5,maximum_life_+%:8,base_maximum_life:0.5)] >= "115" && [StashItem] == "true"
+[Category] == "Amulet" && [Rarity] == "Rare" # [WeightedSum(additional_all_attributes:3,additional_intelligence:1,additional_strength:1,additional_dexterity:1)] >= "115" && [StashItem] == "true"
+
 
 // [base_maximum_life] .5
 // [maximum_life_+%] 8
@@ -280,7 +282,69 @@
 ///////////////////
 
 
+//CASTER//
+[Category] == "Ring" && [Rarity] == "Rare" # [WeightedSum(additional_intelligence:2,cold_damage_+%:1,fire_damage_+%:1,base_maximum_mana:1,base_maximum_life:0.5,base_fire_damage_resistance_%:2,base_cold_damage_resistance_%:2,base_lightning_damage_resistance_%:2,base_item_found_rarity_+%:2.5,maximum_mana_+%:25,base_cast_speed_+%:6.5,mana_regeneration_rate_+%:2.4,base_resist_all_elements_%:6,lightning_damage_+%:3)] >= "480" && [StashItem] == "true"
+
+
+// [base_maximum_life] .5
+// [base_fire_damage_resistance_%] 2
+// [base_cold_damage_resistance_%] 2
+// [base_lightning_damage_resistance_%] 2
+// [base_item_found_rarity_+%] 2
+// [maximum_mana_+%] 25
+// [base_maximum_mana] 1
+// [base_cast_speed_+%] 6.5
+// [mana_regeneration_rate_+%] 2.4
+// [base_resist_all_elements_%] 6
+// [lightning_damage_+%] 3
+// [cold_damage_+%] 1
+// [fire_damage_+%] 1
+// [additional_intelligence]
+
+//STATS//
+
+[Category] == "Ring" && [Rarity] == "Rare" # [WeightedSum(additional_intelligence:10,additional_strength:10,additional_dexterity:10,additional_all_attributes:30,base_fire_damage_resistance_%:3.3,base_cold_damage_resistance_%:3.3,base_lightning_damage_resistance_%:3.3,base_resist_all_elements_%:10)] >= "1000" && [StashItem] == "true"
+
+// [additional_intelligence] 10
+// [additional_strength] 10
+// [additional_dexterity] 10
+// [additional_all_attributes] 30
+// [base_fire_damage_resistance_%] 3.3
+// [base_cold_damage_resistance_%] 3.3
+// [base_lightning_damage_resistance_%] 3.3
+// [base_resist_all_elements_%] 10
 
 ///////////////////
 ///    BELTS    ///
 ///////////////////
+
+
+
+
+//////////////////////////////////////////////////////////////////
+///                                                            ///
+///                      WEAPONS                               ///
+///                                                            ///
+//////////////////////////////////////////////////////////////////
+
+// LIGHTNING
+[WeaponCategory] == "Wand" && [Rarity] == "Rare" # [WeightedSum(spell_damage_+%:3,lightning_damage_+%:3,base_cast_speed_+%:7,spell_critical_strike_chance_+%:3,base_spell_critical_strike_multiplier_+:2.5,mana_regeneration_rate_+%:1.8,additional_intelligence:2,base_maximum_mana:1,non_skill_base_all_damage_%_to_gain_as_lightning:3,non_skill_base_all_damage_%_to_gain_as_fire:2,non_skill_base_all_damage_%_to_gain_as_cold:2,lightning_spell_skill_gem_level_+:150)] >= "1100" && [StashItem] == "true"
+// COLD
+[WeaponCategory] == "Wand" && [Rarity] == "Rare" # [WeightedSum(spell_damage_+%:3,cold_damage_+%:3,base_cast_speed_+%:7,spell_critical_strike_chance_+%:3,base_spell_critical_strike_multiplier_+:2.5,mana_regeneration_rate_+%:1.8,additional_intelligence:2,base_maximum_mana:1,non_skill_base_all_damage_%_to_gain_as_lightning:2,non_skill_base_all_damage_%_to_gain_as_fire:2,non_skill_base_all_damage_%_to_gain_as_cold:3,cold_spell_skill_gem_level_+:150)] >= "1300" && [StashItem] == "true"
+// FIRE
+[WeaponCategory] == "Wand" && [Rarity] == "Rare" # [WeightedSum(spell_damage_+%:3,fire_damage_+%:3,base_cast_speed_+%:7,spell_critical_strike_chance_+%:3,base_spell_critical_strike_multiplier_+:2.5,mana_regeneration_rate_+%:1.8,additional_intelligence:2,base_maximum_mana:1,non_skill_base_all_damage_%_to_gain_as_lightning:2,non_skill_base_all_damage_%_to_gain_as_fire:3,non_skill_base_all_damage_%_to_gain_as_cold:2,fire_spell_skill_gem_level_+:150)] >= "1300" && [StashItem] == "true"
+
+// [spell_critical_strike_chance_+%]
+// [base_spell_critical_strike_multiplier_+]
+// [mana_regeneration_rate_+%]
+// [additional_intelligence]
+// [base_maximum_mana]
+// [non_skill_base_all_damage_%_to_gain_as_lightning]
+// [non_skill_base_all_damage_%_to_gain_as_fire]
+// [non_skill_base_all_damage_%_to_gain_as_cold]
+// [lightning_spell_skill_gem_level_+]
+// [base_cast_speed_+%]
+// [lightning_damage_+%]
+// [fire_damage_+%]
+// [cold_damage_+%]
+// [spell_damage_+%]
