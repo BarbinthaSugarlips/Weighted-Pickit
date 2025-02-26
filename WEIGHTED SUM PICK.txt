@@ -90,7 +90,7 @@
 
 /// Melee Gloves (all) ///
  
-[Category] == "Gloves" && [Rarity] == "Rare" # [WeightedSum(base_maximum_life:0.8,base_item_found_rarity_+%:2.2,base_cold_damage_resistance_%:2,base_fire_damage_resistance_%:2,base_lightning_damage_resistance_%:2,base_chaos_damage_resistance_%:2.5,base_critical_strike_multiplier_+:2,additional_strength:2,melee_skill_gem_level_+:60,accuracy_rating:0.04,base_life_leech_from_physical_attack_damage_permyriad:8,attack_speed_+%:6,attack_maximum_added_physical_damage:1.2)] >= "350" && [StashItem] == "true"
+[Category] == "Gloves" && [Rarity] == "Rare" # [WeightedSum(base_maximum_life:0.8,base_item_found_rarity_+%:2.2,base_cold_damage_resistance_%:2,base_fire_damage_resistance_%:2,base_lightning_damage_resistance_%:2,base_chaos_damage_resistance_%:2.5,base_critical_strike_multiplier_+:2,additional_strength:2,melee_skill_gem_level_+:60,accuracy_rating:0.04,base_life_leech_from_physical_attack_damage_permyriad:0.08,attack_speed_+%:6,attack_maximum_added_physical_damage:1.2)] >= "350" && [StashItem] == "true"
 
 // [base_cold_damage_resistance_%] 2
 // [base_fire_damage_resistance_%] 2
@@ -99,7 +99,7 @@
 // [melee_skill_gem_level_+]
 // [accuracy_rating]
 // [base_chaos_damage_resistance_%]
-// [base_life_leech_from_physical_attack_damage_permyriad] 8
+// [base_life_leech_from_physical_attack_damage_permyriad] 0.08
 // [attack_maximum_added_physical_damage] 1.2
 // [attack_speed_+%] 6
 // [base_maximum_life] 0.8
@@ -111,7 +111,7 @@
 
 // Energy shield boots //
 
-[Category] == "Boots" && [Rarity] == "Rare" # [ComputedEnergyShield] >= "45" && [WeightedSum(base_movement_velocity_+%:8,base_cold_damage_resistance_%:2,base_fire_damage_resistance_%:2,base_lightning_damage_resistance_%:2,base_maximum_mana:1,additional_intelligence:2,base_item_found_rarity_+%:2)] >= "540" && [StashItem] == "true"
+[Category] == "Boots" && [Rarity] == "Rare" # [ComputedEnergyShield] >= "45" && [WeightedSum(base_movement_velocity_+%:8,base_cold_damage_resistance_%:2,base_fire_damage_resistance_%:2,base_lightning_damage_resistance_%:2,base_maximum_mana:1,additional_intelligence:2,base_item_found_rarity_+%:2.5)] >= "540" && [StashItem] == "true"
 
 // [base_movement_velocity_+%] 8
 // [base_cold_damage_resistance_%] 2
@@ -119,10 +119,11 @@
 // [base_lightning_damage_resistance_%] 2
 // [base_maximum_mana] 1
 // [additional_intelligence] 2
+// [base_item_found_rarity_+%] 2.5
 
 // ARMOR/EVASION BOOTS //
 
-[Category] == "Boots" && [Rarity] == "Rare" # [WeightedSum(base_movement_velocity_+%:8,base_cold_damage_resistance_%:2,base_fire_damage_resistance_%:2,base_lightning_damage_resistance_%:2,base_maximum_mana:1,additional_intelligence:1.8,additional_strength:1.8,additional_dexterity:1.8,base_item_found_rarity_+%:2)] >= "540" && [StashItem] == "true"
+[Category] == "Boots" && [Rarity] == "Rare" # [WeightedSum(base_movement_velocity_+%:8,base_cold_damage_resistance_%:2,base_fire_damage_resistance_%:2,base_lightning_damage_resistance_%:2,base_maximum_mana:1,additional_intelligence:1.8,additional_strength:1.8,additional_dexterity:1.8,base_item_found_rarity_+%:2.5)] >= "540" && [StashItem] == "true"
 
 // [base_maximum_life] 1
 // [base_movement_velocity_+%] 8
@@ -132,7 +133,7 @@
 // [additional_dexterity] 1.8
 // [additional_intelligence] 1.8
 // [additional_strength] 1.8
-// [base_item_found_rarity_+%] 1.8
+// [base_item_found_rarity_+%] 2.5
 
 //////////////////////
 ///   BODY ARMOUR  ///
@@ -265,17 +266,47 @@
 
 // stats stacker //
 
+// STAT
 [Category] == "Amulet" && [Rarity] == "Rare" # [WeightedSum(additional_all_attributes:3,additional_intelligence:1,additional_strength:1,additional_dexterity:1)] >= "100" && [WeightedSum(base_maximum_energy_shield:0.5,maximum_life_+%:8,base_maximum_life:0.5)] >= "115" && [StashItem] == "true"
 [Category] == "Amulet" && [Rarity] == "Rare" # [WeightedSum(additional_all_attributes:3,additional_intelligence:1,additional_strength:1,additional_dexterity:1)] >= "115" && [StashItem] == "true"
 
 
-// [base_maximum_life] .5
-// [maximum_life_+%] 8
-// [base_maximum_energy_shield] .5
-// [additional_all_attributes] 3
-// [additional_intelligence] 1
-// [additional_dexterity] 1
-// [additional_strength] 1
+// STAT + MIX OF EITHER LIFE/MANA/ES
+[Category] == "Amulet" && [Rarity] == "Rare" # [WeightedSum(base_fire_damage_resistance_%:1,base_lightning_damage_resistance_%:1,base_cold_damage_resistance_%:1,base_resist_all_elements_%:3,base_item_found_rarity_+%:2.2,additional_all_attributes:6,additional_intelligence:2,additional_strength:2,additional_dexterity:2,base_spirit_from_equipment:2.3)] >= "300" && [WeightedSum(maximum_life_+%:25,base_maximum_life:1,base_maximum_mana:1,maximum_mana_+%:25,base_maximum_energy_shield:3,maximum_energy_shield_+%:5.5)] >= "200" && [StashItem] == "true"
+
+//[Category] == "Amulet" && [Rarity] == "Rare" # [WeightedSum(base_item_found_rarity_+%:2.2,additional_all_attributes:6,additional_intelligence:2,additional_strength:2,additional_dexterity:2,base_spirit_from_equipment:2.3)] >= "250" && [WeightedSum(maximum_life_+%:35,base_maximum_life:1.4)] >= "200" && [StashItem] == "true"
+//[Category] == "Amulet" && [Rarity] == "Rare" # [WeightedSum(base_item_found_rarity_+%:2.2,additional_all_attributes:6,additional_intelligence:2,additional_strength:2,additional_dexterity:2,base_spirit_from_equipment:2.3)] >= "250" && [WeightedSum(base_maximum_energy_shield:2.5,maximum_energy_shield_+%:4.5)] >= "200" && [StashItem] == "true"
+//[Category] == "Amulet" && [Rarity] == "Rare" # [WeightedSum(base_item_found_rarity_+%:2.2,additional_all_attributes:6,additional_intelligence:2,additional_strength:2,additional_dexterity:2,base_spirit_from_equipment:2.3)] >= "250" && [WeightedSum(base_maximum_mana:1,maximum_mana_+%:25)] >= "200" && [StashItem] == "true"
+
+
+// STAT + LIFE
+[Category] == "Amulet" && [Rarity] == "Rare" # [WeightedSum(base_fire_damage_resistance_%:1,base_lightning_damage_resistance_%:1,base_cold_damage_resistance_%:1,base_resist_all_elements_%:3,base_item_found_rarity_+%:2.2,additional_all_attributes:6,additional_intelligence:2,additional_strength:2,additional_dexterity:2,base_spirit_from_equipment:2.3)] >= "150" && [WeightedSum(base_maximum_mana:1,maximum_mana_+%:25)] >= "350" && [StashItem] == "true"
+[Category] == "Amulet" && [Rarity] == "Rare" # [WeightedSum(base_fire_damage_resistance_%:1,base_lightning_damage_resistance_%:1,base_cold_damage_resistance_%:1,base_resist_all_elements_%:3,base_item_found_rarity_+%:2.2,additional_all_attributes:6,additional_intelligence:2,additional_strength:2,additional_dexterity:2,base_spirit_from_equipment:2.3)] >= "200" && [WeightedSum(base_maximum_mana:1,maximum_mana_+%:25)] >= "300" && [StashItem] == "true"
+[Category] == "Amulet" && [Rarity] == "Rare" # [WeightedSum(base_fire_damage_resistance_%:1,base_lightning_damage_resistance_%:1,base_cold_damage_resistance_%:1,base_resist_all_elements_%:3,base_item_found_rarity_+%:2.2,additional_all_attributes:6,additional_intelligence:2,additional_strength:2,additional_dexterity:2,base_spirit_from_equipment:2.3)] >= "250" && [WeightedSum(base_maximum_mana:1,maximum_mana_+%:25)] >= "200" && [StashItem] == "true"
+[Category] == "Amulet" && [Rarity] == "Rare" # [WeightedSum(base_fire_damage_resistance_%:1,base_lightning_damage_resistance_%:1,base_cold_damage_resistance_%:1,base_resist_all_elements_%:3,base_item_found_rarity_+%:2.2,additional_all_attributes:6,additional_intelligence:2,additional_strength:2,additional_dexterity:2,base_spirit_from_equipment:2.3)] >= "300" && [WeightedSum(base_maximum_mana:1,maximum_mana_+%:25)] >= "50" && [StashItem] == "true"
+
+// STAT + MANA
+[Category] == "Amulet" && [Rarity] == "Rare" # [WeightedSum(base_fire_damage_resistance_%:1,base_lightning_damage_resistance_%:1,base_cold_damage_resistance_%:1,base_resist_all_elements_%:3,base_item_found_rarity_+%:2.2,additional_all_attributes:6,additional_intelligence:2,additional_strength:2,additional_dexterity:2,base_spirit_from_equipment:2.3)] >= "150" && [WeightedSum(maximum_life_+%:35,base_maximum_life:1.4)] >= "375" && [StashItem] == "true"
+[Category] == "Amulet" && [Rarity] == "Rare" # [WeightedSum(base_fire_damage_resistance_%:1,base_lightning_damage_resistance_%:1,base_cold_damage_resistance_%:1,base_resist_all_elements_%:3,base_item_found_rarity_+%:2.2,additional_all_attributes:6,additional_intelligence:2,additional_strength:2,additional_dexterity:2,base_spirit_from_equipment:2.3)] >= "200" && [WeightedSum(maximum_life_+%:35,base_maximum_life:1.4)] >= "300" && [StashItem] == "true"
+[Category] == "Amulet" && [Rarity] == "Rare" # [WeightedSum(base_fire_damage_resistance_%:1,base_lightning_damage_resistance_%:1,base_cold_damage_resistance_%:1,base_resist_all_elements_%:3,base_item_found_rarity_+%:2.2,additional_all_attributes:6,additional_intelligence:2,additional_strength:2,additional_dexterity:2,base_spirit_from_equipment:2.3)] >= "250" && [WeightedSum(maximum_life_+%:35,base_maximum_life:1.4)] >= "200" && [StashItem] == "true"
+[Category] == "Amulet" && [Rarity] == "Rare" # [WeightedSum(base_fire_damage_resistance_%:1,base_lightning_damage_resistance_%:1,base_cold_damage_resistance_%:1,base_resist_all_elements_%:3,base_item_found_rarity_+%:2.2,additional_all_attributes:6,additional_intelligence:2,additional_strength:2,additional_dexterity:2,base_spirit_from_equipment:2.3)] >= "300" && [WeightedSum(maximum_life_+%:35,base_maximum_life:1.4)] >= "50" && [StashItem] == "true"
+
+// STAT + ES
+[Category] == "Amulet" && [Rarity] == "Rare" # [WeightedSum(base_fire_damage_resistance_%:1,base_lightning_damage_resistance_%:1,base_cold_damage_resistance_%:1,base_resist_all_elements_%:3,base_item_found_rarity_+%:2.2,additional_all_attributes:6,additional_intelligence:2,additional_strength:2,additional_dexterity:2,base_spirit_from_equipment:2.3)] >= "150" && [WeightedSum(base_maximum_energy_shield:2.5,maximum_energy_shield_+%:4.5)] >= "380" && [StashItem] == "true"
+[Category] == "Amulet" && [Rarity] == "Rare" # [WeightedSum(base_fire_damage_resistance_%:1,base_lightning_damage_resistance_%:1,base_cold_damage_resistance_%:1,base_resist_all_elements_%:3,base_item_found_rarity_+%:2.2,additional_all_attributes:6,additional_intelligence:2,additional_strength:2,additional_dexterity:2,base_spirit_from_equipment:2.3)] >= "200" && [WeightedSum(base_maximum_energy_shield:2.5,maximum_energy_shield_+%:4.5)] >= "325" && [StashItem] == "true"
+[Category] == "Amulet" && [Rarity] == "Rare" # [WeightedSum(base_fire_damage_resistance_%:1,base_lightning_damage_resistance_%:1,base_cold_damage_resistance_%:1,base_resist_all_elements_%:3,base_item_found_rarity_+%:2.2,additional_all_attributes:6,additional_intelligence:2,additional_strength:2,additional_dexterity:2,base_spirit_from_equipment:2.3)] >= "250" && [WeightedSum(base_maximum_energy_shield:2.5,maximum_energy_shield_+%:4.5)] >= "200" && [StashItem] == "true"
+[Category] == "Amulet" && [Rarity] == "Rare" # [WeightedSum(base_fire_damage_resistance_%:1,base_lightning_damage_resistance_%:1,base_cold_damage_resistance_%:1,base_resist_all_elements_%:3,base_item_found_rarity_+%:2.2,additional_all_attributes:6,additional_intelligence:2,additional_strength:2,additional_dexterity:2,base_spirit_from_equipment:2.3)] >= "300" && [WeightedSum(base_maximum_energy_shield:2.5,maximum_energy_shield_+%:4.5)] >= "85" && [StashItem] == "true"
+
+
+
+
+// [base_maximum_life]
+// [maximum_life_+%] 
+// [base_maximum_energy_shield] 
+// [additional_all_attributes] 
+// [additional_intelligence] 
+// [additional_dexterity] 
+// [additional_strength] 
 
 ///////////////////
 ///    RINGS    ///
@@ -333,6 +364,11 @@
 [WeaponCategory] == "Wand" && [Rarity] == "Rare" # [WeightedSum(spell_damage_+%:3,cold_damage_+%:3,base_cast_speed_+%:7,spell_critical_strike_chance_+%:3,base_spell_critical_strike_multiplier_+:2.5,mana_regeneration_rate_+%:1.8,additional_intelligence:2,base_maximum_mana:1,non_skill_base_all_damage_%_to_gain_as_lightning:2,non_skill_base_all_damage_%_to_gain_as_fire:2,non_skill_base_all_damage_%_to_gain_as_cold:3,cold_spell_skill_gem_level_+:150)] >= "1300" && [StashItem] == "true"
 // FIRE
 [WeaponCategory] == "Wand" && [Rarity] == "Rare" # [WeightedSum(spell_damage_+%:3,fire_damage_+%:3,base_cast_speed_+%:7,spell_critical_strike_chance_+%:3,base_spell_critical_strike_multiplier_+:2.5,mana_regeneration_rate_+%:1.8,additional_intelligence:2,base_maximum_mana:1,non_skill_base_all_damage_%_to_gain_as_lightning:2,non_skill_base_all_damage_%_to_gain_as_fire:3,non_skill_base_all_damage_%_to_gain_as_cold:2,fire_spell_skill_gem_level_+:150)] >= "1300" && [StashItem] == "true"
+// PHYS
+[WeaponCategory] == "Wand" && [Rarity] == "Rare" # [WeightedSum(chaos_damage_+%:3,base_cast_speed_+%:7,spell_critical_strike_chance_+%:3,base_spell_critical_strike_multiplier_+:2.5,mana_regeneration_rate_+%:1.8,additional_intelligence:2,base_maximum_mana:1,chaos_spell_skill_gem_level_+:150)] >= "1100" && [StashItem] == "true"
+// CHAOS
+[WeaponCategory] == "Wand" && [Rarity] == "Rare" # [WeightedSum(spell_physical_damage_+%:3,base_cast_speed_+%:7,spell_critical_strike_chance_+%:3,base_spell_critical_strike_multiplier_+:2.5,mana_regeneration_rate_+%:1.8,additional_intelligence:2,base_maximum_mana:1,physical_spell_skill_gem_level_+:150)] >= "1100" && [StashItem] == "true"
+
 
 // [spell_critical_strike_chance_+%]
 // [base_spell_critical_strike_multiplier_+]
@@ -348,3 +384,63 @@
 // [fire_damage_+%]
 // [cold_damage_+%]
 // [spell_damage_+%]
+
+
+//////////////////////////////////////////////////////////////////
+///                                                            ///
+///                      JEWELS                                ///
+///                                                            ///
+//////////////////////////////////////////////////////////////////
+
+//ES CASTER (LIGHTNING/PROJECTILE)
+
+[Category] == "Jewel" && [Rarity] == "Rare" # [WeightedSum(shock_effect_+%:2,ailment_effect_+%:2,maximum_energy_shield_+%:2,projectile_speed_+%:2.5,triggered_spell_spell_damage_+%:1,projectile_damage_+%:2,elemental_damage_+%:2,lightning_damage_+%:2,spell_damage_+%:2,energy_shield_recharge_rate_+%:0.5,energy_shield_delay_-%:0.5)] >= "35" && [WeightedSum(base_maximum_fire_damage_resistance_%:10,base_maximum_cold_damage_resistance_%:10,base_maximum_lightning_damage_resistance_%:10,spell_critical_strike_chance_+%:2,base_spell_critical_strike_multiplier_+:2,critical_strike_chance_+%:2,base_critical_strike_multiplier_+:2,recover_%_maximum_mana_on_kill:10,cast_speed_+%:7,skill_effect_duration_+%:2.5)] >= "35" && [StashItem] == "true"
+
+//ES CASTER (COLD AOE/TRIGGER)
+
+[Category] == "Jewel" && [Rarity] == "Rare" # [WeightedSum(maximum_energy_shield_+%:2,triggered_spell_spell_damage_+%:1,elemental_damage_+%:2,cold_damage_+%:2,spell_damage_+%:2,energy_shield_recharge_rate_+%:0.5,energy_shield_delay_-%:0.5)] >= "38" && [WeightedSum(base_maximum_fire_damage_resistance_%:10,base_maximum_cold_damage_resistance_%:10,base_maximum_lightning_damage_resistance_%:10,spell_critical_strike_chance_+%:2,base_spell_critical_strike_multiplier_+:2,critical_strike_chance_+%:2,base_critical_strike_multiplier_+:2,recover_%_maximum_mana_on_kill:10,cast_speed_+%:7)] >= "38" && [StashItem] == "true"
+
+//ES CASTER (FIRE AOE/IGNITE)
+
+[Category] == "Jewel" && [Rarity] == "Rare" # [WeightedSum(base_skill_area_of_effect_+%:2,base_ignite_effect_+%:2,maximum_energy_shield_+%:2,elemental_damage_+%:2,fire_damage_+%:2,spell_damage_+%:2,energy_shield_recharge_rate_+%:0.5,energy_shield_delay_-%:0.5,ailment_effect_+%:2)] >= "43" && [WeightedSum(ignite_chance_+%:2,base_maximum_fire_damage_resistance_%:10,base_maximum_cold_damage_resistance_%:10,base_maximum_lightning_damage_resistance_%:10,spell_critical_strike_chance_+%:2,base_spell_critical_strike_multiplier_+:2,critical_strike_chance_+%:2,base_critical_strike_multiplier_+:2,recover_%_maximum_mana_on_kill:10,cast_speed_+%:7)] >= "43" && [StashItem] == "true"
+
+// ES CASTER (CHAOS/MISC)
+
+[Category] == "Jewel" && [Rarity] == "Rare" # [WeightedSum(chaos_damage_+%:2,base_skill_area_of_effect_+%:2,maximum_energy_shield_+%:2,energy_shield_recharge_rate_+%:0.5,energy_shield_delay_-%)] >= "43" && [WeightedSum(base_maximum_fire_damage_resistance_%:10,base_maximum_cold_damage_resistance_%:10,base_maximum_lightning_damage_resistance_%:10,spell_critical_strike_chance_+%:2,base_spell_critical_strike_multiplier_+:2,critical_strike_chance_+%:2,base_critical_strike_multiplier_+:2,recover_%_maximum_mana_on_kill:10,cast_speed_+%:7)] >= "43" && [StashItem] == "true"
+
+
+//CORRUPT ME!
+
+[Category] == "Jewel" && [Rarity] == "Magic" # [WeightedSum(maximum_energy_shield_+%:1.5,projectile_damage_+%:2,elemental_damage_+%:2,lightning_damage_+%:2,cold_damage_+%:2,spell_damage_+%:2,ailment_effect_+%:2,shock_effect_+%:1.5,projectile_speed_+%:3)] >= "20" && [WeightedSum(base_maximum_fire_damage_resistance_%:10,base_maximum_cold_damage_resistance_%:10,base_maximum_lightning_damage_resistance_%:10,spell_critical_strike_chance_+%:2,base_spell_critical_strike_multiplier_+:1.5,critical_strike_chance_+%:2,base_critical_strike_multiplier_+:1.5,recover_%_maximum_mana_on_kill:10,cast_speed_+%:7,skill_effect_duration_+%:2)] >= "20" && [StashItem] == "true"
+
+
+
+//[base_ignite_effect_+%] 2
+//[ignite_chance_+%] 2
+//[energy_shield_delay_-%] 0.5
+//[energy_shield_recharge_rate_+%] 0.5
+//[spell_damage_+%] 2
+//[lightning_damage_+%] 2
+//[elemental_damage_+%] 2
+//[projectile_damage_+%] 2
+//[fire_damage_+%] 2
+//[cold_damage_+%] 2
+//[base_skill_area_of_effect_+%] 2
+//[chaos_damage_+%] 2
+//[triggered_spell_spell_damage_+%] 1
+//[ailment_magnitude_+%] 2
+//[projectile_speed_+%] 3
+//[maximum_energy_shield_+%] 2
+
+//[base_maximum_fire_resistance_%] 10
+//[base_maximum_lightning_resistance_%%] 10
+//[base_maximum_cold_resistance_%%] 10
+//[critical_strike_chance_+%_for_spells] 2
+//[critical_spell_damage_bonus_+%] 2 
+//[critical_strike_chance_+%] 2
+//[critical_damage_bonus_+%] 2
+//[mana_recovered_on_kill_%] 10
+//[cast_speed_+%] 7
+//[skill_effect_duration_+%] 2.5
+//[shock_magnitude_+%] 2
+//[ailment_magnitude_+%] 2
