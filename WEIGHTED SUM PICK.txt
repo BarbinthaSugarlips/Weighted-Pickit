@@ -8,8 +8,8 @@
 ///   QUIVERS   ///      
 ///////////////////
 
-[WeaponCategory] == "Quiver" && [Rarity] == "Rare" # [projectile_skill_gem_level_+] == 1 && [WeightedSum(attack_speed_+%:3,accuracy_rating:0.04,base_projectile_speed_+%:0.5,additional_dexterity:0.2,attack_critical_strike_chance_+%:1,attack_critical_strike_multiplier_+:0.7,damage_+%_with_bow_skills:1.2)] >= "130" && [StashItem] == "true"
-[WeaponCategory] == "Quiver" && [Rarity] == "Rare" # [projectile_skill_gem_level_+] == 2 && [WeightedSum(attack_speed_+%:3,accuracy_rating:0.04,base_projectile_speed_+%:0.5,additional_dexterity:0.2,attack_critical_strike_chance_+%:1,attack_critical_strike_multiplier_+:0.7,damage_+%_with_bow_skills:1.2)] >= "100" && [StashItem] == "true"
+[WeaponCategory] == "Quiver" && [Rarity] == "Rare" # [projectile_skill_gem_level_+] == "1" && [WeightedSum(attack_speed_+%:3,accuracy_rating:0.04,base_projectile_speed_+%:0.5,additional_dexterity:0.2,attack_critical_strike_chance_+%:1,attack_critical_strike_multiplier_+:0.7,damage_+%_with_bow_skills:1.2)] >= "130" && [StashItem] == "true"
+[WeaponCategory] == "Quiver" && [Rarity] == "Rare" # [projectile_skill_gem_level_+] == "2" && [WeightedSum(attack_speed_+%:3,accuracy_rating:0.04,base_projectile_speed_+%:0.5,additional_dexterity:0.2,attack_critical_strike_chance_+%:1,attack_critical_strike_multiplier_+:0.7,damage_+%_with_bow_skills:1.2)] >= "100" && [StashItem] == "true"
 
 // reference stats/values
 // [attack_speed_+%] 3
