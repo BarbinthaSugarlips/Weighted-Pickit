@@ -26,8 +26,7 @@
 ///////////////////
 
 [WeaponCategory] == "Shield" && [Rarity] == "Rare" # [local_block_chance_+%] >= "1" &&
-[WeightedSum(local_block_chance_+%:0.2,base_physical_damage_reduction_rating:0.3,local_physical_damage_reduction_rating_+%:0.2,local_armour_and_energy_shield_+%:0.2,local_armour_and_evasion_+%:0.2,base_maximum_life:1,base_fire_damage_resistance_%:2,base_cold_damage_resistance_%:2,base_lightning_damage_resistance_%:2,base_maximum_cold_damage_resistance_%:15,base_maximum_fire_damage_resistance_%:15,base_max
-imum_lightning_damage_resistance_%:15,base_resist_all_elements_%:6)] >= "400" && [StashItem] == "true"
+[WeightedSum(local_block_chance_+%:0.2,base_physical_damage_reduction_rating:0.3,local_physical_damage_reduction_rating_+%:0.2,local_armour_and_energy_shield_+%:0.2,local_armour_and_evasion_+%:0.2,base_maximum_life:1,base_fire_damage_resistance_%:2,base_cold_damage_resistance_%:2,base_lightning_damage_resistance_%:2,base_maximum_cold_damage_resistance_%:15,base_maximum_fire_damage_resistance_%:15,base_maximum_lightning_damage_resistance_%:15,base_resist_all_elements_%:6)] >= "400" && [StashItem] == "true"
 
 //reference stats/values 
 // [local_block_chance_+%] 0.2
