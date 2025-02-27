@@ -1,3 +1,4 @@
+
 //////////////////////////////////////////////////////////////
 ///                                                        ///
 ///                     OFF-HAND ITEMS                     ///
@@ -429,6 +430,14 @@
 ///                                                            ///
 //////////////////////////////////////////////////////////////////
 
+/////////////////////////////
+///                       ///
+///        CASTERS        ///
+///                       ///
+/////////////////////////////
+
+
+
 // LIGHTNING
 [WeaponCategory] == "Wand" && [Rarity] == "Rare" # [WeightedSum(spell_damage_+%:3,lightning_damage_+%:3,base_cast_speed_+%:7,spell_critical_strike_chance_+%:3,base_spell_critical_strike_multiplier_+:2.5,mana_regeneration_rate_+%:1.8,additional_intelligence:2,base_maximum_mana:1,non_skill_base_all_damage_%_to_gain_as_lightning:3,non_skill_base_all_damage_%_to_gain_as_fire:2,non_skill_base_all_damage_%_to_gain_as_cold:2,lightning_spell_skill_gem_level_+:150)] >= "1100" && [StashItem] == "true"
 // COLD
@@ -455,6 +464,89 @@
 // [fire_damage_+%]
 // [cold_damage_+%]
 // [spell_damage_+%]
+
+// all combined possibilities
+[WeaponCategory] == "Sceptre" && [Rarity] == "Rare" # [WeightedSum(allies_in_presence_cast_speed_+%:3,allies_in_presence_critical_strike_chance_+%:4,allies_in_presence_critical_strike_multiplier_+:4,allies_in_presence_attack_speed_+%:3,minion_skill_gem_level_+:55,minion_maximum_life_+%:2)] >= "410" && [StashItem] == "true"
+// spirit + minion + stats/dmg
+[WeaponCategory] == "Sceptre" && [Rarity] == "Rare" # [WeightedSum(local_spirit_+%:5,allies_in_presence_damage_+%:1.5)] >= "100" && [WeightedSum(allies_in_presence_cast_speed_+%:3,allies_in_presence_critical_strike_chance_+%:4,allies_in_presence_critical_strike_multiplier_+:4,allies_in_presence_attack_speed_+%:3,minion_skill_gem_level_+:55,minion_maximum_life_+%:2)] >= "360" && [StashItem] == "true"
+[WeaponCategory] == "Sceptre" && [Rarity] == "Rare" # [WeightedSum(local_spirit_+%:5,allies_in_presence_damage_+%:1.5)] >= "150" && [WeightedSum(allies_in_presence_cast_speed_+%:3,allies_in_presence_critical_strike_chance_+%:4,allies_in_presence_critical_strike_multiplier_+:4,allies_in_presence_attack_speed_+%:3,minion_skill_gem_level_+:55,minion_maximum_life_+%:2)] >= "330" && [StashItem] == "true"
+[WeaponCategory] == "Sceptre" && [Rarity] == "Rare" # [WeightedSum(local_spirit_+%:5,allies_in_presence_damage_+%:1.5)] >= "225" && [WeightedSum(allies_in_presence_cast_speed_+%:3,allies_in_presence_critical_strike_chance_+%:4,allies_in_presence_critical_strike_multiplier_+:4,allies_in_presence_attack_speed_+%:3,minion_skill_gem_level_+:55,minion_maximum_life_+%:2)] >= "290" && [StashItem] == "true"
+[WeaponCategory] == "Sceptre" && [Rarity] == "Rare" # [WeightedSum(local_spirit_+%:5,allies_in_presence_damage_+%:1.5)] >= "250" && [WeightedSum(allies_in_presence_cast_speed_+%:3,allies_in_presence_critical_strike_chance_+%:4,allies_in_presence_critical_strike_multiplier_+:4,allies_in_presence_attack_speed_+%:3,minion_skill_gem_level_+:55,minion_maximum_life_+%:2)] >= "250" && [StashItem] == "true"
+[WeaponCategory] == "Sceptre" && [Rarity] == "Rare" # [WeightedSum(local_spirit_+%:5,allies_in_presence_damage_+%:1.5)] >= "300" && [WeightedSum(allies_in_presence_cast_speed_+%:3,allies_in_presence_critical_strike_chance_+%:4,allies_in_presence_critical_strike_multiplier_+:4,allies_in_presence_attack_speed_+%:3,minion_skill_gem_level_+:55,minion_maximum_life_+%:2)] >= "225" && [StashItem] == "true"
+[WeaponCategory] == "Sceptre" && [Rarity] == "Rare" # [WeightedSum(local_spirit_+%:5,allies_in_presence_damage_+%:1.5)] >= "350" && [WeightedSum(allies_in_presence_cast_speed_+%:3,allies_in_presence_critical_strike_chance_+%:4,allies_in_presence_critical_strike_multiplier_+:4,allies_in_presence_attack_speed_+%:3,minion_skill_gem_level_+:55,minion_maximum_life_+%:2)] >= "150" && [StashItem] == "true"
+[WeaponCategory] == "Sceptre" && [Rarity] == "Rare" # [WeightedSum(local_spirit_+%:5,allies_in_presence_damage_+%:1.5)] >= "375" && [WeightedSum(allies_in_presence_cast_speed_+%:3,allies_in_presence_critical_strike_chance_+%:4,allies_in_presence_critical_strike_multiplier_+:4,allies_in_presence_attack_speed_+%:3,minion_skill_gem_level_+:55,minion_maximum_life_+%:2)] >= "100" && [StashItem] == "true"
+[WeaponCategory] == "Sceptre" && [Rarity] == "Rare" # [WeightedSum(local_spirit_+%:5,allies_in_presence_damage_+%:1.5)] >= "415" && [WeightedSum(allies_in_presence_cast_speed_+%:3,allies_in_presence_critical_strike_chance_+%:4,allies_in_presence_critical_strike_multiplier_+:4,allies_in_presence_attack_speed_+%:3,minion_skill_gem_level_+:55,minion_maximum_life_+%:2)] >= "60" && [StashItem] == "true"
+[WeaponCategory] == "Sceptre" && [Rarity] == "Rare" # [WeightedSum(local_spirit_+%:5,allies_in_presence_damage_+%:1.5)] >= "435" && [StashItem] == "true"
+// spritit + minion
+[WeaponCategory] == "Sceptre" && [Rarity] == "Rare" # [WeightedSum(local_spirit_+%:5,minion_skill_gem_level_+:55)] >= "500" && [StashItem] == "true"
+// spirit + minion + dmg
+[WeaponCategory] == "Sceptre" && [Rarity] == "Rare" # [WeightedSum(local_spirit_+%:5,minion_skill_gem_level_+:55,allies_in_presence_damage_+%:1.5)] >= "520" && [StashItem] == "true"
+
+
+// [local_spirit_+%]  5
+// [allies_in_presence_damage_+%] 1.5
+
+// [allies_in_presence_cast_speed_+%] 3
+// [allies_in_presence_critical_strike_chance_+%] 4
+// [allies_in_presence_critical_strike_multiplier_+] 4
+// [allies_in_presence_attack_speed_+%] 3
+// [minion_skill_gem_level_+] 55
+// [minion_maximum_life_+%] 2
+
+/////////////////////////////
+///                       ///
+///      MELEE/RANGED     ///
+///                       ///
+/////////////////////////////
+
+
+//[WeaponCategory] == "Claw" && [ItemTier] >= "4" && [Rarity] == "Rare" # [PhysicalDPS] >= "" && [StashItem] == "true"
+//[WeaponCategory] == "Claw" && [ItemTier] >= "4" && [Rarity] == "Rare" # [ElementalDPS] >= "" && [StashItem] == "true"
+
+//[WeaponCategory] == "Dagger" && [ItemTier] >= "4" && [Rarity] == "Rare" # [PhysicalDPS] >= "" && [StashItem] == "true"
+//[WeaponCategory] == "Dagger" && && [ItemTier] >= "4" && [Rarity] == "Rare" # [ElementalDPS] >= "" && [StashItem] == "true"
+
+//[WeaponCategory] == "OneHandSword" && [ItemTier] >= "4" && [Rarity] == "Rare" # [ElementalDPS] >= "" && [StashItem] == "true"
+//[WeaponCategory] == "OneHandSword" && [ItemTier] >= "4" && [Rarity] == "Rare" # [PhysicalDPS] >= "" && [StashItem] == "true"
+
+//[WeaponCategory] == "OneHandAxe" && [ItemTier] >= "4" && [Rarity] == "Rare" # [ElementalDPS] >= "" && [StashItem] == "true"
+//[WeaponCategory] == "OneHandAxe" && [ItemTier] >= "4" && [Rarity] == "Rare" # [PhysicalDPS] >= "" && [StashItem] == "true"
+
+[WeaponCategory] == "OneHandMace" && [ItemTier] >= "4" && [Rarity] == "Rare" # [ElementalDPS] >= "300" && [StashItem] == "true"
+[WeaponCategory] == "OneHandMace" && [ItemTier] >= "4" && [Rarity] == "Rare" # [PhysicalDPS] >= "400" && [StashItem] == "true"
+
+//[WeaponCategory] == "Spear" && [ItemTier] >= "4" && [Rarity] == "Rare" # [PhysicalDPS] >= "" && [StashItem] == "true"
+//[WeaponCategory] == "Spear" && [ItemTier] >= "4" && [Rarity] == "Rare" # [ElementalDPS] >= "" && [StashItem] == "true"
+
+[WeaponCategory] == "Flail" && [Rarity] == "Unique" && [StashItem] == "true"
+
+[WeaponCategory] == "Bow" && [ItemTier] >= "4" && [Rarity] == "Rare" # [PhysicalDPS] >= "325" && [StashItem] == "true"
+[WeaponCategory] == "Bow" && [ItemTier] >= "4" && [Rarity] == "Rare" # [ElementalDPS] >= "200" && [StashItem] == "true"
+
+
+//[WeaponCategory] == "Staff" && [ItemTier] >= "4" && [Rarity] == "Rare" # [PhysicalDPS] >= "" && [StashItem] == "true"
+
+[WeaponCategory] == "TwoHandSword" && [Rarity] == "Unique" # && [StashItem] == "true"
+
+//[WeaponCategory] == "TwoHandSword" && [ItemTier] >= "4" && [Rarity] == "Rare" # [PhysicalDPS] >= "" && [StashItem] == "true"
+
+[WeaponCategory] == "TwoHandAxe" && [Rarity] == "Unique" # && [StashItem] == "true"
+
+//[WeaponCategory] == "TwoHandAxe" && [ItemTier] >= "4" && [Rarity] == "Rare" # [PhysicalDPS] >= "" && [StashItem] == "true"
+
+[WeaponCategory] == "TwoHandMace" && [ItemTier] >= "4" && [Rarity] == "Rare" # [PhysicalDPS] >= "570" && [StashItem] == "true"
+[WeaponCategory] == "TwoHandMace" && [ItemTier] >= "4" && [Rarity] == "Rare" # [ElementalDPS] >= "300" && [StashItem] == "true"
+
+
+[WeaponCategory] == "Quarterstaff" && [ItemTier] >= "4" && [Rarity] == "Rare" # [PhysicalDPS] >= "480" && [StashItem] == "true"
+[WeaponCategory] == "Quarterstaff" && [ItemTier] >= "4" && [Rarity] == "Rare" # [ElementalDPS] >= "480" && [StashItem] == "true"
+
+[WeaponCategory] == "Crossbow" && [ItemTier] >= "4" && [Rarity] == "Rare" # [PhysicalDPS] >= "455" && [StashItem] == "true"
+
+//[WeaponCategory] == "Trap" && [ItemTier] >= "4" && [Rarity] == "Rare" # [PhysicalDPS] >= "" && [StashItem] == "true"
+
+[WeaponCategory] == "FishingRod" && [StashItem] == "true"
+
 
 
 //////////////////////////////////////////////////////////////////
