@@ -130,6 +130,28 @@
 [Category] == "Boots" && [Rarity] == "Rare" # [WeightedSum(base_movement_velocity_+%:8,base_cold_damage_resistance_%:2,base_fire_damage_resistance_%:2,base_lightning_damage_resistance_%:2,base_maximum_life:1,additional_intelligence:1.8,additional_strength:1.8,additional_dexterity:1.8,base_item_found_rarity_+%:3)] >= "600" && [StashItem] == "true"
 
 
+// ES
+
+[Category] == "Boots" && [Rarity] == "Rare" # [WeightedSum(base_cold_damage_resistance_%:3,base_fire_damage_resistance_%:3,base_lightning_damage_resistance_%:3,additional_intelligence:2,additional_strength:2,additional_dexterity:2,base_item_found_rarity_+%:2.5)] >= "260" && [WeightedSum(base_maximum_mana:1,maximum_energy_shield_+%:1,base_maximum_energy_shield:2,base_movement_velocity_+%:8)] >= "225" && [StashItem] == "true"
+[Category] == "Boots" && [Rarity] == "Rare" # [WeightedSum(base_cold_damage_resistance_%:3,base_fire_damage_resistance_%:3,base_lightning_damage_resistance_%:3,additional_intelligence:2,additional_strength:2,additional_dexterity:2,base_item_found_rarity_+%:2.5)] >= "300" && [WeightedSum(base_maximum_mana:1,maximum_energy_shield_+%:1,base_maximum_energy_shield:2,base_movement_velocity_+%:8)] >= "125" && [StashItem] == "true"
+[Category] == "Boots" && [Rarity] == "Rare" # [WeightedSum(base_cold_damage_resistance_%:3,base_fire_damage_resistance_%:3,base_lightning_damage_resistance_%:3,additional_intelligence:2,additional_strength:2,additional_dexterity:2,base_item_found_rarity_+%:2.5)] >= "200" && [WeightedSum(base_maximum_mana:1,maximum_energy_shield_+%:1,base_maximum_energy_shield:2,base_movement_velocity_+%:8)] >= "400" && [StashItem] == "true"
+[Category] == "Boots" && [Rarity] == "Rare" # [WeightedSum(base_cold_damage_resistance_%:3,base_fire_damage_resistance_%:3,base_lightning_damage_resistance_%:3,additional_intelligence:2,additional_strength:2,additional_dexterity:2,base_item_found_rarity_+%:2.5)] >= "100" && [WeightedSum(base_maximum_mana:1,maximum_energy_shield_+%:1,base_maximum_energy_shield:2,base_movement_velocity_+%:8)] >= "475" && [StashItem] == "true"
+
+// Armour
+
+[Category] == "Boots" && [Rarity] == "Rare" # [WeightedSum(base_cold_damage_resistance_%:3,base_chaos_damage_resistance_%:5,base_fire_damage_resistance_%:3,base_lightning_damage_resistance_%:3,additional_intelligence:2,additional_strength:2,additional_dexterity:2,base_item_found_rarity_+%:2.5)] >= "325" && [WeightedSum(base_maximum_life:1,local_base_physical_damage_reduction_rating:0.6,local_physical_damage_reduction_rating_+%:1,base_movement_velocity_+%:8)] >= "50" && [StashItem] == "true"
+[Category] == "Boots" && [Rarity] == "Rare" # [WeightedSum(base_cold_damage_resistance_%:3,base_chaos_damage_resistance_%:5,base_fire_damage_resistance_%:3,base_lightning_damage_resistance_%:3,additional_intelligence:2,additional_strength:2,additional_dexterity:2,base_item_found_rarity_+%:2.5)] >= "300" && [WeightedSum(base_maximum_life:1,local_base_physical_damage_reduction_rating:0.6,local_physical_damage_reduction_rating_+%:1,base_movement_velocity_+%:8)] >= "175" && [StashItem] == "true"
+[Category] == "Boots" && [Rarity] == "Rare" # [WeightedSum(base_cold_damage_resistance_%:3,base_chaos_damage_resistance_%:5,base_fire_damage_resistance_%:3,base_lightning_damage_resistance_%:3,additional_intelligence:2,additional_strength:2,additional_dexterity:2,base_item_found_rarity_+%:2.5)] >= "200" && [WeightedSum(base_maximum_life:1,local_base_physical_damage_reduction_rating:0.6,local_physical_damage_reduction_rating_+%:1,base_movement_velocity_+%:8)] >= "365" && [StashItem] == "true"
+[Category] == "Boots" && [Rarity] == "Rare" # [WeightedSum(base_cold_damage_resistance_%:3,base_chaos_damage_resistance_%:5,base_fire_damage_resistance_%:3,base_lightning_damage_resistance_%:3,additional_intelligence:2,additional_strength:2,additional_dexterity:2,base_item_found_rarity_+%:2.5)] >= "100" && [WeightedSum(base_maximum_life:1,local_base_physical_damage_reduction_rating:0.6,local_physical_damage_reduction_rating_+%:1,base_movement_velocity_+%:8)] >= "425" && [StashItem] == "true"
+
+// Eva
+
+[Category] == "Boots" && [Rarity] == "Rare" # [WeightedSum(base_cold_damage_resistance_%:3,base_chaos_damage_resistance_%:5,base_fire_damage_resistance_%:3,base_lightning_damage_resistance_%:3,additional_intelligence:2,additional_strength:2,additional_dexterity:2,base_item_found_rarity_+%:2.5)] >= "325" && [WeightedSum(base_maximum_life:1,local_base_evasion_rating:0.6,local_evasion_rating_+%:1,base_movement_velocity_+%:8)] >= "50" && [StashItem] == "true"
+[Category] == "Boots" && [Rarity] == "Rare" # [WeightedSum(base_cold_damage_resistance_%:3,base_chaos_damage_resistance_%:5,base_fire_damage_resistance_%:3,base_lightning_damage_resistance_%:3,additional_intelligence:2,additional_strength:2,additional_dexterity:2,base_item_found_rarity_+%:2.5)] >= "300" && [WeightedSum(base_maximum_life:1,local_base_evasion_rating:0.6,local_evasion_rating_+%:1,base_movement_velocity_+%:8)] >= "170" && [StashItem] == "true"
+[Category] == "Boots" && [Rarity] == "Rare" # [WeightedSum(base_cold_damage_resistance_%:3,base_chaos_damage_resistance_%:5,base_fire_damage_resistance_%:3,base_lightning_damage_resistance_%:3,additional_intelligence:2,additional_strength:2,additional_dexterity:2,base_item_found_rarity_+%:2.5)] >= "200" && [WeightedSum(base_maximum_life:1,local_base_evasion_rating:0.6,local_evasion_rating_+%:1,base_movement_velocity_+%:8)] >= "350" && [StashItem] == "true"
+[Category] == "Boots" && [Rarity] == "Rare" # [WeightedSum(base_cold_damage_resistance_%:3,base_chaos_damage_resistance_%:5,base_fire_damage_resistance_%:3,base_lightning_damage_resistance_%:3,additional_intelligence:2,additional_strength:2,additional_dexterity:2,base_item_found_rarity_+%:2.5)] >= "100" && [WeightedSum(base_maximum_life:1,local_base_evasion_rating:0.6,local_evasion_rating_+%:1,base_movement_velocity_+%:8)] >= "425" && [StashItem] == "true"
+
+
 // [base_maximum_life] 1
 // [base_movement_velocity_+%] 8
 // [base_cold_damage_resistance_%] 2
@@ -229,8 +251,9 @@
 
 // armour/ev/other
 
-[Category] == "Helmet" && [Rarity] == "Rare" # [WeightedSum(local_base_evasion_rating:0.2,local_evasion_rating_+%:0.5,local_base_physical_damage_reduction_rating:0.2,local_physical_damage_reduction_rating_+%:0.5,base_maximum_life:1,additional_strength:1.5,additional_dexterity:1.5,base_fire_damage_resistance_%:2,base_lightning_damage_resistance_%:2,base_cold_damage_resistance_%:2,additional_intelligence:1.5,base_maximum_mana:0.1,critical_strike_chance_+%:2,base_item_found_rarity_+%:2)] >= "420"  && [StashItem] == "true"
+[Category] == "Helmet" && [Rarity] == "Rare" # [WeightedSum(local_base_evasion_rating:0.2,local_evasion_rating_+%:0.5,local_base_physical_damage_reduction_rating:0.2,local_physical_damage_reduction_rating_+%:0.5,base_maximum_life:1,additional_strength:1.5,additional_dexterity:1.5,base_fire_damage_resistance_%:2,base_lightning_damage_resistance_%:2,base_chaos_damage_resistance_%:3.5,base_cold_damage_resistance_%:2,additional_intelligence:1.5,base_maximum_mana:0.1,critical_strike_chance_+%:2,base_item_found_rarity_+%:2)] >= "420"  && [StashItem] == "true"
 
+// [base_chaos_damage_resistance_%] 3.5
 // [base_cold_damage_resistance_%] 2
 // [base_fire_damage_resistance_%] 2
 // [base_lightning_damage_resistance_%] 2
