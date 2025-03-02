@@ -1,3 +1,13 @@
+// Weighted Sums 
+// ----------------------
+// A weighted sum is just like a regular sum (5+3+6=14), but each number is multiplied by its weight before being added together example : (sum1weight = 2, sum2weight = 3, sum3weight = 4) then (5x2)+(3x3)+(6x4) = (10)+(9)+(24)=43.
+// This is a new way for the pickit system to better read rare mods on an item. It allows us to simplying millions of lines of code in a few simple lines.
+// When looking at an items sum values, you want to figure out the weights based off of each base and the current meta/value of things.
+// This can be somewhat simple at times, though mostly requires alot of experience and knowledge of the game. An example would be as follows; if you decide that mana = 1 sum point, then you could assume that 1 intelligence holds a value of 2 sum points, because 1 point of intelligence gives you 2 mana.
+// To figure out relative sum values for targeting preffix/suffix tiers can be easy; you just have to look at the top rolls of each and compare to one and other. example: max life roll being 100 and max mana roll being 200, we can assume life = 2 and mana = 1. those are the relative sum numbers.
+// Once you have your sum values figured out, the rest becomes about figuring out the total sum that you want, the high end or low end of given set of stats on an item. the higher the number, the more strict the pickit becomes.
+// if this is all too complicated for you, do not touch any of the sum numbers, but feel free to tinker with the total sum numers and adjust to your needs. example : [WeightedSum(...)] >= "thisNumberHere" && [StashItem] == "true".
+
 //////////////////////////////////////////////////////////////
 ///                                                        ///
 ///                     OFF-HAND ITEMS                     ///
