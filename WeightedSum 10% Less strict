@@ -159,6 +159,20 @@
 [Category] == "Amulet" && [Rarity] == "Rare" # [WeightedSum(base_fire_damage_resistance_%:1,base_lightning_damage_resistance_%:1,base_cold_damage_resistance_%:1,base_resist_all_elements_%:3,base_item_found_rarity_+%:2.2,additional_all_attributes:6,additional_intelligence:2,additional_strength:2,additional_dexterity:2,base_spirit_from_equipment:2.3)] >= "225" && [WeightedSum(base_maximum_energy_shield:2.5,maximum_energy_shield_+%:4.5)] >= "180" && [StashItem] == "true"
 [Category] == "Amulet" && [Rarity] == "Rare" # [WeightedSum(base_fire_damage_resistance_%:1,base_lightning_damage_resistance_%:1,base_cold_damage_resistance_%:1,base_resist_all_elements_%:3,base_item_found_rarity_+%:2.2,additional_all_attributes:6,additional_intelligence:2,additional_strength:2,additional_dexterity:2,base_spirit_from_equipment:2.3)] >= "270" && [WeightedSum(base_maximum_energy_shield:2.5,maximum_energy_shield_+%:4.5)] >= "75" && [StashItem] == "true"
 
+// LIFE
+
+[Category] == "Amulet" && [Rarity] == "Magic" # [WeightedSum(maximum_life_+%:18,base_maximum_life:1,base_spirit_from_equipment:3,spell_damage_+%:5)] >= "125" && [WeightedSum(base_chaos_damage_resistance_%:5.5,base_fire_damage_resistance_%:3,base_lightning_damage_resistance_%:3,base_cold_damage_resistance_%:3,base_resist_all_elements_%:7,base_item_found_rarity_+%:3,additional_all_attributes:4.83,additional_intelligence:3.125,additional_strength:3.125,additional_dexterity:3.125,critical_strike_chance_+%:3.94,base_critical_strike_multiplier_+:3.84,spell_skill_gem_level_+:50,projectile_skill_gem_level_+:50,minion_skill_gem_level_+:50) >= "125" && [StashItem] == "true"
+
+[Category] == "Amulet" && [Rarity] == "Magic" # [WeightedSum(maximum_life_+%:18,base_maximum_life:0.78,base_spirit_from_equipment:2.3,spell_damage_+%:5)] >= "125" && [WeightedSum(base_chaos_damage_resistance_%:5.5,base_fire_damage_resistance_%:3,base_lightning_damage_resistance_%:3,base_cold_damage_resistance_%:3,base_resist_all_elements_%:7,base_item_found_rarity_+%:5,additional_all_attributes:6.2,additional_intelligence:4.54,additional_strength:4.54,additional_dexterity:4.54,critical_strike_chance_+%:3.94,base_critical_strike_multiplier_+:3.84,spell_skill_gem_level_+:50,projectile_skill_gem_level_+:50,minion_skill_gem_level_+:50) >= "125" && [StashItem] == "true"
+
+
+// MANA + ES
+
+[Category] == "Amulet" && [Rarity] == "Magic" # [WeightedSum(base_maximum_mana:1,maximum_mana_+%:25,base_maximum_energy_shield:3,maximum_energy_shield_+%:5.5,base_spirit_from_equipment:3,spell_damage_+%:5)] >= "125" && [WeightedSum(base_fire_damage_resistance_%:3,base_lightning_damage_resistance_%:3,base_cold_damage_resistance_%:3,base_resist_all_elements_%:7,base_item_found_rarity_+%:3,additional_all_attributes:4.83,additional_intelligence:3.125,critical_strike_chance_+%:3.94,base_critical_strike_multiplier_+:3.84,spell_skill_gem_level_+:50,projectile_skill_gem_level_+:50,minion_skill_gem_level_+:50) >= "125" && [StashItem] == "true"
+
+[Category] == "Amulet" && [Rarity] == "Magic" # [WeightedSum(base_maximum_mana:1,maximum_mana_+%:25,base_maximum_energy_shield:1.26,maximum_energy_shield_+%:5.5,base_spirit_from_equipment:2.3,spell_damage_+%:5)] >= "125" && [WeightedSum(base_fire_damage_resistance_%:3,base_lightning_damage_resistance_%:3,base_cold_damage_resistance_%:3,base_resist_all_elements_%:7,base_item_found_rarity_+%:5,additional_all_attributes:6.2,additional_intelligence:4.54,critical_strike_chance_+%:3.94,base_critical_strike_multiplier_+:3.84,spell_skill_gem_level_+:50,projectile_skill_gem_level_+:50,minion_skill_gem_level_+:50) >= "125" && [StashItem] == "true"
+
+
 ///////////////////
 ///    RINGS    ///
 ///////////////////
