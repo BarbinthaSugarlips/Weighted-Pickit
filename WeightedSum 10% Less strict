@@ -6,7 +6,7 @@
 // This can be somewhat simple at times, though mostly requires alot of experience and knowledge of the game. An example would be as follows; if you decide that mana = 1 sum point, then you could assume that 1 intelligence holds a value of 2 sum points, because 1 point of intelligence gives you 2 mana.
 // To figure out relative sum values for targeting preffix/suffix tiers can be easy; you just have to look at the top rolls of each and compare to one and other. example: max life roll being 100 and max mana roll being 200, we can assume life = 2 and mana = 1. those are the relative sum numbers.
 // Once you have your sum values figured out, the rest becomes about figuring out the total sum that you want, the high end or low end of given set of stats on an item. the higher the number, the more strict the pickit becomes.
-// if this is all too complicated for you, do not touch any of the sum numbers, but feel free to tinker with the total sum numers and adjust to your needs. example : [WeightedSum(...)] >= "thisNumberHere" && [StashItem] == "true".
+// If this is all too complicated for you, do not touch any of the sum numbers.Feel free to tinker with the total sum numbers and adjust to your needs. example : [WeightedSum(...)] >= "thisNumberHere" && [StashItem] == "true". or the tier number to pick up less rares.
 
 //////////////////////////////////////////////////////////////
 ///                                                        ///
