@@ -346,5 +346,9 @@
 [Category] == "Jewel" && [Rarity] >= "Magic" # [quiver_mod_effect_+%] >= "1" && [StashItem] == "true"
 [Category] == "Jewel" && [Rarity] >= "Magic" # [base_movement_velocity_+%] >= "1" && [StashItem] == "true"
 
+// MINIONS
+
+[Category] == "Jewel" && [Rarity] == "Rare" # [WeightedSum(minion_accuracy_rating_+%:1,minion_damage_+%:1.33,maximum_energy_shield_+%:1,elemental_damage_+%:1.33,curse_area_of_effect_+%:0.8,offering_life_+%:0.8,curse_effect_+%:4,energy_shield_recharge_rate_+%:1,energy_shield_delay_-%:1)] >= "30" && [WeightedSum(minion_critical_strike_chance_+%:1,base_cast_speed_+%:7,minion_elemental_resistance_%:2,minion_critical_strike_multiplier_+:0.8,minion_attack_and_cast_speed_+%:1,base_skill_area_of_effect_+%:2,base_curse_duration_+%:0.8,offering_duration_+%:0.8,skill_effect_duration_+%:1.33,recover_%_maximum_mana_on_kill:10)] >= "30" && [StashItem] == "true"
+
 // CORRUPT ME!
 [Category] == "Jewel" && [Rarity] == "Magic" # [WeightedSum(maximum_energy_shield_+%:1.5,projectile_damage_+%:2,elemental_damage_+%:2,lightning_damage_+%:2,cold_damage_+%:2,spell_damage_+%:2,ailment_effect_+%:2,shock_effect_+%:1.5,projectile_speed_+%:3)] >= "20" && [WeightedSum(base_maximum_fire_damage_resistance_%:10,base_maximum_cold_damage_resistance_%:10,base_maximum_lightning_damage_resistance_%:10,spell_critical_strike_chance_+%:2,base_spell_critical_strike_multiplier_+:1.5,critical_strike_chance_+%:2,base_critical_strike_multiplier_+:1.5,recover_%_maximum_mana_on_kill:10,cast_speed_+%:7,skill_effect_duration_+%:2)] >= "20" && [StashItem] == "true"
