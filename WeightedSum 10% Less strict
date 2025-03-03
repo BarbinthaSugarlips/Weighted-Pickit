@@ -193,7 +193,7 @@
 [Category] == "Ring" && [Rarity] == "Rare" # [WeightedSum(additional_intelligence:2,cold_damage_+%:1,fire_damage_+%:1,base_maximum_mana:1,base_maximum_life:0.5,base_fire_damage_resistance_%:2,base_cold_damage_resistance_%:2,base_lightning_damage_resistance_%:2,base_item_found_rarity_+%:2.5,maximum_mana_+%:25,base_cast_speed_+%:6.5,mana_regeneration_rate_+%:2.4,base_resist_all_elements_%:6,lightning_damage_+%:3)] >= "430" && [StashItem] == "true"
 
 // STAT RING
-[Category] == "Ring" && [Rarity] == "Rare" # [WeightedSum(additional_intelligence:10,additional_strength:10,additional_dexterity:10,additional_all_attributes:30,base_fire_damage_resistance_%:3.3,base_cold_damage_resistance_%:3.3,base_lightning_damage_resistance_%:3.3,base_resist_all_elements_%:10)] >= "900" && [StashItem] == "true"
+[Category] == "Ring" && [Rarity] == "Rare" # [WeightedSum(attack_minimum_added_physical_damage:10,attack_minimum_added_cold_damage:10,attack_minimum_added_fire_damage:10,attack_minimum_added_lightning_damage:10,additional_intelligence:10,additional_strength:10,additional_dexterity:10,additional_all_attributes:30,base_fire_damage_resistance_%:3.3,base_cold_damage_resistance_%:3.3,base_lightning_damage_resistance_%:3.3,base_resist_all_elements_%:10)] >= "1000" && [StashItem] == "true"
 
 // FIRE RING
 [Category] == "Ring" && [Rarity] == "Rare" # [WeightedSum(fire_damage_+%:3,base_item_found_rarity_+%:1.5,base_resist_all_elements_%:6,base_fire_damage_resistance_%:2,base_cold_damage_resistance_%:2,base_lightning_damage_resistance_%:2,base_chaos_damage_resistance_%:3.5,mana_regeneration_rate_+%:0.75,base_maximum_life:0.5,base_maximum_mana:0.3,local_base_evasion_rating:0.3)] >= "270" && [StashItem] == "true"
