@@ -207,12 +207,10 @@
 // LIGHTNING RING
 [Category] == "Ring" && [Rarity] == "Rare" # [WeightedSum(lightning_damage_+%:3,base_item_found_rarity_+%:1.5,base_resist_all_elements_%:6,base_fire_damage_resistance_%:2,base_cold_damage_resistance_%:2,base_lightning_damage_resistance_%:2,base_chaos_damage_resistance_%:3.5,mana_regeneration_rate_+%:0.75,base_maximum_life:0.5,base_maximum_mana:0.3,local_base_evasion_rating:0.3)] >= "270" && [StashItem] == "true"
 
-
 // MAGIC RINGS
 
-[Category] == "Ring" && [Rarity] == "Magic" # [WeightedSum(lightning_damage_+%:15,chaos_damage_+%:15,cold_damage_+%:15,fire_damage_+%:15,base_resist_all_elements_%:30,base_lightning_damage_resistance_%:10,base_cold_damage_resistance_%:10,base_fire_damage_resistance_%:10,mana_regeneration_rate_+%:7,base_maximum_mana:3,base_cast_speed_+%:20,base_item_found_rarity_+%:20)] >= "850" && [StashItem] == "true"
-[Category] == "Ring" && [Rarity] == "Magic" # [WeightedSum(lightning_damage_+%:15,chaos_damage_+%:15,cold_damage_+%:15,fire_damage_+%:15,base_resist_all_elements_%:30,base_lightning_damage_resistance_%:10,base_cold_damage_resistance_%:10,base_fire_damage_resistance_%:10,mana_regeneration_rate_+%:7,base_maximum_mana:3,base_cast_speed_+%:20,base_item_found_rarity_+%:20)] >= "850" && [StashItem] == "true"
-[Category] == "Ring" && [Rarity] == "Magic" # [base_maximum_life] >= "1" && [WeightedSum(base_resist_all_elements_%:30,base_lightning_damage_resistance_%:10,base_cold_damage_resistance_%:10,base_fire_damage_resistance_%:10,base_maximum_life:5,base_item_found_rarity_+%:20)] >= "850" && [StashItem] == "true"
+[Category] == "Ring" && [Rarity] == "Magic" # [base_maximum_life] >= "1" && [WeightedSum(lightning_damage_+%:6.3,chaos_damage_+%:6.3,cold_damage_+%:6.3,fire_damage_+%:6.3,base_resist_all_elements_%:12.6,base_lightning_damage_resistance_%:4.2,base_cold_damage_resistance_%:4.2,base_fire_damage_resistance_%:4.2,base_item_found_rarity_+%:4.02,base_chaos_damage_resistance_%:4.72,additional_intelligence:5.72,additional_all_attributes:17.15,additional_strength:5.72,additional_dexterity:5.72)] >= "400" && [StashItem] == "true"
+[Category] == "Ring" && [Rarity] == "Magic" # [WeightedSum(lightning_damage_+%:6.3,chaos_damage_+%:6.3,cold_damage_+%:6.3,fire_damage_+%:6.3,base_resist_all_elements_%:12.6,base_lightning_damage_resistance_%:4.2,base_cold_damage_resistance_%:4.2,base_fire_damage_resistance_%:4.2,mana_regeneration_rate_+%:2.73,base_maximum_mana:1,base_cast_speed_+%:7,base_item_found_rarity_+%:4.02,additional_intelligence:5.72,additional_all_attributes:17.15)] >= "400" && [StashItem] == "true"
 
 
 ///////////////////
