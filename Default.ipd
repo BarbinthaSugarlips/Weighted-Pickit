@@ -632,12 +632,12 @@
 /////////////////////////////////////////
 
  
-[Rarity] == "Unique" # [UniqueName] == "Svalinn" && [StashItem] == "true" 
-[Rarity] == "Unique" # [UniqueName] == "The Surrender" && [StashItem] == "true" 
-[Rarity] == "Unique" # [UniqueName] == "Mahuxotl's Machination" && [StashItem] == "true" 
+[Type] == "Crucible Tower Shield" && [Rarity] == "Unique" # [UniqueName] == "Svalinn" && [StashItem] == "true" 
+[Type] == "Stone Tower Shield" && [Rarity] == "Unique" # [UniqueName] == "The Surrender" && [StashItem] == "true" 
+//[Type] == "Omen Crest Shield" && [Rarity] == "Unique" # [UniqueName] == "Mahuxotl's Machination" && [StashItem] == "true" 
 
-[Rarity] == "Unique" # [UniqueName] == "Crest Of Andura" && [WeightedSum(mana_regeneration_rate_+%:2,additional_intelligence:5,local_armour_and_energy_shield_+%:1,base_cooldown_speed_+%:2)] >= "370" && [StashItem] == "true" 
-[Rarity] == "Unique" # [UniqueName] == "Saffell's Frame" && [WeightedSum(base_cold_damage_resistance_%:1,base_fire_damage_resistance_%:1,base_lightning_damage_resistance_%:1)] >= "75" && [StashItem] == "true" 
+[Type] == "Jingling Crest Shield" && [Rarity] == "Unique" # [UniqueName] == "Crest Of Andura" && [WeightedSum(mana_regeneration_rate_+%:2,additional_intelligence:5,local_armour_and_energy_shield_+%:1,base_cooldown_speed_+%:2)] >= "370" && [StashItem] == "true" 
+[Type] == "Emblem Crest Shield" && [Rarity] == "Unique" # [UniqueName] == "Saffell's Frame" && [WeightedSum(base_cold_damage_resistance_%:1,base_fire_damage_resistance_%:1,base_lightning_damage_resistance_%:1)] >= "75" && [StashItem] == "true" 
 
 
 /////////////////////////////////////////
@@ -647,8 +647,8 @@
 /////////////////////////////////////////
 
 
-[Rarity] == "Unique" # [UniqueName] == "Threaded Light" && [spell_damage_+%_per_10_spirit] >= "12" && [StashItem] == "true"
-[Rarity] == "Unique" # [UniqueName] == "Serpent's Lesson" && [base_maximum_mana] >= "100" && [base_maximum_life] >= "100" && [StashItem] == "true"
+[Type] == "Tonal Focus" && [Rarity] == "Unique" # [UniqueName] == "Threaded Light" && [spell_damage_+%_per_10_spirit] >= "12" && [StashItem] == "true"
+[Type] == "Woven Focus" && [Rarity] == "Unique" # [UniqueName] == "Serpent's Lesson" && [base_maximum_mana] >= "100" && [base_maximum_life] >= "100" && [StashItem] == "true"
 
 
 //////////////////////////////////////////////////////////////////
@@ -657,6 +657,7 @@
 ///                                                            ///
 //////////////////////////////////////////////////////////////////
 
+
 /////////////////////////////////////////
 ///                                   ///
 ///               Gloves              ///
@@ -664,18 +665,19 @@
 /////////////////////////////////////////
 
 
-[Rarity] == "Unique" # [UniqueName] == "Maligaro's Virtuosity" && [StashItem] == "true"
-[Rarity] == "Unique" # [UniqueName] == "Hand of Wisdom and Action" && [StashItem] == "true" 
-[Rarity] == "Unique" # [UniqueName] == "Atziri's Acuity" && [StashItem] == "true" 
+[Type] == "Fine Bracers" && [Rarity] == "Unique" # [UniqueName] == "Maligaro's Virtuosity" && [StashItem] == "true"
+//[Type] == "Furtive Wraps" && [Rarity] == "Unique" # [UniqueName] == "Hand of Wisdom and Action" && [StashItem] == "true" 
+[Type] == "Moulded Mitts" && [Rarity] == "Unique" # [UniqueName] == "Atziri's Acuity" && [StashItem] == "true" 
 
-[Rarity] == "Unique" # [UniqueName] == "Aerisvane's Wings" && [WeightedSum(local_armour_and_evasion_+%:1,attack_speed_+%:7,additional_intelligence:2.33)] >= "155" && [StashItem] == "true" 
-[Rarity] == "Unique" # [UniqueName] == "Blessed Bonds" && [WeightedSum(local_base_evasion_rating:1,local_energy_shield:2,base_mana_gained_on_enemy_death:2.85)] >= "270" && [StashItem] == "true" 
-[Rarity] == "Unique" # [UniqueName] == "Sine Aequo" && [WeightedSum(skill_speed_+%:4,local_armour_and_evasion_and_energy_shield_+%:1)] >= "185" && [StashItem] == "true" 
-[Rarity] == "Unique" # [UniqueName] == "Hateforge" && [gain_X_random_charges_on_reaching_maximum_rage] >= "3" && [maximum_rage] >= "10" && [StashItem] == "true"
-[Rarity] == "Unique" # [UniqueName] == "Killjoy" && [WeightedSum(local_evasion_and_energy_shield_+%:1,base_maximum_life:1.2,base_critical_strike_multiplier_+:2)] >= "165" &&  [StashItem] == "true" 
-[Rarity] == "Unique" # [UniqueName] == "Demon Stitcher" && [WeightedSum(local_energy_shield:2,base_maximum_life:1,base_cast_speed_+%:10,sacrifice_%_maximum_life_to_gain_as_es_on_spell_cast:8)] >= "475" && [StashItem] == "true" 
-[Rarity] == "Unique" # [UniqueName] == "Idle Hands" && [local_evasion_rating_+%] >= "60" && [accuracy_rating] >= "100" && [additional_intelligence] >= "10" && [StashItem] == "true" 
-[Rarity] == "Unique" # [UniqueName] == "Kitoko's Current" && [attack_and_cast_speed_+%] == "-10" && [additional_dexterity] == "20" && [local_energy_shield_+%] == "50" && [StashItem] == "true"
+[Type] == "Burnished Gauntlets" && [Rarity] == "Unique" # [UniqueName] == "Aerisvane's Wings" && [WeightedSum(local_armour_and_evasion_+%:1,attack_speed_+%:7,additional_intelligence:2.33)] >= "155" && [StashItem] == "true" 
+[Type] == "Linen Wraps" && [Rarity] == "Unique" # [UniqueName] == "Blessed Bonds" && [WeightedSum(local_base_evasion_rating:1,local_energy_shield:2,base_mana_gained_on_enemy_death:2.85)] >= "270" && [StashItem] == "true" 
+[Type] == "Grand Machettes" && [Rarity] == "Unique" # [UniqueName] == "Sine Aequo" && [WeightedSum(skill_speed_+%:4,local_armour_and_evasion_and_energy_shield_+%:1)] >= "185" && [StashItem] == "true" 
+
+//[Type] == "Moulded Mitts" && [Rarity] == "Unique" # [UniqueName] == "Hateforge" && [gain_X_random_charges_on_reaching_maximum_rage] >= "3" && [maximum_rage] >= "10" && [StashItem] == "true"
+//[Type] == "Linen Wraps" && [Rarity] == "Unique" # [UniqueName] == "Killjoy" && [WeightedSum(local_evasion_and_energy_shield_+%:1,base_maximum_life:1.2,base_critical_strike_multiplier_+:2)] >= "165" &&  [StashItem] == "true" 
+//[Type] == "Intricate Gloves" && [Rarity] == "Unique" # [UniqueName] == "Demon Stitcher" && [WeightedSum(local_energy_shield:2,base_maximum_life:1,base_cast_speed_+%:10,sacrifice_%_maximum_life_to_gain_as_es_on_spell_cast:8)] >= "475" && [StashItem] == "true" 
+//[Type] == "Sectioned Bracers" && [Rarity] == "Unique" # [UniqueName] == "Idle Hands" && [local_evasion_rating_+%] >= "60" && [accuracy_rating] >= "100" && [additional_intelligence] >= "10" && [StashItem] == "true" 
+//[Type] == "Jewelled Gloves" && [Rarity] == "Unique" # [UniqueName] == "Kitoko's Current" && [attack_and_cast_speed_+%] == "-10" && [additional_dexterity] == "20" && [local_energy_shield_+%] == "50" && [StashItem] == "true"
 
 
 /////////////////////////////////////////
@@ -685,13 +687,13 @@
 /////////////////////////////////////////
 
 
-[Rarity] == "Unique" # [UniqueName] == "Trampletoe" && [StashItem] == "true"
+[Type] == "Trimmed Greaves" && [Rarity] == "Unique" && [Rarity] == "Unique" # [UniqueName] == "Trampletoe" && [StashItem] == "true"
 
-[Rarity] == "Unique" # [UniqueName] == "Bones Of Ullr" && [WeightedSum(base_maximum_life:1.5,base_maximum_mana:1.5,local_energy_shield_+%:1)] >= "168" && [StashItem] == "true"
-[Rarity] == "Unique" # [UniqueName] == "Darkray Vectors" && [WeightedSum(local_armour_and_evasion_+%:1,base_maximum_lightning_damage_resistance_%:3.33)] >= "175" && [StashItem] == "true"
-[Rarity] == "Unique" # [UniqueName] == "Gamblesprint" && [WeightedSum(local_evasion_rating_+%:1,base_lightning_damage_resistance_%:5.6,additional_dexterity:9.33,base_item_found_rarity_+%:9.33)] >= "590" && [StashItem] == "true"
-[Rarity] == "Unique" # [UniqueName] == "Ghostmarch" && [local_evasion_and_energy_shield_+%] >= "150" && [base_maximum_mana] >= "50" && [base_chaos_damage_resistance_%] >= "23" && [StashItem] == "true"
-     
+//[Type] == "Lattice Sandals" && [Rarity] == "Unique" # [UniqueName] == "Bones Of Ullr" && [WeightedSum(base_maximum_life:1.5,base_maximum_mana:1.5,local_energy_shield_+%:1)] >= "168" && [StashItem] == "true"
+//[Type] == "Braced Sabatons" && [Rarity] == "Unique" # [UniqueName] == "Darkray Vectors" && [WeightedSum(local_armour_and_evasion_+%:1,base_maximum_lightning_damage_resistance_%:3.33)] >= "175" && [StashItem] == "true"
+//[Type] == "Embossed Boots" && [Rarity] == "Unique" # [UniqueName] == "Gamblesprint" && [WeightedSum(local_evasion_rating_+%:1,base_lightning_damage_resistance_%:5.6,additional_dexterity:9.33,base_item_found_rarity_+%:9.33)] >= "590" && [StashItem] == "true"
+//[Type] == "Threaded Shoes" && [Rarity] == "Unique" # [UniqueName] == "Ghostmarch" && [local_evasion_and_energy_shield_+%] >= "150" && [base_maximum_mana] >= "50" && [base_chaos_damage_resistance_%] >= "23" && [StashItem] == "true"
+
 
 /////////////////////////////////////////
 ///                                   ///
@@ -700,18 +702,18 @@
 /////////////////////////////////////////
 
 
-[Rarity] == "Unique" # [UniqueName] == "Cornathaum" && [StashItem] == "true"
-[Rarity] == "Unique" # [UniqueName] == "Black Sun Crest" && [StashItem] == "true"
-[Rarity] == "Unique" # [UniqueName] == "Sandstorm Visage" && [StashItem] == "true"
-[Rarity] == "Unique" # [UniqueName] == "Alpha's Howl" && [StashItem] == "true" 
-[Rarity] == "Unique" # [UniqueName] == "The Vertex" && [StashItem] == "true" 
+[Type] == "Wrapped Greathelm" && [Rarity] == "Unique" # [Rarity] == "Unique" # [UniqueName] == "Black Sun Crest" && [StashItem] == "true"
+[Type] == "Armoured Cap" && [Rarity] == "Unique" # [Rarity] == "Unique" # [UniqueName] == "Alpha's Howl" && [StashItem] == "true" 
+[Type] == "Tribal Mask" && [Rarity] == "Unique" # [UniqueName] == "The Vertex" && [StashItem] == "true" 
 //[Rarity] == "Unique" # [UniqueName] == "Thrillsteel" && [StashItem] == "true" 
 
-[Rarity] == "Unique" # [UniqueName] == "Goldrim Felt Cap" && [base_resist_all_elements_%] >= "35" && [StashItem] == "true"
-[Rarity] == "Unique" # [UniqueName] == "Greymake" && [WeightedSum(additional_dexterity:1,additional_intelligence:1,additional_strength:1)] >= "130" && [StashItem] == "true" 
-[Rarity] == "Unique" # [UniqueName] == "Solus Ipse" && [WeightedSum(local_armour_and_evasion_and_energy_shield_+%:1,base_maximum_mana:1.5)] >= "330" && [StashItem] == "true"
-[Rarity] == "Unique" # [UniqueName] == "Forbidden Gaze" && [local_energy_shield_+%] >= "100" && [base_maximum_cold_damage_resistance_%] >= "5" && [base_cold_damage_resistance_%] >= "49"  [StashItem] == "true" 
+[Type] == "Chain Tiara" && [Rarity] == "Unique" # [UniqueName] == "Sandstorm Visage" && [local_energy_shield] >= "120" && [additional_dexterity] >= "29" && [StashItem] == "true"
+[Type] == "Heavy Crown" && [Rarity] == "Unique" # [UniqueName] == "Cornathaum" && [base_item_found_rarity_+%] >= "20" && [additional_intelligence] >= "49" && [StashItem] == "true"
 
+[Type] == "Felt Cap" && [Rarity] == "Unique" # [UniqueName] == "Goldrim" && [base_resist_all_elements_%] >= "35" && [StashItem] == "true"
+[Type] == "Brimmed Helm" && [Rarity] == "Unique" # [UniqueName] == "Greymake" && [WeightedSum(additional_dexterity:1,additional_intelligence:1,additional_strength:1)] >= "130" && [StashItem] == "true" 
+[Type] == "Grand Visage" && [Rarity] == "Unique" # [UniqueName] == "Solus Ipse" && [WeightedSum(local_armour_and_evasion_and_energy_shield_+%:1,base_maximum_mana:1.5)] >= "330" && [StashItem] == "true"
+[Type] == "Chain Tiara" && [Rarity] == "Unique" # [UniqueName] == "Forbidden Gaze" && [local_energy_shield_+%] >= "100" && [base_maximum_cold_damage_resistance_%] >= "5" && [base_cold_damage_resistance_%] >= "49"  [StashItem] == "true" 
 
 /////////////////////////////////////////
 ///                                   ///
@@ -720,18 +722,20 @@
 /////////////////////////////////////////
 
 
-[Rarity] == "Unique" # [UniqueName] == "Queen of the Forest" && [StashItem] == "true"
-[Rarity] == "Unique" # [UniqueName] == "Temporalis" && [StashItem] == "true"
-[Rarity] == "Unique" # [UniqueName] == "Morior Invictus" && [StashItem] == "true"
-[Rarity] == "Unique" # [UniqueName] == "Kaom's Heart" && [StashItem] == "true"
+[Type] == "Smuggler Coat" && [Rarity] == "Unique" # [UniqueName] == "Queen of the Forest" && [StashItem] == "true"
+//[Type] == "Silk Robe" && [Rarity] == "Unique" # [Rarity] == "Unique" # [UniqueName] == "Temporalis" && [StashItem] == "true"
+//[Type] == "Grand Regalia" && [Rarity] == "Unique" # [UniqueName] == "Morior Invictus" && [StashItem] == "true"
+[Type] == "Conqueror Plate" && [Rarity] == "Unique" # [UniqueName] == "Kaom's Heart" && [StashItem] == "true"
 
-[Rarity] == "Unique" # [UniqueName] == "Pragmatism" && [WeightedSum(local_armour_and_evasion_+%:1,base_resist_all_elements_%:15)] >= "550" && [StashItem] == "true"
-[Rarity] == "Unique" # [UniqueName] == "The Covenant" && [WeightedSum(base_maximum_life:1,local_energy_shield_+%:1)] >= "275" && [StashItem] == "true" 
-[Rarity] == "Unique" # [UniqueName] == "Doryani's Prototype" && [local_armour_and_evasion_+%] >= "99" && [base_maximum_life] >= "99" && [StashItem] == "true"
-[Rarity] == "Unique" # [UniqueName] == "Greed's Embrace" && [WeightedSum(local_physical_damage_reduction_rating_+%:1,base_item_found_rarity_+%:3,base_fire_damage_resistance_%:5)] >= "460" && [StashItem] == "true"
-[Rarity] == "Unique" # [UniqueName] == "Icetomb" && [additional_intelligence] >= "30" && [additional_strength] >= "30" && [base_cold_damage_resistance_%] >= "40" && [StashItem] == "true" 
-[Rarity] == "Unique" # [UniqueName] == "Perfidy" && [avoid_physical_damage_%] >= "39" && [avoid_chaos_damage_%] >= "39" && [local_armour_and_evasion_+%] >= "148" && [StashItem] == "true"
-[Rarity] == "Unique" # [UniqueName] == "Kaom's Heart" && [base_resist_all_elements_%] >= "40" && [StashItem] == "true"
+[Type] == "Champion Cuirass" && [Rarity] == "Unique" # [UniqueName] == "The Brass Dome" && [local_physical_damage_reduction_rating_+%] >= "495" && [base_maximum_all_resistances_%] == "-1" && [StashItem] == "true"
+[Type] == "Explorer Armour" && [Rarity] == "Unique" # [UniqueName] == "Pragmatism" && [WeightedSum(local_armour_and_evasion_+%:1,base_resist_all_elements_%:15)] >= "550" && [StashItem] == "true"
+[Type] == "Altar Robe" && [Rarity] == "Unique" # [UniqueName] == "The Covenant" && [WeightedSum(base_maximum_life:1,local_energy_shield_+%:1)] >= "275" && [StashItem] == "true" 
+[Type] == "Scale Mail" && [Rarity] == "Unique" # [UniqueName] == "Doryani's Prototype" && [local_armour_and_evasion_+%] >= "99" && [base_maximum_life] >= "99" && [StashItem] == "true"
+[Type] == "Vaal Cuirass" && [Rarity] == "Unique" # [UniqueName] == "Greed's Embrace" && [WeightedSum(local_physical_damage_reduction_rating_+%:1,base_item_found_rarity_+%:3,base_fire_damage_resistance_%:5)] >= "460" && [StashItem] == "true"
+//[Type] == "Mail Vestements" && [Rarity] == "Unique" # [UniqueName] == "Icetomb" && [additional_intelligence] >= "30" && [additional_strength] >= "30" && [base_cold_damage_resistance_%] >= "40" && [StashItem] == "true" 
+//[Type] == "Knight Armour" && [Rarity] == "Unique" # [UniqueName] == "Perfidy" && [avoid_physical_damage_%] >= "39" && [avoid_chaos_damage_%] >= "39" && [local_armour_and_evasion_+%] >= "148" && [StashItem] == "true"
+[Type] == "Garmet" && [Rarity] == "Unique" # [UniqueName] == "Skin Of The Loyal" && [base_resist_all_elements_%] >= "40" && [StashItem] == "true"
+[Type] == "Garmet" && [Rarity] == "Unique" # [UniqueName] == "Tabula Rasa" && [StashItem] == "true"
 
 
 //////////////////////////////////////////////////////////////////
@@ -747,13 +751,13 @@
 /////////////////////////////////////////
 
 
-[Rarity] == "Unique" # [UniqueName] == "Fireflower" && [StashItem] == "true"
-[Rarity] == "Unique" # [UniqueName] == "Carnage Heart" && [StashItem] == "true"
-[Rarity] == "Unique" # [UniqueName] == "Eye of Chayula" && [StashItem] == "true"
-[Rarity] == "Unique" # [UniqueName] == "Astramentis" && [StashItem] == "true" 
-[Rarity] == "Unique" # [UniqueName] == "Defiance of Destiny" && [StashItem] == "true" 
-[Rarity] == "Unique" # [UniqueName] == "Serpent's Egg" && [StashItem] == "true"
-[Rarity] == "Unique" # [UniqueName] == "The Everlasting Gaze" && [StashItem] == "true" 
+[Type] == "Amulet" && [Rarity] == "Unique" # [UniqueName] == "Fireflower" && [StashItem] == "true"
+[Type] == "Amulet" && [Rarity] == "Unique" # [UniqueName] == "Carnage Heart" && [StashItem] == "true"
+[Type] == "Amulet" && [Rarity] == "Unique" # [UniqueName] == "Eye of Chayula" && [StashItem] == "true"
+[Type] == "Amulet" && [Rarity] == "Unique" # [UniqueName] == "Astramentis" && [StashItem] == "true" 
+[Type] == "Amulet" && [Rarity] == "Unique" # [UniqueName] == "Defiance of Destiny" && [StashItem] == "true" 
+[Type] == "Amulet" && [Rarity] == "Unique" # [UniqueName] == "Serpent's Egg" && [StashItem] == "true"
+[Type] == "Amulet" && [Rarity] == "Unique" # [UniqueName] == "The Everlasting Gaze" && [StashItem] == "true" 
 
 
 /////////////////////////////////////////
@@ -763,21 +767,21 @@
 /////////////////////////////////////////
 
 
-[Rarity] == "Unique" # [UniqueName] == "Kalandra's Touch" && [StashItem] == "true"
-[Rarity] == "Unique" # [UniqueName] == "Dream Fragments" && [StashItem] == "true"
-[Rarity] == "Unique" # [UniqueName] == "Original Sin" && [StashItem] == "true" 
-[Rarity] == "Unique" # [UniqueName] == "Death Rush" && [StashItem] == "true" 
-[Rarity] == "Unique" # [UniqueName] == "Snakepit" && [StashItem] == "true" 
-[Rarity] == "Unique" # [UniqueName] == "Levinstone" && [StashItem] == "true" 
-[Rarity] == "Unique" # [UniqueName] == "Sekhema's Resolve" && [StashItem] == "true" 
-[Rarity] == "Unique" # [UniqueName] == "Ventor's Gamble" && [StashItem] == "true"
-[Rarity] == "Unique" # [UniqueName] == "Thief's Torment" && [StashItem] == "true"
-[Rarity] == "Unique" # [UniqueName] == "Seed Of Cataclysm" && [StashItem] == "true"
-[Rarity] == "Unique" # [UniqueName] == "Andvarius" && [StashItem] == "true"
+[Type] == "Ring" && [Rarity] == "Unique" # [UniqueName] == "Kalandra's Touch" && [StashItem] == "true"
+[Type] == "Ring" && [Rarity] == "Unique" # [UniqueName] == "Dream Fragments" && [StashItem] == "true"
+[Type] == "Ring" && [Rarity] == "Unique" # [UniqueName] == "Original Sin" && [StashItem] == "true" 
+[Type] == "Ring" && [Rarity] == "Unique" # [UniqueName] == "Death Rush" && [StashItem] == "true" 
+[Type] == "Ring" && [Rarity] == "Unique" # [UniqueName] == "Snakepit" && [StashItem] == "true" 
+[Type] == "Ring" && [Rarity] == "Unique" # [UniqueName] == "Levinstone" && [StashItem] == "true" 
+[Type] == "Ring" && [Rarity] == "Unique" # [UniqueName] == "Sekhema's Resolve" && [StashItem] == "true" 
+[Type] == "Ring" && [Rarity] == "Unique" # [UniqueName] == "Ventor's Gamble" && [StashItem] == "true"
+[Type] == "Ring" && [Rarity] == "Unique" # [UniqueName] == "Thief's Torment" && [StashItem] == "true"
+[Type] == "Ring" && [Rarity] == "Unique" # [UniqueName] == "Seed Of Cataclysm" && [StashItem] == "true"
+[Type] == "Ring" && [Rarity] == "Unique" # [UniqueName] == "Andvarius" && [StashItem] == "true"
 
-[Rarity] == "Unique" # [UniqueName] == "Serpent's Egg" && [WeightedSum(additional_all_attributes:1,base_chaos_damage_resistance_%:0.86)] >= "35" && [StashItem] == "true"
-[Rarity] == "Unique" # [UniqueName] == "Idol Of Uldurn" && [WeightedSum(base_maximum_life:1,additional_dexterity:4)] >= "155" && [StashItem] == "true"
-[Rarity] == "Unique" # [UniqueName] == "Beacon Of Azis" && [base_maximum_mana] >= "100" && [base_spirit_from_equipment] >= "15" && [StashItem] == "true"
+[Type] == "Ring" && [Rarity] == "Unique" # [UniqueName] == "Serpent's Egg" && [WeightedSum(additional_all_attributes:1,base_chaos_damage_resistance_%:0.86)] >= "35" && [StashItem] == "true"
+[Type] == "Ring" && [Rarity] == "Unique" # [UniqueName] == "Idol Of Uldurn" && [WeightedSum(base_maximum_life:1,additional_dexterity:4)] >= "155" && [StashItem] == "true"
+[Type] == "Ring" && [Rarity] == "Unique" # [UniqueName] == "Beacon Of Azis" && [base_maximum_mana] >= "100" && [base_spirit_from_equipment] >= "15" && [StashItem] == "true"
 
 
 /////////////////////////////////////////
@@ -787,11 +791,11 @@
 /////////////////////////////////////////
 
 
-[Rarity] == "Unique" # [UniqueName] == "Headhunter" && [StashItem] == "true"
-[Rarity] == "Unique" # [UniqueName] == "Ingenuity" && [StashItem] == "true"
-[Rarity] == "Unique" # [UniqueName] == "Ryslatha's Coil" && [StashItem] == "true"
+[Type] == "Heavy Belt" && [Rarity] == "Unique" # [UniqueName] == "Headhunter" && [StashItem] == "true"
+//[Rarity] == "Unique" # [UniqueName] == "Ingenuity" && [StashItem] == "true"
+[Type] == "Ornate Belt" && [Rarity] == "Unique" # [UniqueName] == "Ryslatha's Coil" && [StashItem] == "true"
 
-[Rarity] == "Unique" # [UniqueName] == "Inferno Clasp" && [WeightedSum(local_base_physical_damage_reduction_rating:1,additional_strength:14.5,base_maximum_fire_damage_resistance_%:58,base_fire_damage_resistance_%:5.8)] >= "1100" && [StashItem] == "true"
+[Type] == "Plate Belt" && [Rarity] == "Unique" # [UniqueName] == "Inferno Clasp" && [WeightedSum(local_base_physical_damage_reduction_rating:1,additional_strength:14.5,base_maximum_fire_damage_resistance_%:58,base_fire_damage_resistance_%:5.8)] >= "1100" && [StashItem] == "true"
 
 
 /////////////////////////////////////////
@@ -801,11 +805,11 @@
 /////////////////////////////////////////
 
 
-[Rarity] == "Unique" # [UniqueName] == "Against the Darkness" && [StashItem] == "true"
-[Rarity] == "Unique" # [UniqueName] == "From Nothing" && [StashItem] == "true" 
-[Rarity] == "Unique" # [UniqueName] == "Grand Spectrum" && [StashItem] == "true"
-[Rarity] == "Unique" # [UniqueName] == "The Adorned" && [StashItem] == "true" 
-[Rarity] == "Unique" # [UniqueName] == "Controlled Metamorphosis" && [StashItem] == "true" 
+[Type] == "Jewel" && [Rarity] == "Unique" # [UniqueName] == "Against the Darkness" && [StashItem] == "true"
+[Type] == "Jewel" && [Rarity] == "Unique" # [UniqueName] == "From Nothing" && [StashItem] == "true" 
+[Type] == "Jewel" && [Rarity] == "Unique" # [UniqueName] == "Grand Spectrum" && [StashItem] == "true"
+[Type] == "Jewel" && [Rarity] == "Unique" # [UniqueName] == "The Adorned" && [StashItem] == "true" 
+[Type] == "Jewel" && [Rarity] == "Unique" # [UniqueName] == "Controlled Metamorphosis" && [StashItem] == "true" 
 
 
 /////////////////////////////////////////
@@ -815,8 +819,8 @@
 /////////////////////////////////////////
 
 
-[Rarity] == "Unique" # [UniqueName] == "Olroth's Resolve" && [StashItem] == "true" 
-[Rarity] == "Unique" # [UniqueName] == "Melting Maelstrom" && [StashItem] == "true" 
+[Type] == "Ultimate Life Flask" && [Rarity] == "Unique" # [UniqueName] == "Olroth's Resolve" && [StashItem] == "true" 
+[Type] == "Ultimate Mana Flask" && [Rarity] == "Unique" # [UniqueName] == "Melting Maelstrom" && [StashItem] == "true" 
 
 
 //////////////////////////////////////////////////////////////////
@@ -838,7 +842,7 @@
 /////////////////////////////
 
 
-[Rarity] == "Unique" # [UniqueName] == "Sacred Flame" && [StashItem] == "true" 
+[Type] == "Shrine Sceptre" && [Rarity] == "Unique" # [UniqueName] == "Sacred Flame" && [StashItem] == "true" 
 
 
 /////////////////////////////////////////
@@ -848,10 +852,9 @@
 /////////////////////////////////////////
 
 
-[Rarity] == "Unique" # [UniqueName] == "Winter's Bite" && [StashItem] == "true"
-//[Rarity] == "Unique" # [UniqueName] == "Pillar of the Caged God" && [StashItem] == "true"
-[Rarity] == "Unique" # [UniqueName] == "INCOMPLETE" && [StashItem] == "true"
-
+[Type] == "Glass Shank" && [Rarity] == "Unique" # [UniqueName] == "Winter's Bite" && [StashItem] == "true"
+//[Type] == "Long Quarterstaff" && [Rarity] == "Unique" # [UniqueName] == "Pillar of the Caged God" && [StashItem] == "true"
+//[Rarity] == "Unique" # [UniqueName] == "INCOMPLETE" && [StashItem] == "true"
 
 /////////////////////////////////////////
 ///                                   ///
@@ -860,7 +863,7 @@
 /////////////////////////////////////////
 
 
-[Rarity] == "Unique" # [UniqueName] == "Widowhail" && [StashItem] == "true" 
+[Type] == "Crude Bow" && [Rarity] == "Unique" # [UniqueName] == "Widowhail" && [StashItem] == "true" 
 
 
 //////////////////////////////////////////////////////////////////
@@ -870,8 +873,8 @@
 //////////////////////////////////////////////////////////////////
 
 
-[Rarity] == "Unique" # [UniqueName] == "The Last Flame" && [StashItem] == "true" 
-[Rarity] == "Unique" # [UniqueName] == "The Desperate Alliance" && [StashItem] == "true"
+//[Rarity] == "Unique" # [UniqueName] == "The Last Flame" && [StashItem] == "true" 
+//[Rarity] == "Unique" # [UniqueName] == "The Desperate Alliance" && [StashItem] == "true"
 
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
