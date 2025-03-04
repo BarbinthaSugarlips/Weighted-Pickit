@@ -507,6 +507,7 @@
 [Type] == "Waystone (Tier 16)" && [Rarity] == "Magic" # [map_endgame_fog_depth] >= "1" [StashItem] == "true"
 [Type] == "Waystone (Tier 16)" && [Rarity] == "Rare" # [map_endgame_fog_depth] >= "1" [StashItem] == "true"
 
+
 /////////////////////////////////////////
 ///                                   ///
 ///           Special Maps            ///
@@ -548,14 +549,17 @@
 //                                                                                 //
 /////////////////////////////////////////////////////////////////////////////////////
 
+
 [Type] == "Uncut Skill Gem" && [GemLevel] >= "20" # [StashItem] == "true"
 [Type] == "Uncut Spirit Gem" && [GemLevel] >= "20" # [StashItem] == "true"
+
 
 /////////////////////////////////////////////////////////////////////////////////////
 //                                                                                 //
 //                                    Charms 	                                   //
 //                                                                                 //
 /////////////////////////////////////////////////////////////////////////////////////
+
 
 //[Type] == "Golden Charm" && [Rarity] == "Magic" # [StashItem] == "true"
 //[Type] == "Golden Charm" && [Rarity] == "Rare" # [StashItem] == "true"
@@ -590,13 +594,16 @@
 //[Type] == "Polaric Invitation" # [StashItem] == "true"
 //[Type] == "Incandescent Invitation" # [StashItem] == "true"
 
+
 ///////////////////////////
 ///                     ///
 ///   Chance Orb Base   ///
 ///                     ///
 ///////////////////////////
 
+
 [Type] == "Stellar Amulet" && [Rarity] == "Normal" # [StashItem] == "true"
+
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 ///                                                                                                                      ///
@@ -649,7 +656,6 @@
 ///                       Armor Items                          ///
 ///                                                            ///
 //////////////////////////////////////////////////////////////////
-
 
 /////////////////////////////////////////
 ///                                   ///
@@ -705,6 +711,7 @@
 [Rarity] == "Unique" # [UniqueName] == "Greymake" && [WeightedSum(additional_dexterity:1,additional_intelligence:1,additional_strength:1)] >= "130" && [StashItem] == "true" 
 [Rarity] == "Unique" # [UniqueName] == "Solus Ipse" && [WeightedSum(local_armour_and_evasion_and_energy_shield_+%:1,base_maximum_mana:1.5)] >= "330" && [StashItem] == "true"
 [Rarity] == "Unique" # [UniqueName] == "Forbidden Gaze" && [local_energy_shield_+%] >= "100" && [base_maximum_cold_damage_resistance_%] >= "5" && [base_cold_damage_resistance_%] >= "49"  [StashItem] == "true" 
+
 
 /////////////////////////////////////////
 ///                                   ///
@@ -844,6 +851,7 @@
 [Rarity] == "Unique" # [UniqueName] == "Winter's Bite" && [StashItem] == "true"
 //[Rarity] == "Unique" # [UniqueName] == "Pillar of the Caged God" && [StashItem] == "true"
 [Rarity] == "Unique" # [UniqueName] == "INCOMPLETE" && [StashItem] == "true"
+
 
 /////////////////////////////////////////
 ///                                   ///
@@ -987,6 +995,7 @@
 ///                                   ///
 /////////////////////////////////////////
 
+
 // ENERGY SHIELD
 [Category] == "BodyArmour" && [ItemTier] >= "3" && [Rarity] == "Rare" # [ComputedEnergyShield] >= "400" && [WeightedSum(base_fire_damage_resistance_%:2,base_lightning_damage_resistance_%:2,base_cold_damage_resistance_%:2,additional_intelligence:2,base_spirit_from_equipment:1.3)] >= "285"  && [StashItem] == "true"
 [Category] == "BodyArmour" && [ItemTier] >= "3" && [Rarity] == "Rare" # [ComputedEnergyShield] >= "725" && [StashItem] == "true"
@@ -1013,11 +1022,13 @@
 [Category] == "BodyArmour" && [ItemTier] >= "3" && [Rarity] == "Rare" # [WeightedSum(base_chaos_damage_resistance_%:2,base_fire_damage_resistance_%:1,base_lightning_damage_resistance_%:1,base_cold_damage_resistance_%:1,additional_dexterity:1.2,additional_strength:1.2)] >= "104" && [WeightedSum(local_physical_damage_reduction_rating_+%:0.5,local_base_physical_damage_reduction_rating:0.3,local_evasion_rating_+%:0.5,local_base_evasion_rating:0.3,base_spirit_from_equipment:1.5,base_maximum_life:1)] >= "212" && [StashItem] == "true"
 [Category] == "BodyArmour" && [ItemTier] >= "3" && [Rarity] == "Rare" # [WeightedSum(base_chaos_damage_resistance_%:2,base_fire_damage_resistance_%:1,base_lightning_damage_resistance_%:1,base_cold_damage_resistance_%:1,additional_dexterity:1.2,additional_strength:1.2)] >= "90" && [WeightedSum(local_physical_damage_reduction_rating_+%:0.5,local_base_physical_damage_reduction_rating:0.3,local_evasion_rating_+%:0.5,local_base_evasion_rating:0.3,base_spirit_from_equipment:1.5,base_maximum_life:1)] >= "270" && [StashItem] == "true"
 
+
 /////////////////////////////////////////
 ///                                   ///
 ///              Helmets              ///
 ///                                   ///
 /////////////////////////////////////////
+
 
 // ENERGY SHIELD
 [Category] == "Helmet" && [ItemTier] >= "1" && [Rarity] == "Rare" # [ComputedEnergyShield] >= "100" && [WeightedSum(base_fire_damage_resistance_%:3,base_lightning_damage_resistance_%:3,base_cold_damage_resistance_%:3,additional_intelligence:2,base_maximum_mana:1,critical_strike_chance_+%:3,base_item_found_rarity_+%:4)] >= "440"  && [StashItem] == "true"
@@ -1027,6 +1038,7 @@
 
 // ARMOUR + EVASION + OTHERS
 [Category] == "Helmet" && [ItemTier] >= "1" && [Rarity] == "Rare" # [WeightedSum(local_base_evasion_rating:0.2,local_evasion_rating_+%:0.5,local_base_physical_damage_reduction_rating:0.2,local_physical_damage_reduction_rating_+%:0.5,base_maximum_life:1,additional_strength:1.5,additional_dexterity:1.5,base_fire_damage_resistance_%:2,base_lightning_damage_resistance_%:2,base_chaos_damage_resistance_%:3.5,base_cold_damage_resistance_%:2,additional_intelligence:1.5,base_maximum_mana:0.1,critical_strike_chance_+%:2,base_item_found_rarity_+%:2)] >= "380"  && [StashItem] == "true"
+
 
 //////////////////////////////////////////////////////////////////
 ///                                                            ///
@@ -1039,6 +1051,7 @@
 ///              Amulets              ///
 ///                                   ///
 /////////////////////////////////////////
+
 
 // CASTER 
 [Category] == "Amulet" && [Rarity] == "Rare" # [WeightedSum(base_item_found_rarity_+%:3,additional_all_attributes:2,additional_intelligence:2,additional_dexterity:0.5,additional_strength:0.5,base_maximum_energy_shield:0.8,maximum_energy_shield_+%:0.8,base_spirit_from_equipment:3.78,minion_skill_gem_level_+:150,base_maximum_mana:1,base_fire_damage_resistance_%:2,base_lightning_damage_resistance_%:2,base_cold_damage_resistance_%:2,base_chaos_damage_resistance_%:3,base_cast_speed_+%:4,mana_regeneration_rate_+%:2.4,maximum_mana_+%:25,base_resist_all_elements_%:6,spell_skill_gem_level_+:150,projectile_skill_gem_level_+:150,spell_damage_+%:1.5,damage_taken_goes_to_mana_%:3)] >= "570"  && [StashItem] == "true"
@@ -1085,6 +1098,7 @@
 ///              Rings                ///
 ///                                   ///
 /////////////////////////////////////////
+
 
 // MAGIC FIND RING
 [Category] == "Ring" && [Rarity] == "Rare" && [base_item_found_rarity_+%] >= "59" && [StashItem] == "true"
@@ -1145,11 +1159,13 @@
 //[Category] == "Ring" && [Rarity] == "Magic" # [base_maximum_life] >= "1" && [WeightedSum(lightning_damage_+%:6.3,chaos_damage_+%:6.3,cold_damage_+%:6.3,fire_damage_+%:6.3,base_resist_all_elements_%:12.6,base_lightning_damage_resistance_%:4.2,base_cold_damage_resistance_%:4.2,base_fire_damage_resistance_%:4.2,base_item_found_rarity_+%:4.02,base_chaos_damage_resistance_%:4.72,additional_intelligence:5.72,additional_all_attributes:17.15,additional_strength:5.72,additional_dexterity:5.72)] >= "400" && [StashItem] == "true"
 //[Category] == "Ring" && [Rarity] == "Magic" # [WeightedSum(lightning_damage_+%:6.3,chaos_damage_+%:6.3,cold_damage_+%:6.3,fire_damage_+%:6.3,base_resist_all_elements_%:12.6,base_lightning_damage_resistance_%:4.2,base_cold_damage_resistance_%:4.2,base_fire_damage_resistance_%:4.2,mana_regeneration_rate_+%:2.73,base_maximum_mana:1,base_cast_speed_+%:7,base_item_found_rarity_+%:4.02,additional_intelligence:5.72,additional_all_attributes:17.15)] >= "400" && [StashItem] == "true"
 
+
 /////////////////////////////////////////
 ///                                   ///
 ///              Belts                ///
 ///                                   ///
 /////////////////////////////////////////
+
 
 // CASTER BELT
 [Category] == "Belt" && [ItemTier] >= "1" && [Rarity] == "Rare" # [WeightedSum(base_maximum_mana:1,mana_regeneration_rate_+%:1,local_base_physical_damage_reduction_rating:0.1,base_cold_damage_resistance_%:2,base_lightning_damage_resistance_%:2,base_fire_damage_resistance_%:2,base_resist_all_elements_%:6,base_chaos_damage_resistance_%:3.5)] >= "290" && [StashItem] == "true"
@@ -1169,6 +1185,7 @@
 ///         Wands         ///
 ///                       ///
 /////////////////////////////
+
 
 // LIGHTNING
 [WeaponCategory] == "Wand" && [Rarity] == "Rare" # [WeightedSum(spell_damage_+%:3,lightning_damage_+%:3,base_cast_speed_+%:7,spell_critical_strike_chance_+%:3,base_spell_critical_strike_multiplier_+:2.5,mana_regeneration_rate_+%:1.8,additional_intelligence:2,base_maximum_mana:1,non_skill_base_all_damage_%_to_gain_as_lightning:3,non_skill_base_all_damage_%_to_gain_as_fire:2,non_skill_base_all_damage_%_to_gain_as_cold:2,lightning_spell_skill_gem_level_+:150)] >= "990" && [StashItem] == "true"
@@ -1202,11 +1219,13 @@
 // SPIRIT + MINION + DMG
 [WeaponCategory] == "Sceptre" && [ItemTier] >= "2" && [Rarity] == "Rare" # [WeightedSum(local_spirit_+%:5,minion_skill_gem_level_+:55,allies_in_presence_damage_+%:1.5)] >= "470" && [StashItem] == "true"
 
+
 /////////////////////////////////////////
 ///                                   ///
 ///          Melee + Ranged           ///
 ///                                   ///
 /////////////////////////////////////////
+
 
 //[WeaponCategory] == "Claw" && [ItemTier] >= "4" && [Rarity] == "Rare" # [PhysicalDPS] >= "" && [StashItem] == "true"
 //[WeaponCategory] == "Claw" && [ItemTier] >= "4" && [Rarity] == "Rare" # [ElementalDPS] >= "" && [StashItem] == "true"
@@ -1253,6 +1272,7 @@
 ///                      Jewels                                ///
 ///                                                            ///
 //////////////////////////////////////////////////////////////////
+
 
 // ES CASTER (LIGHTNING/PROJECTILE)
 [Category] == "Jewel" && [Rarity] == "Rare" # [WeightedSum(shock_effect_+%:2,ailment_effect_+%:2,maximum_energy_shield_+%:2,projectile_speed_+%:2.5,triggered_spell_spell_damage_+%:1,projectile_damage_+%:2,elemental_damage_+%:2,lightning_damage_+%:2,spell_damage_+%:2,energy_shield_recharge_rate_+%:0.5,energy_shield_delay_-%:0.5)] >= "35" && [WeightedSum(base_maximum_fire_damage_resistance_%:10,base_maximum_cold_damage_resistance_%:10,base_maximum_lightning_damage_resistance_%:10,spell_critical_strike_chance_+%:2,base_spell_critical_strike_multiplier_+:2,critical_strike_chance_+%:2,base_critical_strike_multiplier_+:2,recover_%_maximum_mana_on_kill:10,cast_speed_+%:7,skill_effect_duration_+%:2.5,base_chance_to_pierce_%:2)] >= "35" && [StashItem] == "true"
