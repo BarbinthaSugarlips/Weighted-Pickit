@@ -687,7 +687,7 @@
 /////////////////////////////////////////
 
 
-[Type] == "Trimmed Greaves" && [Rarity] == "Unique" && [Rarity] == "Unique" # [UniqueName] == "Trampletoe" && [StashItem] == "true"
+[Type] == "Trimmed Greaves" && [Rarity] == "Unique" # [UniqueName] == "Trampletoe" && [StashItem] == "true"
 
 //[Type] == "Lattice Sandals" && [Rarity] == "Unique" # [UniqueName] == "Bones Of Ullr" && [WeightedSum(base_maximum_life:1.5,base_maximum_mana:1.5,local_energy_shield_+%:1)] >= "168" && [StashItem] == "true"
 //[Type] == "Braced Sabatons" && [Rarity] == "Unique" # [UniqueName] == "Darkray Vectors" && [WeightedSum(local_armour_and_evasion_+%:1,base_maximum_lightning_damage_resistance_%:3.33)] >= "175" && [StashItem] == "true"
@@ -702,8 +702,8 @@
 /////////////////////////////////////////
 
 
-[Type] == "Wrapped Greathelm" && [Rarity] == "Unique" # [Rarity] == "Unique" # [UniqueName] == "Black Sun Crest" && [StashItem] == "true"
-[Type] == "Armoured Cap" && [Rarity] == "Unique" # [Rarity] == "Unique" # [UniqueName] == "Alpha's Howl" && [StashItem] == "true" 
+[Type] == "Wrapped Greathelm" && [Rarity] == "Unique" # [UniqueName] == "Black Sun Crest" && [StashItem] == "true"
+[Type] == "Armoured Cap" && [Rarity] == "Unique" # [UniqueName] == "Alpha's Howl" && [StashItem] == "true" 
 [Type] == "Tribal Mask" && [Rarity] == "Unique" # [UniqueName] == "The Vertex" && [StashItem] == "true" 
 //[Rarity] == "Unique" # [UniqueName] == "Thrillsteel" && [StashItem] == "true" 
 
@@ -877,6 +877,18 @@
 //[Rarity] == "Unique" # [UniqueName] == "The Desperate Alliance" && [StashItem] == "true"
 
 
+//////////////////////////////////////////////////////////////////
+///                                                            ///
+///                       Corruption                           ///
+///                                                            ///
+//////////////////////////////////////////////////////////////////
+
+
+[Type] == "Crude Bow" && [Rarity] == "Unique" # [UniqueName] == "Widowhail" && [StashItem] == "true" 
+[Type] == "Gold Circlet" && [Rarity] == "Unique" # [UniqueName] == "Atziri's Disdain" && [StashItem] == "true" 
+[Type] == "Wrapped Greathelmet" && [Rarity] == "Unique" # [UniqueName] == "Black Sun Crest" && [StashItem] == "true"
+
+
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 ///                                                                                                                      ///
 ///                                                                                                                      ///
@@ -991,12 +1003,6 @@
 [Category] == "Boots" && [ItemTier] >= "1" && [Rarity] == "Rare" # [WeightedSum(base_cold_damage_resistance_%:3,base_chaos_damage_resistance_%:5,base_fire_damage_resistance_%:3,base_lightning_damage_resistance_%:3,additional_intelligence:2,additional_strength:2,additional_dexterity:2,base_item_found_rarity_+%:2.5)] >= "180" && [WeightedSum(base_maximum_life:1,local_base_evasion_rating:0.6,local_evasion_rating_+%:1,base_movement_velocity_+%:8)] >= "315" && [StashItem] == "true"
 [Category] == "Boots" && [ItemTier] >= "1" && [Rarity] == "Rare" # [WeightedSum(base_cold_damage_resistance_%:3,base_chaos_damage_resistance_%:5,base_fire_damage_resistance_%:3,base_lightning_damage_resistance_%:3,additional_intelligence:2,additional_strength:2,additional_dexterity:2,base_item_found_rarity_+%:2.5)] >= "90" && [WeightedSum(base_maximum_life:1,local_base_evasion_rating:0.6,local_evasion_rating_+%:1,base_movement_velocity_+%:8)] >= "385" && [StashItem] == "true"
 
-
-/////////////////////////////////////////
-///                                   ///
-///            Body Armour            ///
-///                                   ///
-/////////////////////////////////////////
 
 /////////////////////////////////////////
 ///                                   ///
