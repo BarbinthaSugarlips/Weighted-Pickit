@@ -751,13 +751,13 @@
 /////////////////////////////////////////
 
 
-[Type] == "Amulet" && [Rarity] == "Unique" # [UniqueName] == "Fireflower" && [StashItem] == "true"
-[Type] == "Amulet" && [Rarity] == "Unique" # [UniqueName] == "Carnage Heart" && [StashItem] == "true"
-[Type] == "Amulet" && [Rarity] == "Unique" # [UniqueName] == "Eye of Chayula" && [StashItem] == "true"
-[Type] == "Amulet" && [Rarity] == "Unique" # [UniqueName] == "Astramentis" && [StashItem] == "true" 
-[Type] == "Amulet" && [Rarity] == "Unique" # [UniqueName] == "Defiance of Destiny" && [StashItem] == "true" 
-[Type] == "Amulet" && [Rarity] == "Unique" # [UniqueName] == "Serpent's Egg" && [StashItem] == "true"
-[Type] == "Amulet" && [Rarity] == "Unique" # [UniqueName] == "The Everlasting Gaze" && [StashItem] == "true" 
+[Category] == "Amulet" && [Rarity] == "Unique" # [UniqueName] == "Fireflower" && [StashItem] == "true"
+[Category] == "Amulet" && [Rarity] == "Unique" # [UniqueName] == "Carnage Heart" && [StashItem] == "true"
+[Category] == "Amulet" && [Rarity] == "Unique" # [UniqueName] == "Eye of Chayula" && [StashItem] == "true"
+[Category] == "Amulet" && [Rarity] == "Unique" # [UniqueName] == "Astramentis" && [StashItem] == "true" 
+[Category] == "Amulet" && [Rarity] == "Unique" # [UniqueName] == "Defiance of Destiny" && [StashItem] == "true" 
+[Category] == "Amulet" && [Rarity] == "Unique" # [UniqueName] == "Serpent's Egg" && [StashItem] == "true"
+[Category] == "Amulet" && [Rarity] == "Unique" # [UniqueName] == "The Everlasting Gaze" && [StashItem] == "true" 
 
 
 /////////////////////////////////////////
@@ -767,21 +767,21 @@
 /////////////////////////////////////////
 
 
-[Type] == "Ring" && [Rarity] == "Unique" # [UniqueName] == "Kalandra's Touch" && [StashItem] == "true"
-[Type] == "Ring" && [Rarity] == "Unique" # [UniqueName] == "Dream Fragments" && [StashItem] == "true"
-[Type] == "Ring" && [Rarity] == "Unique" # [UniqueName] == "Original Sin" && [StashItem] == "true" 
-[Type] == "Ring" && [Rarity] == "Unique" # [UniqueName] == "Death Rush" && [StashItem] == "true" 
-[Type] == "Ring" && [Rarity] == "Unique" # [UniqueName] == "Snakepit" && [StashItem] == "true" 
-[Type] == "Ring" && [Rarity] == "Unique" # [UniqueName] == "Levinstone" && [StashItem] == "true" 
-[Type] == "Ring" && [Rarity] == "Unique" # [UniqueName] == "Sekhema's Resolve" && [StashItem] == "true" 
-[Type] == "Ring" && [Rarity] == "Unique" # [UniqueName] == "Ventor's Gamble" && [StashItem] == "true"
-[Type] == "Ring" && [Rarity] == "Unique" # [UniqueName] == "Thief's Torment" && [StashItem] == "true"
-[Type] == "Ring" && [Rarity] == "Unique" # [UniqueName] == "Seed Of Cataclysm" && [StashItem] == "true"
-[Type] == "Ring" && [Rarity] == "Unique" # [UniqueName] == "Andvarius" && [StashItem] == "true"
+[Category] == "Ring" && [Rarity] == "Unique" # [UniqueName] == "Kalandra's Touch" && [StashItem] == "true"
+[Category] == "Ring" && [Rarity] == "Unique" # [UniqueName] == "Dream Fragments" && [StashItem] == "true"
+[Category] == "Ring" && [Rarity] == "Unique" # [UniqueName] == "Original Sin" && [StashItem] == "true" 
+[Category] == "Ring" && [Rarity] == "Unique" # [UniqueName] == "Death Rush" && [StashItem] == "true" 
+[Category] == "Ring" && [Rarity] == "Unique" # [UniqueName] == "Snakepit" && [StashItem] == "true" 
+[Category] == "Ring" && [Rarity] == "Unique" # [UniqueName] == "Levinstone" && [StashItem] == "true" 
+[Category] == "Ring" && [Rarity] == "Unique" # [UniqueName] == "Sekhema's Resolve" && [StashItem] == "true" 
+[Category] == "Ring" && [Rarity] == "Unique" # [UniqueName] == "Ventor's Gamble" && [StashItem] == "true"
+[Category] == "Ring" && [Rarity] == "Unique" # [UniqueName] == "Thief's Torment" && [StashItem] == "true"
+[Category] == "Ring" && [Rarity] == "Unique" # [UniqueName] == "Seed Of Cataclysm" && [StashItem] == "true"
+[Category] == "Ring" && [Rarity] == "Unique" # [UniqueName] == "Andvarius" && [StashItem] == "true"
 
-[Type] == "Ring" && [Rarity] == "Unique" # [UniqueName] == "Serpent's Egg" && [WeightedSum(additional_all_attributes:1,base_chaos_damage_resistance_%:0.86)] >= "35" && [StashItem] == "true"
-[Type] == "Ring" && [Rarity] == "Unique" # [UniqueName] == "Idol Of Uldurn" && [WeightedSum(base_maximum_life:1,additional_dexterity:4)] >= "155" && [StashItem] == "true"
-[Type] == "Ring" && [Rarity] == "Unique" # [UniqueName] == "Beacon Of Azis" && [base_maximum_mana] >= "100" && [base_spirit_from_equipment] >= "15" && [StashItem] == "true"
+[Category] == "Ring" && [Rarity] == "Unique" # [UniqueName] == "Serpent's Egg" && [WeightedSum(additional_all_attributes:1,base_chaos_damage_resistance_%:0.86)] >= "35" && [StashItem] == "true"
+[Category] == "Ring" && [Rarity] == "Unique" # [UniqueName] == "Idol Of Uldurn" && [WeightedSum(base_maximum_life:1,additional_dexterity:4)] >= "155" && [StashItem] == "true"
+[Category] == "Ring" && [Rarity] == "Unique" # [UniqueName] == "Beacon Of Azis" && [base_maximum_mana] >= "100" && [base_spirit_from_equipment] >= "15" && [StashItem] == "true"
 
 
 /////////////////////////////////////////
@@ -805,11 +805,11 @@
 /////////////////////////////////////////
 
 
-[Type] == "Jewel" && [Rarity] == "Unique" # [UniqueName] == "Against the Darkness" && [StashItem] == "true"
-[Type] == "Jewel" && [Rarity] == "Unique" # [UniqueName] == "From Nothing" && [StashItem] == "true" 
-[Type] == "Jewel" && [Rarity] == "Unique" # [UniqueName] == "Grand Spectrum" && [StashItem] == "true"
-[Type] == "Jewel" && [Rarity] == "Unique" # [UniqueName] == "The Adorned" && [StashItem] == "true" 
-[Type] == "Jewel" && [Rarity] == "Unique" # [UniqueName] == "Controlled Metamorphosis" && [StashItem] == "true" 
+[Category] == "Jewel" && [Rarity] == "Unique" # [UniqueName] == "Against the Darkness" && [StashItem] == "true"
+[Category] == "Jewel" && [Rarity] == "Unique" # [UniqueName] == "From Nothing" && [StashItem] == "true" 
+[Category] == "Jewel" && [Rarity] == "Unique" # [UniqueName] == "Grand Spectrum" && [StashItem] == "true"
+[Category] == "Jewel" && [Rarity] == "Unique" # [UniqueName] == "The Adorned" && [StashItem] == "true" 
+[Category] == "Jewel" && [Rarity] == "Unique" # [UniqueName] == "Controlled Metamorphosis" && [StashItem] == "true" 
 
 
 /////////////////////////////////////////
@@ -819,8 +819,8 @@
 /////////////////////////////////////////
 
 
-[Type] == "Ultimate Life Flask" && [Rarity] == "Unique" # [UniqueName] == "Olroth's Resolve" && [StashItem] == "true" 
-[Type] == "Ultimate Mana Flask" && [Rarity] == "Unique" # [UniqueName] == "Melting Maelstrom" && [StashItem] == "true" 
+[Category] == "Ultimate Life Flask" && [Rarity] == "Unique" # [UniqueName] == "Olroth's Resolve" && [StashItem] == "true" 
+[Category] == "Ultimate Mana Flask" && [Rarity] == "Unique" # [UniqueName] == "Melting Maelstrom" && [StashItem] == "true" 
 
 
 //////////////////////////////////////////////////////////////////
@@ -998,6 +998,12 @@
 ///                                   ///
 /////////////////////////////////////////
 
+/////////////////////////////////////////
+///                                   ///
+///            Body Armour            ///
+///                                   ///
+/////////////////////////////////////////
+
 
 // ENERGY SHIELD
 [Category] == "BodyArmour" && [ItemTier] >= "1" && [Rarity] == "Rare" # [ComputedEnergyShield] >= "400" && [WeightedSum(base_fire_damage_resistance_%:2,base_lightning_damage_resistance_%:2,base_cold_damage_resistance_%:2,additional_intelligence:2,base_spirit_from_equipment:1.3)] >= "255"  && [StashItem] == "true"
@@ -1021,35 +1027,36 @@
 [Category] == "BodyArmour" && [ItemTier] >= "1" && [Rarity] == "Rare" # [ComputedEvasion] >= "1600" && [StashItem] == "true"
 [Category] == "BodyArmour" && [ItemTier] >= "1" && [Rarity] == "Rare" # [WeightedSum(base_maximum_life:0.4,base_fire_damage_resistance_%:2,base_lightning_damage_resistance_%:2,base_cold_damage_resistance_%:2,additional_dexterity:1.5,local_evasion_rating_+%:0.5,local_base_evasion_rating:0.2,base_spirit_from_equipment:1.3)] >= "268" && [StashItem] == "true"
 [Category] == "BodyArmour" && [ItemTier] >= "1" && [Rarity] == "Rare" # [ComputedEvasion] >= "1200" && [WeightedSum(base_maximum_life:0.4,base_fire_damage_resistance_%:2,base_lightning_damage_resistance_%:2,base_cold_damage_resistance_%:2,additional_dexterity:1.5,base_spirit_from_equipment:1.3)] >= "170"  && [StashItem] == "true"
-[Category] == "BodyArmour" && [ItemTier] >= "1" && [Rarity] == "Rare" # [WeightedSum(local_evasion_rating_+%:2.17,local_base_evasion_rating:1,base_maximum_life:1.25,base_spirit_from_equipment:5.41) >= "600" && [WeightedSum(base_chaos_damage_resistance_%:1.66,base_fire_damage_resistance_%:1,base_lightning_damage_resistance_%:1,base_cold_damage_resistance_%:1,additional_dexterity:1.36)] >= "80" && [StashItem] == "true"
-[Category] == "BodyArmour" && [ItemTier] >= "1" && [Rarity] == "Rare" # [WeightedSum(local_evasion_rating_+%:2.17,local_base_evasion_rating:1,base_maximum_life:1.25,base_spirit_from_equipment:5.41) >= "500" && [WeightedSum(base_chaos_damage_resistance_%:1.66,base_fire_damage_resistance_%:1,base_lightning_damage_resistance_%:1,base_cold_damage_resistance_%:1,additional_dexterity:1.36)] >= "100" && [StashItem] == "true"
-[Category] == "BodyArmour" && [ItemTier] >= "1" && [Rarity] == "Rare" # [WeightedSum(local_evasion_rating_+%:2.17,local_base_evasion_rating:1,base_maximum_life:1.25,base_spirit_from_equipment:5.41) >= "400" && [WeightedSum(base_chaos_damage_resistance_%:1.66,base_fire_damage_resistance_%:1,base_lightning_damage_resistance_%:1,base_cold_damage_resistance_%:1,additional_dexterity:1.36)] >= "120" && [StashItem] == "true"
+[Category] == "BodyArmour" && [ItemTier] >= "1" && [Rarity] == "Rare" # [WeightedSum(local_evasion_rating_+%:2.17,local_base_evasion_rating:1,base_maximum_life:1.25,base_spirit_from_equipment:5.41)] >= "600" && [WeightedSum(base_chaos_damage_resistance_%:1.66,base_fire_damage_resistance_%:1,base_lightning_damage_resistance_%:1,base_cold_damage_resistance_%:1,additional_dexterity:1.36)] >= "80" && [StashItem] == "true"
+[Category] == "BodyArmour" && [ItemTier] >= "1" && [Rarity] == "Rare" # [WeightedSum(local_evasion_rating_+%:2.17,local_base_evasion_rating:1,base_maximum_life:1.25,base_spirit_from_equipment:5.41)] >= "500" && [WeightedSum(base_chaos_damage_resistance_%:1.66,base_fire_damage_resistance_%:1,base_lightning_damage_resistance_%:1,base_cold_damage_resistance_%:1,additional_dexterity:1.36)] >= "100" && [StashItem] == "true"
+[Category] == "BodyArmour" && [ItemTier] >= "1" && [Rarity] == "Rare" # [WeightedSum(local_evasion_rating_+%:2.17,local_base_evasion_rating:1,base_maximum_life:1.25,base_spirit_from_equipment:5.41)] >= "400" && [WeightedSum(base_chaos_damage_resistance_%:1.66,base_fire_damage_resistance_%:1,base_lightning_damage_resistance_%:1,base_cold_damage_resistance_%:1,additional_dexterity:1.36)] >= "120" && [StashItem] == "true"
 
 // EVASION + ENERGY SHIELD
-[Category] == "BodyArmour" && [ItemTier] >= "1" && [Rarity] == "Rare" # [ComputedEvasion] >= "1" && [ComputedEnergyShield] >= "1" && [WeightedSum(base_maximum_life:1,local_evasion_and_energy_shield_+%:1.72,local_base_evasion_rating:1.58,local_energy_shield:4.15,base_spirit_from_equipment:4.29)] >= "750" && [StashItem] >= "true"
-[Category] == "BodyArmour" && [ItemTier] >= "1" && [Rarity] == "Rare" # [ComputedEvasion] >= "1" && [ComputedEnergyShield] >= "1" && [WeightedSum(base_maximum_life:1,local_evasion_and_energy_shield_+%:1.72,local_base_evasion_rating:1.58,local_energy_shield:4.15,base_spirit_from_equipment:4.29)] >= "600" && [WeightedSum(base_chaos_damage_resistance_%:1.66,base_fire_damage_resistance_%:1,base_lightning_damage_resistance_%:1,base_cold_damage_resistance_%:1,additional_dexterity:1.36,additional_intelligence:1.36)] >= "80" && [StashItem] == "true"
-[Category] == "BodyArmour" && [ItemTier] >= "1" && [Rarity] == "Rare" # [ComputedEvasion] >= "1" && [ComputedEnergyShield] >= "1" && [WeightedSum(base_maximum_life:1,local_evasion_and_energy_shield_+%:1.72,local_base_evasion_rating:1.58,local_energy_shield:4.15,base_spirit_from_equipment:4.29)] >= "500" && [WeightedSum(base_chaos_damage_resistance_%:1.66,base_fire_damage_resistance_%:1,base_lightning_damage_resistance_%:1,base_cold_damage_resistance_%:1,additional_dexterity:1.36,additional_intelligence:1.36)] >= "100" && [StashItem] == "true"
-[Category] == "BodyArmour" && [ItemTier] >= "1" && [Rarity] == "Rare" # [ComputedEvasion] >= "1" && [ComputedEnergyShield] >= "1" && [WeightedSum(base_maximum_life:1,local_evasion_and_energy_shield_+%:1.72,local_base_evasion_rating:1.58,local_energy_shield:4.15,base_spirit_from_equipment:4.29)] >= "400" && [WeightedSum(base_chaos_damage_resistance_%:1.66,base_fire_damage_resistance_%:1,base_lightning_damage_resistance_%:1,base_cold_damage_resistance_%:1,additional_dexterity:1.36,additional_intelligence:1.36)] >= "120" && [StashItem] == "true"
+[Category] == "BodyArmour" && [ItemTier] >= "1" && [Rarity] == "Rare" # [WeightedSum(base_maximum_life:1,local_evasion_and_energy_shield_+%:1.72,local_base_evasion_rating:1.58,local_energy_shield:4.15,base_spirit_from_equipment:4.29)] >= "750" && [StashItem] >= "true"
+[Category] == "BodyArmour" && [ItemTier] >= "1" && [Rarity] == "Rare" # [WeightedSum(base_maximum_life:1,local_evasion_and_energy_shield_+%:1.72,local_base_evasion_rating:1.58,local_energy_shield:4.15,base_spirit_from_equipment:4.29)] >= "600" && [WeightedSum(base_chaos_damage_resistance_%:1.66,base_fire_damage_resistance_%:1,base_lightning_damage_resistance_%:1,base_cold_damage_resistance_%:1,additional_dexterity:1.36,additional_intelligence:1.36)] >= "80" && [StashItem] == "true"
+[Category] == "BodyArmour" && [ItemTier] >= "1" && [Rarity] == "Rare" # [WeightedSum(base_maximum_life:1,local_evasion_and_energy_shield_+%:1.72,local_base_evasion_rating:1.58,local_energy_shield:4.15,base_spirit_from_equipment:4.29)] >= "500" && [WeightedSum(base_chaos_damage_resistance_%:1.66,base_fire_damage_resistance_%:1,base_lightning_damage_resistance_%:1,base_cold_damage_resistance_%:1,additional_dexterity:1.36,additional_intelligence:1.36)] >= "100" && [StashItem] == "true"
+[Category] == "BodyArmour" && [ItemTier] >= "1" && [Rarity] == "Rare" # [WeightedSum(base_maximum_life:1,local_evasion_and_energy_shield_+%:1.72,local_base_evasion_rating:1.58,local_energy_shield:4.15,base_spirit_from_equipment:4.29)] >= "400" && [WeightedSum(base_chaos_damage_resistance_%:1.66,base_fire_damage_resistance_%:1,base_lightning_damage_resistance_%:1,base_cold_damage_resistance_%:1,additional_dexterity:1.36,additional_intelligence:1.36)] >= "120" && [StashItem] == "true"
 
 // ARMOUR
 [Category] == "BodyArmour" && [ItemTier] >= "1" && [Rarity] == "Rare" # [ComputedArmour] >= "1900" && [StashItem] == "true"
 [Category] == "BodyArmour" && [ItemTier] >= "1" && [Rarity] == "Rare" # [WeightedSum(base_maximum_life:0.4,base_fire_damage_resistance_%:2,base_lightning_damage_resistance_%:2,base_cold_damage_resistance_%:2,additional_dexterity:1.5,local_physical_damage_reduction_rating_+%:0.5,local_base_physical_damage_reduction_rating:0.2,base_spirit_from_equipment:1.3)] >= "278" && [StashItem] == "true"
 [Category] == "BodyArmour" && [ItemTier] >= "1" && [Rarity] == "Rare" # [ComputedArmour] >= "1200" && [WeightedSum(base_maximum_life:0.4,base_fire_damage_resistance_%:2,base_lightning_damage_resistance_%:2,base_cold_damage_resistance_%:2,additional_dexterity:1.5,base_spirit_from_equipment:1.3)] >= "170"  && [StashItem] == "true"
-[Category] == "BodyArmour" && [ItemTier] >= "1" && [Rarity] == "Rare" # [WeightedSum(local_physical_damage_reduction_rating_+%:2.38,local_base_physical_damage_reduction_rating:1,base_maximum_life:1.37,base_spirit_from_equipment:5.9) >= "600" && [WeightedSum(base_chaos_damage_resistance_%:1.66,base_fire_damage_resistance_%:1,base_lightning_damage_resistance_%:1,base_cold_damage_resistance_%:1,additional_strength:1.36)] >= "80" && [StashItem] == "true"
-[Category] == "BodyArmour" && [ItemTier] >= "1" && [Rarity] == "Rare" # [WeightedSum(local_physical_damage_reduction_rating_+%:2.38,local_base_physical_damage_reduction_rating:1,base_maximum_life:1.37,base_spirit_from_equipment:5.9) >= "500" && [WeightedSum(base_chaos_damage_resistance_%:1.66,base_fire_damage_resistance_%:1,base_lightning_damage_resistance_%:1,base_cold_damage_resistance_%:1,additional_strength:1.36)] >= "100" && [StashItem] == "true"
-[Category] == "BodyArmour" && [ItemTier] >= "1" && [Rarity] == "Rare" # [WeightedSum(local_physical_damage_reduction_rating_+%:2.38,local_base_physical_damage_reduction_rating:1,base_maximum_life:1.37,base_spirit_from_equipment:5.9) >= "400" && [WeightedSum(base_chaos_damage_resistance_%:1.66,base_fire_damage_resistance_%:1,base_lightning_damage_resistance_%:1,base_cold_damage_resistance_%:1,additional_strength:1.36)] >= "120" && [StashItem] == "true"
+[Category] == "BodyArmour" && [ItemTier] >= "1" && [Rarity] == "Rare" # [WeightedSum(local_physical_damage_reduction_rating_+%:2.38,local_base_physical_damage_reduction_rating:1,base_maximum_life:1.37,base_spirit_from_equipment:5.9)] >= "600" && [WeightedSum(base_chaos_damage_resistance_%:1.66,base_fire_damage_resistance_%:1,base_lightning_damage_resistance_%:1,base_cold_damage_resistance_%:1,additional_strength:1.36)] >= "80" && [StashItem] == "true"
+[Category] == "BodyArmour" && [ItemTier] >= "1" && [Rarity] == "Rare" # [WeightedSum(local_physical_damage_reduction_rating_+%:2.38,local_base_physical_damage_reduction_rating:1,base_maximum_life:1.37,base_spirit_from_equipment:5.9)] >= "500" && [WeightedSum(base_chaos_damage_resistance_%:1.66,base_fire_damage_resistance_%:1,base_lightning_damage_resistance_%:1,base_cold_damage_resistance_%:1,additional_strength:1.36)] >= "100" && [StashItem] == "true"
+[Category] == "BodyArmour" && [ItemTier] >= "1" && [Rarity] == "Rare" # [WeightedSum(local_physical_damage_reduction_rating_+%:2.38,local_base_physical_damage_reduction_rating:1,base_maximum_life:1.37,base_spirit_from_equipment:5.9)] >= "400" && [WeightedSum(base_chaos_damage_resistance_%:1.66,base_fire_damage_resistance_%:1,base_lightning_damage_resistance_%:1,base_cold_damage_resistance_%:1,additional_strength:1.36)] >= "120" && [StashItem] == "true"
 
 // ARMOUR + ENERGY SHIELD
-[Category] == "BodyArmour" && [ItemTier] >= "1" && [Rarity] == "Rare" # [ComputedArmour] >= "1" && [ComputedEnergyShield] >= "1" && [WeightedSum(base_maximum_life:1,local_armour_and_energy_shield_+%:1.72,local_base_physical_damage_reduction_rating:1.58,local_energy_shield:4.15)] >= "600" && [StashItem] == "true"
-[Category] == "BodyArmour" && [ItemTier] >= "1" && [Rarity] == "Rare" # [ComputedArmour] >= "1" && [ComputedEnergyShield] >= "1" && [WeightedSum(base_maximum_life:1,local_armour_and_energy_shield_+%:1.72,local_base_physical_damage_reduction_rating:1.58,local_energy_shield:4.15,base_spirit_from_equipment:4.29)] >= "500" && [WeightedSum(base_chaos_damage_resistance_%:1.66,base_fire_damage_resistance_%:1,base_lightning_damage_resistance_%:1,base_cold_damage_resistance_%:1,additional_strength:1.36,additional_intelligence:1.36)] >= "80" && [StashItem] == "true"
-[Category] == "BodyArmour" && [ItemTier] >= "1" && [Rarity] == "Rare" # [ComputedArmour] >= "1" && [ComputedEnergyShield] >= "1" && [WeightedSum(base_maximum_life:1,local_armour_and_energy_shield_+%:1.72,local_base_physical_damage_reduction_rating:1.58,local_energy_shield:4.15,base_spirit_from_equipment:4.29)] >= "420" && [WeightedSum(base_chaos_damage_resistance_%:1.66,base_fire_damage_resistance_%:1,base_lightning_damage_resistance_%:1,base_cold_damage_resistance_%:1,additional_strength:1.36,additional_intelligence:1.36)] >= "100" && [StashItem] == "true"
-[Category] == "BodyArmour" && [ItemTier] >= "1" && [Rarity] == "Rare" # [ComputedArmour] >= "1" && [ComputedEnergyShield] >= "1" && [WeightedSum(base_maximum_life:1,local_armour_and_energy_shield_+%:1.72,local_base_physical_damage_reduction_rating:1.58,local_energy_shield:4.15,base_spirit_from_equipment:4.29)] >= "300" && [WeightedSum(base_chaos_damage_resistance_%:1.66,base_fire_damage_resistance_%:1,base_lightning_damage_resistance_%:1,base_cold_damage_resistance_%:1,additional_strength:1.36,additional_intelligence:1.36)] >= "120" && [StashItem] == "true"
+[Category] == "BodyArmour" && [ItemTier] >= "1" && [Rarity] == "Rare" # [WeightedSum(base_maximum_life:1,local_armour_and_energy_shield_+%:1.72,local_base_physical_damage_reduction_rating:1.58,local_energy_shield:4.15)] >= "600" && [StashItem] == "true"
+[Category] == "BodyArmour" && [ItemTier] >= "1" && [Rarity] == "Rare" # [WeightedSum(base_maximum_life:1,local_armour_and_energy_shield_+%:1.72,local_base_physical_damage_reduction_rating:1.58,local_energy_shield:4.15,base_spirit_from_equipment:4.29)] >= "500" && [WeightedSum(base_chaos_damage_resistance_%:1.66,base_fire_damage_resistance_%:1,base_lightning_damage_resistance_%:1,base_cold_damage_resistance_%:1,additional_strength:1.36,additional_intelligence:1.36)] >= "80" && [StashItem] == "true"
+[Category] == "BodyArmour" && [ItemTier] >= "1" && [Rarity] == "Rare" # [WeightedSum(base_maximum_life:1,local_armour_and_energy_shield_+%:1.72,local_base_physical_damage_reduction_rating:1.58,local_energy_shield:4.15,base_spirit_from_equipment:4.29)] >= "420" && [WeightedSum(base_chaos_damage_resistance_%:1.66,base_fire_damage_resistance_%:1,base_lightning_damage_resistance_%:1,base_cold_damage_resistance_%:1,additional_strength:1.36,additional_intelligence:1.36)] >= "100" && [StashItem] == "true"
+[Category] == "BodyArmour" && [ItemTier] >= "1" && [Rarity] == "Rare" # [WeightedSum(base_maximum_life:1,local_armour_and_energy_shield_+%:1.72,local_base_physical_damage_reduction_rating:1.58,local_energy_shield:4.15,base_spirit_from_equipment:4.29)] >= "300" && [WeightedSum(base_chaos_damage_resistance_%:1.66,base_fire_damage_resistance_%:1,base_lightning_damage_resistance_%:1,base_cold_damage_resistance_%:1,additional_strength:1.36,additional_intelligence:1.36)] >= "120" && [StashItem] == "true"
 
 // ARMOUR + EVASION
-[Category] == "BodyArmour" && [ItemTier] >= "1" && [Rarity] == "Rare" # [ComputedEvasion] >= "1" && [ComputedArmour] >= "1" && [WeightedSum(base_maximum_life:1,local_armour_and_evasion_+%:1.72,local_base_evasion_rating:1.58,local_base_physical_damage_reduction_rating:1.44,base_spirit_from_equipment:4.29)] >= "750" && [StashItem] == "true"
-[Category] == "BodyArmour" && [ItemTier] >= "1" && [Rarity] == "Rare" # [ComputedEvasion] >= "1" && [ComputedArmour] >= "1" && [WeightedSum(base_maximum_life:1,local_armour_and_evasion_+%:1.72,local_base_evasion_rating:1.58,local_base_physical_damage_reduction_rating:1.44,base_spirit_from_equipment:4.29)] >= "600" && [WeightedSum(base_chaos_damage_resistance_%:1.66,base_fire_damage_resistance_%:1,base_lightning_damage_resistance_%:1,base_cold_damage_resistance_%:1,additional_dexterity:1.36,additional_strength:1.36)] >= "80" && [StashItem] == "true"
-[Category] == "BodyArmour" && [ItemTier] >= "1" && [Rarity] == "Rare" # [ComputedEvasion] >= "1" && [ComputedArmour] >= "1" && [WeightedSum(base_maximum_life:1,local_armour_and_evasion_+%:1.72,local_base_evasion_rating:1.58,local_base_physical_damage_reduction_rating:1.44,base_spirit_from_equipment:4.29)] >= "500" && [WeightedSum(base_chaos_damage_resistance_%:1.66,base_fire_damage_resistance_%:1,base_lightning_damage_resistance_%:1,base_cold_damage_resistance_%:1,additional_dexterity:1.36,additional_strength:1.36)] >= "100" && [StashItem] == "true"
-[Category] == "BodyArmour" && [ItemTier] >= "1" && [Rarity] == "Rare" # [ComputedEvasion] >= "1" && [ComputedArmour] >= "1" && [WeightedSum(base_maximum_life:1,local_armour_and_evasion_+%:1.72,local_base_evasion_rating:1.58,local_base_physical_damage_reduction_rating:1.44,base_spirit_from_equipment:4.29)] >= "400" && [WeightedSum(base_chaos_damage_resistance_%:1.66,base_fire_damage_resistance_%:1,base_lightning_damage_resistance_%:1,base_cold_damage_resistance_%:1,additional_dexterity:1.36,additional_strength:1.36)] >= "120" && [StashItem] == "true"
+[Category] == "BodyArmour" && [ItemTier] >= "1" && [Rarity] == "Rare" # [WeightedSum(base_maximum_life:1,local_armour_and_evasion_+%:1.72,local_base_evasion_rating:1.58,local_base_physical_damage_reduction_rating:1.44,base_spirit_from_equipment:4.29)] >= "750" && [StashItem] == "true"
+[Category] == "BodyArmour" && [ItemTier] >= "1" && [Rarity] == "Rare" # [WeightedSum(base_maximum_life:1,local_armour_and_evasion_+%:1.72,local_base_evasion_rating:1.58,local_base_physical_damage_reduction_rating:1.44,base_spirit_from_equipment:4.29)] >= "600" && [WeightedSum(base_chaos_damage_resistance_%:1.66,base_fire_damage_resistance_%:1,base_lightning_damage_resistance_%:1,base_cold_damage_resistance_%:1,additional_dexterity:1.36,additional_strength:1.36)] >= "80" && [StashItem] == "true"
+[Category] == "BodyArmour" && [ItemTier] >= "1" && [Rarity] == "Rare" # [WeightedSum(base_maximum_life:1,local_armour_and_evasion_+%:1.72,local_base_evasion_rating:1.58,local_base_physical_damage_reduction_rating:1.44,base_spirit_from_equipment:4.29)] >= "500" && [WeightedSum(base_chaos_damage_resistance_%:1.66,base_fire_damage_resistance_%:1,base_lightning_damage_resistance_%:1,base_cold_damage_resistance_%:1,additional_dexterity:1.36,additional_strength:1.36)] >= "100" && [StashItem] == "true"
+[Category] == "BodyArmour" && [ItemTier] >= "1" && [Rarity] == "Rare" # [WeightedSum(base_maximum_life:1,local_armour_and_evasion_+%:1.72,local_base_evasion_rating:1.58,local_base_physical_damage_reduction_rating:1.44,base_spirit_from_equipment:4.29)] >= "400" && [WeightedSum(base_chaos_damage_resistance_%:1.66,base_fire_damage_resistance_%:1,base_lightning_damage_resistance_%:1,base_cold_damage_resistance_%:1,additional_dexterity:1.36,additional_strength:1.36)] >= "120" && [StashItem] == "true"
+
 
 // PREFFIX + SUFFIX VARIANCES ON ALL ARMOURS
 [Category] == "BodyArmour" && [ItemTier] >= "1" && [Rarity] == "Rare" # [WeightedSum(base_chaos_damage_resistance_%:2,base_fire_damage_resistance_%:1,base_lightning_damage_resistance_%:1,base_cold_damage_resistance_%:1,additional_dexterity:1.2,additional_strength:1.2)] >= "68" && [WeightedSum(local_physical_damage_reduction_rating_+%:0.5,local_base_physical_damage_reduction_rating:0.3,local_evasion_rating_+%:0.5,local_base_evasion_rating:0.3,base_spirit_from_equipment:1.5,base_maximum_life:1)] >= "273" && [StashItem] == "true"
