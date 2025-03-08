@@ -326,7 +326,7 @@
 [Type] == "Reaver Catalyst" # [StashItem] == "true"
 [Type] == "Sibilant Catalyst" # [StashItem] == "true"
 [Type] == "Volatile Catalyst" # [StashItem] == "true"
-
+[Type] == "Adaptive Catalyst" # [StashItem] == "true"
 
 /////////////////////////////////////////////////////////////////////////////////////
 //                                                                                 //
