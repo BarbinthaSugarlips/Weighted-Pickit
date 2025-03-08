@@ -884,9 +884,9 @@
 //////////////////////////////////////////////////////////////////
 
 
-[Type] == "Crude Bow" && [Rarity] == "Unique" # [UniqueName] == "Widowhail" && [StashItem] == "true" 
-[Type] == "Gold Circlet" && [Rarity] == "Unique" # [UniqueName] == "Atziri's Disdain" && [StashItem] == "true" 
-[Type] == "Wrapped Greathelmet" && [Rarity] == "Unique" # [UniqueName] == "Black Sun Crest" && [StashItem] == "true"
+//[Type] == "Crude Bow" && [Rarity] == "Unique" # [UniqueName] == "Widowhail" && [StashItem] == "true" 
+//[Type] == "Gold Circlet" && [Rarity] == "Unique" # [UniqueName] == "Atziri's Disdain" && [StashItem] == "true"
+//[Type] == "Wrapped Greathelmet" && [Rarity] == "Unique" # [UniqueName] == "Black Sun Crest" && [StashItem] == "true"
 
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
