@@ -1363,8 +1363,8 @@
 // FLAILS
 [WeaponCategory] == "Flail" && [Rarity] == "Unique" && [StashItem] == "true"
 // BOWS
-[WeaponCategory] == "Bow" && [ItemTier] >= "4" && [Rarity] == "Rare" # [PhysicalDPS] >= "325" && [StashItem] == "true"
-[WeaponCategory] == "Bow" && [ItemTier] >= "4" && [Rarity] == "Rare" # [ElementalDPS] >= "200" && [StashItem] == "true"
+[WeaponCategory] == "Bow" && [ItemTier] >= "2" && [Rarity] == "Rare" # [PhysicalDPS] >= "325" && [StashItem] == "true"
+[WeaponCategory] == "Bow" && [ItemTier] >= "2" && [Rarity] == "Rare" # [ElementalDPS] >= "200" && [StashItem] == "true"
 // 2HAND SWORDS
 [WeaponCategory] == "TwoHandSword" && [Rarity] == "Unique" # && [StashItem] == "true"
 // 2HAND AXES
@@ -1373,8 +1373,8 @@
 [WeaponCategory] == "TwoHandMace" && [ItemTier] >= "4" && [Rarity] == "Rare" # [PhysicalDPS] >= "570" && [StashItem] == "true"
 [WeaponCategory] == "TwoHandMace" && [ItemTier] >= "4" && [Rarity] == "Rare" # [ElementalDPS] >= "300" && [StashItem] == "true"
 // QUARTERSTAVES
-[WeaponCategory] == "Quarterstaff" && [ItemTier] >= "4" && [Rarity] == "Rare" # [PhysicalDPS] >= "480" && [StashItem] == "true"
-[WeaponCategory] == "Quarterstaff" && [ItemTier] >= "4" && [Rarity] == "Rare" # [ElementalDPS] >= "480" && [StashItem] == "true"
+[WeaponCategory] == "Quarterstaff" && [ItemTier] >= "2" && [Rarity] == "Rare" # [PhysicalDPS] >= "480" && [StashItem] == "true"
+[WeaponCategory] == "Quarterstaff" && [ItemTier] >= "2" && [Rarity] == "Rare" # [ElementalDPS] >= "480" && [StashItem] == "true"
 // CROSSBOWS
 [WeaponCategory] == "Crossbow" && [ItemTier] >= "4" && [Rarity] == "Rare" # [PhysicalDPS] >= "455" && [StashItem] == "true"
 // MISC
