@@ -603,7 +603,7 @@
 
 
 [Type] == "Stellar Amulet" && [Rarity] == "Normal" # [StashItem] == "true"
-
+[Type] == "Sapphire Ring" && [Rarity] == "Normal" # [StashItem] == "true"
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 ///                                                                                                                      ///
