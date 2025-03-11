@@ -389,9 +389,9 @@
 /////////////////////////////////////////////////////////////////////////////////////
 
 
-[Category] == "Waystone" && [Rarity] == "Normal" && [WaystoneTier] >= "3" # [StashItem] == "true"
-[Category] == "Waystone" && [Rarity] == "Magic" && [WaystoneTier] >= "3" # [StashItem] == "true"
-[Category] == "Waystone" && [Rarity] == "Rare" && [WaystoneTier] >= "3" # [StashItem] == "true"
+[Type] == "Waystone" && [Rarity] == "Normal" && [WaystoneTier] >= "3" # [StashItem] == "true"
+[Type] == "Waystone" && [Rarity] == "Magic" && [WaystoneTier] >= "3" # [StashItem] == "true"
+[Type] == "Waystone" && [Rarity] == "Rare" && [WaystoneTier] >= "3" # [StashItem] == "true"
 
 
 /////////////////////////////////////////
@@ -400,9 +400,9 @@
 ///                                   ///
 /////////////////////////////////////////
 
-[Category] == "Waystone" && [Rarity] == "Normal" && [WaystoneTier] >= "1" # [map_endgame_fog_depth] >= "1" && [StashItem] == "true"
-[Category] == "Waystone" && [Rarity] == "Magic" && [WaystoneTier] >= "1" # [map_endgame_fog_depth] >= "1" && [StashItem] == "true"
-[Category] == "Waystone" && [Rarity] == "Rare" && [WaystoneTier] >= "1" # [map_endgame_fog_depth] >= "1" && [StashItem] == "true"
+[Type] == "Waystone" && [Rarity] == "Normal" && [WaystoneTier] >= "1" # [map_endgame_fog_depth] >= "1" && [StashItem] == "true"
+[Type] == "Waystone" && [Rarity] == "Magic" && [WaystoneTier] >= "1" # [map_endgame_fog_depth] >= "1" && [StashItem] == "true"
+[Type] == "Waystone" && [Rarity] == "Rare" && [WaystoneTier] >= "1" # [map_endgame_fog_depth] >= "1" && [StashItem] == "true"
 
 
 /////////////////////////////////////////
