@@ -1211,7 +1211,17 @@
 [Category] == "Ring" && [Rarity] == "Rare" && [base_item_found_rarity_+%] >= "59" && [StashItem] == "true"
 
 // CASTER RING 
-[Category] == "Ring" && [Rarity] == "Rare" # [WeightedSum(additional_intelligence:2,cold_damage_+%:1,fire_damage_+%:1,base_maximum_mana:1,base_maximum_life:0.5,base_fire_damage_resistance_%:2,base_cold_damage_resistance_%:2,base_lightning_damage_resistance_%:2,base_item_found_rarity_+%:2.5,maximum_mana_+%:25,base_cast_speed_+%:6.5,mana_regeneration_rate_+%:2.4,base_resist_all_elements_%:6,lightning_damage_+%:3)] >= "430" && [StashItem] == "true"
+[Category] == "Ring" && [Rarity] == "Rare" # [WeightedSum(additional_intelligence:2,cold_damage_+%:1,fire_damage_+%:1,base_maximum_mana:1,base_maximum_life:0.5,base_fire_damage_resistance_%:2,base_cold_damage_resistance_%:2,base_lightning_damage_resistance_%:2,base_item_found_rarity_+%:4.86,maximum_mana_+%:25,base_cast_speed_+%:6.5,mana_regeneration_rate_+%:2.4,base_resist_all_elements_%:6,lightning_damage_+%:3)] >= "430" && [StashItem] == "true"
+[Category] == "Ring" && [Rarity] == "Rare" # [WeightedSum(additional_intelligence:6.36,cold_damage_+%:7.3,fire_damage_+%:7.3,lightning_damage_+%:7.3,base_maximum_mana:1,base_maximum_life:0.5,base_fire_damage_resistance_%:2.92,base_cold_damage_resistance_%:2.92,base_lightning_damage_resistance_%:2.92,base_item_found_rarity_+%:4.86,base_cast_speed_+%:6.44,mana_regeneration_rate_+%:2.4,base_resist_all_elements_%:8.76)] >= "800" && [StashItem] == "true"
+
+// Lightning caster
+[Category] == "Ring" && [Rarity] == "Rare" # [WeightedSum(additional_intelligence:6.36,lightning_damage_+%:7.3,base_maximum_mana:1,base_maximum_life:0.5,base_fire_damage_resistance_%:2.92,base_cold_damage_resistance_%:2.92,base_lightning_damage_resistance_%:2.92,base_item_found_rarity_+%:4.86,base_cast_speed_+%:6.44,mana_regeneration_rate_+%:2.4,base_resist_all_elements_%:8.76)] >= "700" && [StashItem] == "true"
+
+// Cold caster
+[Category] == "Ring" && [Rarity] == "Rare" # [WeightedSum(additional_intelligence:6.36,cold_damage_+%:7.3,base_maximum_mana:1,base_maximum_life:0.5,base_fire_damage_resistance_%:2.92,base_cold_damage_resistance_%:2.92,base_lightning_damage_resistance_%:2.92,base_item_found_rarity_+%:4.86,base_cast_speed_+%:6.44,mana_regeneration_rate_+%:2.4,base_resist_all_elements_%:8.76)] >= "700" && [StashItem] == "true"
+
+// Fire caster
+[Category] == "Ring" && [Rarity] == "Rare" # [WeightedSum(additional_intelligence:6.36,fire_damage_+%:7.3,base_maximum_mana:1,base_maximum_life:0.5,base_fire_damage_resistance_%:2.92,base_cold_damage_resistance_%:2.92,base_lightning_damage_resistance_%:2.92,base_item_found_rarity_+%:4.86,base_cast_speed_+%:6.44,mana_regeneration_rate_+%:2.4,base_resist_all_elements_%:8.76)] >= "700" && [StashItem] == "true"
 
 // STAT RING
 [Category] == "Ring" && [Rarity] == "Rare" # [WeightedSum(attack_minimum_added_physical_damage:6.84,attack_maximum_added_cold_damage:5.9,attack_maximum_added_fire_damage:4.86,attack_maximum_added_lightning_damage:3.08,additional_intelligence:6.63,additional_strength:6.63,additional_dexterity:6.63,additional_all_attributes:19.89,base_fire_damage_resistance_%:2.92,base_chaos_damage_resistance_%:5.47,base_cold_damage_resistance_%:2.92,base_lightning_damage_resistance_%:2.92,base_resist_all_elements_%:8.76,base_item_found_rarity_+%:2.4)] >= "700" && [StashItem] == "true"
@@ -1278,7 +1288,17 @@
 [Category] == "Breach Ring" && [Rarity] == "Rare" && [base_item_found_rarity_+%] >= "59" && [StashItem] == "true"
 
 // CASTER RING 
-[Category] == "Breach Ring" && [Rarity] == "Rare" # [WeightedSum(additional_intelligence:2,cold_damage_+%:1,fire_damage_+%:1,base_maximum_mana:1,base_maximum_life:0.5,base_fire_damage_resistance_%:2,base_cold_damage_resistance_%:2,base_lightning_damage_resistance_%:2,base_item_found_rarity_+%:2.5,maximum_mana_+%:25,base_cast_speed_+%:6.5,mana_regeneration_rate_+%:2.4,base_resist_all_elements_%:6,lightning_damage_+%:3)] >= "430" && [StashItem] == "true"
+[Category] == "Breach Ring" && [Rarity] == "Rare" # [WeightedSum(additional_intelligence:2,cold_damage_+%:1,fire_damage_+%:1,base_maximum_mana:1,base_maximum_life:0.5,base_fire_damage_resistance_%:2,base_cold_damage_resistance_%:2,base_lightning_damage_resistance_%:2,base_item_found_rarity_+%:4.86,maximum_mana_+%:25,base_cast_speed_+%:6.5,mana_regeneration_rate_+%:2.4,base_resist_all_elements_%:6,lightning_damage_+%:3)] >= "430" && [StashItem] == "true"
+[Category] == "Breach Ring" && [Rarity] == "Rare" # [WeightedSum(additional_intelligence:6.36,cold_damage_+%:7.3,fire_damage_+%:7.3,lightning_damage_+%:7.3,base_maximum_mana:1,base_maximum_life:0.5,base_fire_damage_resistance_%:2.92,base_cold_damage_resistance_%:2.92,base_lightning_damage_resistance_%:2.92,base_item_found_rarity_+%:4.86,base_cast_speed_+%:6.44,mana_regeneration_rate_+%:2.4,base_resist_all_elements_%:8.76)] >= "800" && [StashItem] == "true"
+
+// Lightning caster
+[Category] == "Breach Ring" && [Rarity] == "Rare" # [WeightedSum(additional_intelligence:6.36,lightning_damage_+%:7.3,base_maximum_mana:1,base_maximum_life:0.5,base_fire_damage_resistance_%:2.92,base_cold_damage_resistance_%:2.92,base_lightning_damage_resistance_%:2.92,base_item_found_rarity_+%:4.86,base_cast_speed_+%:6.44,mana_regeneration_rate_+%:2.4,base_resist_all_elements_%:8.76)] >= "700" && [StashItem] == "true"
+
+// Cold caster
+[Category] == "Breach Ring" && [Rarity] == "Rare" # [WeightedSum(additional_intelligence:6.36,cold_damage_+%:7.3,base_maximum_mana:1,base_maximum_life:0.5,base_fire_damage_resistance_%:2.92,base_cold_damage_resistance_%:2.92,base_lightning_damage_resistance_%:2.92,base_item_found_rarity_+%:4.86,base_cast_speed_+%:6.44,mana_regeneration_rate_+%:2.4,base_resist_all_elements_%:8.76)] >= "700" && [StashItem] == "true"
+
+// Fire caster
+[Category] == "Breach Ring" && [Rarity] == "Rare" # [WeightedSum(additional_intelligence:6.36,fire_damage_+%:7.3,base_maximum_mana:1,base_maximum_life:0.5,base_fire_damage_resistance_%:2.92,base_cold_damage_resistance_%:2.92,base_lightning_damage_resistance_%:2.92,base_item_found_rarity_+%:4.86,base_cast_speed_+%:6.44,mana_regeneration_rate_+%:2.4,base_resist_all_elements_%:8.76)] >= "700" && [StashItem] == "true"
 
 // STAT RING
 [Category] == "Breach Ring" && [Rarity] == "Rare" # [WeightedSum(attack_minimum_added_physical_damage:6.84,attack_maximum_added_cold_damage:5.9,attack_maximum_added_fire_damage:4.86,attack_maximum_added_lightning_damage:3.08,additional_intelligence:6.63,additional_strength:6.63,additional_dexterity:6.63,additional_all_attributes:19.89,base_fire_damage_resistance_%:2.92,base_chaos_damage_resistance_%:5.47,base_cold_damage_resistance_%:2.92,base_lightning_damage_resistance_%:2.92,base_resist_all_elements_%:8.76,base_item_found_rarity_+%:2.4)] >= "700" && [StashItem] == "true"
@@ -1393,6 +1413,13 @@
 // SPIRIT + MINION + DMG
 [WeaponCategory] == "Sceptre" && [ItemTier] >= "2" && [Rarity] == "Rare" # [WeightedSum(local_spirit_+%:5,minion_skill_gem_level_+:55,allies_in_presence_damage_+%:1.5)] >= "470" && [StashItem] == "true"
 
+/////////////////////////////
+///                       ///
+///         Staves        ///
+///                       ///
+/////////////////////////////
+
+[Type] == "Chiming Staff" && [Rarity] == "Rare" # [WeightedSum(spell_skill_gem_level_+:8.66,base_cast_speed+%:1)] >= "60" && [StashItem] == "true"
 
 /////////////////////////////////////////
 ///                                   ///
