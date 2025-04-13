@@ -1577,7 +1577,8 @@
 [Type] == "Essence Of Delirium" # [StashItem] == "true"
 [Type] == "Essence Of Hysteria" # [StashItem] == "true"
 
-
+[Type] == "Lesser Iron Rune" # [StashItem] == "true"
+[Type] == "Iron Rune" # [StashItem] == "true"
 [Type] == "Greater Resolve Rune" # [StashItem] == "true"
 [Type] == "Greater Desert Rune" # [StashItem] == "true"
 [Type] == "Greater Glacial Rune" # [StashItem] == "true"
