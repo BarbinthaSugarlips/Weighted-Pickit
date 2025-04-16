@@ -1422,7 +1422,7 @@
 ///                       ///
 /////////////////////////////
 
-[Type] == "Chiming Staff" && [Rarity] == "Rare" # [WeightedSum(spell_skill_gem_level_+:8.66,base_cast_speed+%:1)] >= "60" && [StashItem] == "true"
+[Type] == "Chiming Staff" && [Rarity] == "Rare" # [WeightedSum(spell_skill_gem_level_+:8.66,base_cast_speed_+%:1)] >= "60" && [StashItem] == "true"
 
 /////////////////////////////////////////
 ///                                   ///
