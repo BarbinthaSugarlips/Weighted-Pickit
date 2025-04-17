@@ -1549,6 +1549,8 @@
 [WeaponCategory] == "Spear" && [ItemTier] >= "0" && [Rarity] == "Rare" # [ElementalDPS] >= "300" && [StashItem] == "true"
 [WeaponCategory] == "Spear" && [ItemTier] >= "0" && [Rarity] == "Rare" # [PhysicalDPS] >= "150" && [accuracy_rating] >= "300" && [StashItem] == "true"
 
+[WeaponCategory] == "Spear" && [ItemTier] >= "0" && [Rarity] == "Rare" # [WeightedSum(local_accuracy_rating:1,local_critical_strike_multiplier_+:19.3,local_critical_strike_chance:1.4,local_attack_speed_+%:25)] >= "1200" && [StashItem] == "true"
+
 
 [Type] == "Precursor Tablet" && [Rarity] == "Unique" # [StashItem] == "true"
 [Type] == "Breach Precursor Tablet" && [Rarity] == "Unique" # [StashItem] == "true"
