@@ -1805,20 +1805,20 @@
 [WeaponCategory] == "Spear" && [ItemTier] >= "0" && [Rarity] == "Magic" # [local_maximum_added_physical_damage] >= "26" && [local_minimum_added_physical_damage] >= "44" && [StashItem] == "true"
 
 
-[Type] == "Quickslip Shoes" && [Rarity] >= "Magic" # [base_movement_velocity_+%] >= "35" && [StashItem] == "true"
-[Type] == "Warlock Leggings" && [Rarity] >= "Magic" # [base_movement_velocity_+%] >= "35" && [StashItem] == "true"
-[Type] == "Sandsworn Sandals" && [Rarity] >= "Magic" # [base_movement_velocity_+%] >= "35" && [StashItem] == "true"
-[Type] == "Dragonscale Boots" && [Rarity] >= "Magic" # [base_movement_velocity_+%] >= "35" && [StashItem] == "true"
-[Type] == "Vaal Greaves" && [Rarity] >= "Magic" # [base_movement_velocity_+%] >= "35" && [StashItem] == "true"
+//[Type] == "Quickslip Shoes" && [Rarity] >= "Magic" # [base_movement_velocity_+%] >= "35" && [StashItem] == "true"
+//[Type] == "Warlock Leggings" && [Rarity] >= "Magic" # [base_movement_velocity_+%] >= "35" && [StashItem] == "true"
+//[Type] == "Sandsworn Sandals" && [Rarity] >= "Magic" # [base_movement_velocity_+%] >= "35" && [StashItem] == "true"
+//[Type] == "Dragonscale Boots" && [Rarity] >= "Magic" # [base_movement_velocity_+%] >= "35" && [StashItem] == "true"
+//[Type] == "Vaal Greaves" && [Rarity] >= "Magic" # [base_movement_velocity_+%] >= "35" && [StashItem] == "true"
 
-[Type] == "Quickslip Shoes" && [Rarity] >= "Magic" # [base_maximum_life] >= "120" && [StashItem] == "true"
-[Type] == "Quickslip Shoes" && [Rarity] >= "Magic" # [local_evasion_and_energy_shield_+%] >= "92" && [StashItem] == "true"
-[Type] == "Quickslip Shoes" && [Rarity] >= "Magic" # [local_energy_shield] >= "22" && [StashItem] == "true"
-[Type] == "Warlock Leggings" && [Rarity] >= "Magic" # [base_maximum_life] >= "120" && [StashItem] == "true"
-[Type] == "Sandsworn Sandals" && [Rarity] >= "Magic" # [local_energy_shield] >= "48" && [StashItem] == "true"
-[Type] == "Sandsworn Sandals" && [Rarity] >= "Magic" # [local_energy_shield_+%] >= "92" && [StashItem] == "true"
-[Type] == "Dragonscale Boots" && [Rarity] >= "Magic" # [base_maximum_life] >= "120" && [StashItem] == "true"
-[Type] == "Vaal Greaves" && [Rarity] >= "Magic" # [base_maximum_life] >= "120" && [StashItem] == "true"
+//[Type] == "Quickslip Shoes" && [Rarity] >= "Magic" # [base_maximum_life] >= "120" && [StashItem] == "true"
+//[Type] == "Quickslip Shoes" && [Rarity] >= "Magic" # [local_evasion_and_energy_shield_+%] >= "92" && [StashItem] == "true"
+//[Type] == "Quickslip Shoes" && [Rarity] >= "Magic" # [local_energy_shield] >= "22" && [StashItem] == "true"
+//[Type] == "Warlock Leggings" && [Rarity] >= "Magic" # [base_maximum_life] >= "120" && [StashItem] == "true"
+//[Type] == "Sandsworn Sandals" && [Rarity] >= "Magic" # [local_energy_shield] >= "48" && [StashItem] == "true"
+//[Type] == "Sandsworn Sandals" && [Rarity] >= "Magic" # [local_energy_shield_+%] >= "92" && [StashItem] == "true"
+//[Type] == "Dragonscale Boots" && [Rarity] >= "Magic" # [base_maximum_life] >= "120" && [StashItem] == "true"
+//[Type] == "Vaal Greaves" && [Rarity] >= "Magic" # [base_maximum_life] >= "120" && [StashItem] == "true"
 
 
 //
