@@ -1785,24 +1785,24 @@
 [Rarity] == "Unique" # [UniqueName] == "The Hammer of Faith" && [StashItem] == "true" // Exalted: 52StashItem] == "true" // Exalted: 52
 
 
-[WeaponCategory] == "Spear" && [ItemTier] >= "0" && [Rarity] == "Rare" # [local_accuracy_rating] >= "451" && [local_physical_damage_+%] <= "0" && [StashItem] == "true"
-[WeaponCategory] == "Spear" && [ItemTier] >= "0" && [Rarity] == "Rare" # [local_accuracy_rating] >= "626" && [StashItem] == "true"
-[WeaponCategory] == "Spear" && [ItemTier] >= "0" && [Rarity] == "Rare" # [local_critical_strike_multiplier_+] >= "35" && [StashItem] == "true"
-[WeaponCategory] == "Spear" && [ItemTier] >= "0" && [Rarity] == "Rare" # [local_critical_strike_chance] >= "441" && [StashItem] == "true"
-[WeaponCategory] == "Spear" && [ItemTier] >= "0" && [Rarity] == "Rare" # [local_attack_speed_+%] >= "26" && [StashItem] == "true"
-[WeaponCategory] == "Spear" && [ItemTier] >= "0" && [Rarity] == "Rare" # [local_physical_damage_+%] >= "170" && [local_accuracy_rating] <= "0" && [StashItem] == "true"
-[WeaponCategory] == "Spear" && [ItemTier] >= "0" && [Rarity] == "Rare" # [local_physical_damage_+%] >= "220" && [StashItem] == "true"
-[WeaponCategory] == "Spear" && [ItemTier] >= "0" && [Rarity] == "Rare" # [local_maximum_added_physical_damage] >= "26" && [local_minimum_added_physical_damage] >= "44" && [StashItem] == "true"
+//[WeaponCategory] == "Spear" && [ItemTier] >= "0" && [Rarity] == "Rare" # [local_accuracy_rating] >= "451" && [local_physical_damage_+%] <= "0" && [StashItem] == "true"
+//[WeaponCategory] == "Spear" && [ItemTier] >= "0" && [Rarity] == "Rare" # [local_accuracy_rating] >= "626" && [StashItem] == "true"
+//[WeaponCategory] == "Spear" && [ItemTier] >= "0" && [Rarity] == "Rare" # [local_critical_strike_multiplier_+] >= "35" && [StashItem] == "true"
+//[WeaponCategory] == "Spear" && [ItemTier] >= "0" && [Rarity] == "Rare" # [local_critical_strike_chance] >= "441" && [StashItem] == "true"
+//[WeaponCategory] == "Spear" && [ItemTier] >= "0" && [Rarity] == "Rare" # [local_attack_speed_+%] >= "26" && [StashItem] == "true"
+//[WeaponCategory] == "Spear" && [ItemTier] >= "0" && [Rarity] == "Rare" # [local_physical_damage_+%] >= "170" && [local_accuracy_rating] <= "0" && [StashItem] == "true"
+//[WeaponCategory] == "Spear" && [ItemTier] >= "0" && [Rarity] == "Rare" # [local_physical_damage_+%] >= "220" && [StashItem] == "true"
+//[WeaponCategory] == "Spear" && [ItemTier] >= "0" && [Rarity] == "Rare" # [local_maximum_added_physical_damage] >= "26" && [local_minimum_added_physical_damage] >= "44" && [StashItem] == "true"
 
 
-[WeaponCategory] == "Spear" && [ItemTier] >= "0" && [Rarity] == "Magic" # [local_accuracy_rating] >= "451" && [local_physical_damage_+%] <= "0" && [StashItem] == "true"
-[WeaponCategory] == "Spear" && [ItemTier] >= "0" && [Rarity] == "Magic" # [local_accuracy_rating] >= "626" && [StashItem] == "true"
-[WeaponCategory] == "Spear" && [ItemTier] >= "0" && [Rarity] == "Magic" # [local_critical_strike_multiplier_+] >= "35" && [StashItem] == "true"
-[WeaponCategory] == "Spear" && [ItemTier] >= "0" && [Rarity] == "Magic" # [local_critical_strike_chance] >= "441" && [StashItem] == "true"
-[WeaponCategory] == "Spear" && [ItemTier] >= "0" && [Rarity] == "Magic" # [local_attack_speed_+%] >= "26" && [StashItem] == "true"
-[WeaponCategory] == "Spear" && [ItemTier] >= "0" && [Rarity] == "Magic" # [local_physical_damage_+%] >= "170" && [local_accuracy_rating] <= "0" && [StashItem] == "true"
-[WeaponCategory] == "Spear" && [ItemTier] >= "0" && [Rarity] == "Magic" # [local_physical_damage_+%] >= "220" && [StashItem] == "true"
-[WeaponCategory] == "Spear" && [ItemTier] >= "0" && [Rarity] == "Magic" # [local_maximum_added_physical_damage] >= "26" && [local_minimum_added_physical_damage] >= "44" && [StashItem] == "true"
+//[WeaponCategory] == "Spear" && [ItemTier] >= "0" && [Rarity] == "Magic" # [local_accuracy_rating] >= "451" && [local_physical_damage_+%] <= "0" && [StashItem] == "true"
+//[WeaponCategory] == "Spear" && [ItemTier] >= "0" && [Rarity] == "Magic" # [local_accuracy_rating] >= "626" && [StashItem] == "true"
+//[WeaponCategory] == "Spear" && [ItemTier] >= "0" && [Rarity] == "Magic" # [local_critical_strike_multiplier_+] >= "35" && [StashItem] == "true"
+//[WeaponCategory] == "Spear" && [ItemTier] >= "0" && [Rarity] == "Magic" # [local_critical_strike_chance] >= "441" && [StashItem] == "true"
+//[WeaponCategory] == "Spear" && [ItemTier] >= "0" && [Rarity] == "Magic" # [local_attack_speed_+%] >= "26" && [StashItem] == "true"
+//[WeaponCategory] == "Spear" && [ItemTier] >= "0" && [Rarity] == "Magic" # [local_physical_damage_+%] >= "170" && [local_accuracy_rating] <= "0" && [StashItem] == "true"
+//[WeaponCategory] == "Spear" && [ItemTier] >= "0" && [Rarity] == "Magic" # [local_physical_damage_+%] >= "220" && [StashItem] == "true"
+//[WeaponCategory] == "Spear" && [ItemTier] >= "0" && [Rarity] == "Magic" # [local_maximum_added_physical_damage] >= "26" && [local_minimum_added_physical_damage] >= "44" && [StashItem] == "true"
 
 
 //[Type] == "Quickslip Shoes" && [Rarity] >= "Magic" # [base_movement_velocity_+%] >= "35" && [StashItem] == "true"
