@@ -1784,6 +1784,7 @@
 [Rarity] == "Unique" # [UniqueName] == "Sacred Flame" && [StashItem] == "true" // Exalted: 1196
 [Rarity] == "Unique" # [UniqueName] == "The Hammer of Faith" && [StashItem] == "true" // Exalted: 52StashItem] == "true" // Exalted: 52
 
+// Recombination recipes
 
 //[WeaponCategory] == "Spear" && [ItemTier] >= "0" && [Rarity] == "Rare" # [local_accuracy_rating] >= "451" && [local_physical_damage_+%] <= "0" && [StashItem] == "true"
 //[WeaponCategory] == "Spear" && [ItemTier] >= "0" && [Rarity] == "Rare" # [local_accuracy_rating] >= "626" && [StashItem] == "true"
