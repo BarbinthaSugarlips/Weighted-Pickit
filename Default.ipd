@@ -1277,6 +1277,10 @@
 
 [Category] == "Ring" && [Rarity] == "Rare" # [WeightedSum(base_maximum_life:1.84,base_maximum_mana:1,attack_minimum_added_physical_damage:6.84,attack_maximum_added_cold_damage:5.9,attack_maximum_added_fire_damage:4.86,attack_maximum_added_lightning_damage:3.08,lightning_damage_+%:6)] >= "420" && [StashItem] == "true"
 
+// ADDED DAMAGE RINGS 
+
+[Category] == "Ring" && [Rarity] == "Rare" # [WeightedSum(attack_minimum_added_physical_damage:1,attack_maximum_added_cold_damage:0.86,attack_maximum_added_fire_damage:0.71,attack_maximum_added_lightning_damage:0.45)] >= "42" && [StashItem] == "true"
+
 // MAGIC RINGS
 
 [Category] == "Ring" && [Rarity] == "Magic" # [base_maximum_life] >= "1" && [WeightedSum(lightning_damage_+%:6.3,chaos_damage_+%:6.3,cold_damage_+%:6.3,fire_damage_+%:6.3,base_resist_all_elements_%:12.6,base_lightning_damage_resistance_%:4.2,base_cold_damage_resistance_%:4.2,base_fire_damage_resistance_%:4.2,base_item_found_rarity_+%:4.02,base_chaos_damage_resistance_%:4.72,additional_intelligence:6.6,additional_all_attributes:19.8,additional_strength:6.6,additional_dexterity:6.6)] >= "400" && [StashItem] == "true"
@@ -1345,6 +1349,9 @@
 
 [Category] == "Breach Ring" && [Rarity] == "Rare" # [WeightedSum(base_maximum_life:1.84,base_maximum_mana:1,attack_minimum_added_physical_damage:6.84,attack_maximum_added_cold_damage:5.9,attack_maximum_added_fire_damage:4.86,attack_maximum_added_lightning_damage:3.08,lightning_damage_+%:6)] >= "550" && [StashItem] == "true"
 
+// ADDED DAMAGE RINGS 
+
+[Category] == "Breach Ring" && [Rarity] == "Rare" # [WeightedSum(attack_minimum_added_physical_damage:1,attack_maximum_added_cold_damage:0.86,attack_maximum_added_fire_damage:0.71,attack_maximum_added_lightning_damage:0.45)] >= "42" && [StashItem] == "true"
 
 
 // MAGIC RINGS
