@@ -54,9 +54,15 @@
 //
 // Quality:
 // -------
-// Shows the quality percentage of an item (0-20 for most items)
+// The quality percentage of an item (0-20 for most items)
 // Example: [Quality] >= "15" # [StashItem] == "true"
 // This means: Pick up and stash items with 15% or more quality
+//
+// WaystoneTier:
+// -------
+// The tier of a waystone (1-16 at the moment)
+// Example: [Category] == "Waystone" && [WaystoneTier] >= "10" # [StashItem] == "true"
+// This means: Pick up and stash waystones tier 10 or more
 //
 // Basic Syntax:
 // -----------
@@ -67,8 +73,8 @@
 // != (not equals)          Example: [Category] != "Flask"
 // >  (greater than)        Example: [ItemLevel] > "75"
 // >= (greater or equal)    Example: [Quality] >= "20"
-// <  (less than)          Example: [Sockets] < "6"
-// <= (less or equal)       Example: [MapTier] <= "10"
+// <  (less than)          Example: [Quality] < "6"
+// <= (less or equal)       Example: [Quality] <= "10"
 //
 // You can combine checks using:
 // && (AND)  - Both conditions must be true
@@ -79,7 +85,7 @@
 // ------------------
 // Equipment: "BodyArmour", "Gloves", "Boots", "Belt", "Helmet", "Ring", "Amulet"
 // Weapons: "Weapon", "1Handed", "2Handed", "OffHand"
-// Others: "Flask", "Map", "Gem"
+// Others: "Flask", "Waystone", "Gem"
 //
 // Weapon Categories:
 // ---------------
@@ -143,14 +149,12 @@
 //                                                                                 //
 /////////////////////////////////////////////////////////////////////////////////////
 
-//[Type] == "Talisman" # [StashItem] == "true"
-//[Category] == "Talisman" # [StashItem] == "true"
 
-//[Rarity] == "Normal" && [Sockets] > "0" # [Salvage] == "true"
-//[Rarity] == "Magic" && [Sockets] > "0" # [Salvage] == "true"
+// [Rarity] == "Normal" && [Sockets] > "0" # [Salvage] == "true"
+// [Rarity] == "Magic" && [Sockets] > "0" # [Salvage] == "true"
 
-//[Rarity] == "Normal" && [Quality] > "0" # [Salvage] == "true"
-//[Rarity] == "Magic" && [Quality] > "0" # [Salvage] == "true"
+[Rarity] == "Normal" && [Quality] > "0" && [Category] != "Charm" # [Salvage] == "true"
+[Rarity] == "Magic" && [Quality] > "0" && [Category] != "Charm" # [Salvage] == "true"
 
 
 /////////////////////////////////////////////////////////////////////////////////////
@@ -159,32 +163,404 @@
 //                                                                                 //
 /////////////////////////////////////////////////////////////////////////////////////
 
-
-[Type] == "Arcanist's Etcher" # [StashItem] == "true"
+[Type] == "Orb of Augmentation" # [StashItem] == "true"
+[Type] == "Greater Orb of Augmentation" # [StashItem] == "true"
+[Type] == "Perfect Orb of Augmentation" # [StashItem] == "true"
+[Type] == "Orb of Transmutation" # [StashItem] == "true"
+[Type] == "Greater Orb of Transmutation" # [StashItem] == "true"
+[Type] == "Perfect Orb of Transmutation" # [StashItem] == "true"
+[Type] == "Regal Orb" # [StashItem] == "true"
+[Type] == "Greater Regal Orb" # [StashItem] == "true"
+[Type] == "Perfect Regal Orb" # [StashItem] == "true"
+[Type] == "Exalted Orb" # [StashItem] == "true"
+[Type] == "Greater Exalted Orb" # [StashItem] == "true"
+[Type] == "Perfect Exalted Orb" # [StashItem] == "true"
+[Type] == "Chaos Orb" # [StashItem] == "true"
+[Type] == "Greater Chaos Orb" # [StashItem] == "true"
+[Type] == "Perfect Chaos Orb" # [StashItem] == "true"
+[Type] == "Vaal Orb" # [StashItem] == "true"
+[Type] == "Orb of Alchemy" # [StashItem] == "true"
+[Type] == "Divine Orb" # [StashItem] == "true"
+[Type] == "Orb of Chance" # [StashItem] == "true"
+[Type] == "Orb of Annulment" # [StashItem] == "true"
 [Type] == "Artificer's Orb" # [StashItem] == "true"
+[Type] == "Fracturing Orb" # [StashItem] == "true"
+[Type] == "Hinekora's Lock" # [StashItem] == "true"
+[Type] == "Mirror of Kalandra" # [StashItem] == "true"
+[Type] == "Lesser Jeweller's Orb" # [StashItem] == "true"
+[Type] == "Greater Jeweller's Orb" # [StashItem] == "true"
+[Type] == "Perfect Jeweller's Orb" # [StashItem] == "true"
+[Type] == "Transmutation Shard" # [StashItem] == "true"
+[Type] == "Regal Shard" # [StashItem] == "true"
 [Type] == "Artificer's Shard" # [StashItem] == "true"
+[Type] == "Chance Shard" # [StashItem] == "true"
 [Type] == "Armourer's Scrap" # [StashItem] == "true"
 [Type] == "Blacksmith's Whetstone" # [StashItem] == "true"
-[Type] == "Chaos Orb" # [StashItem] == "true"
-[Type] == "Chance Shard" # [StashItem] == "true"
-[Type] == "Divine Orb" # [StashItem] == "true"
-[Type] == "Exalted Orb" # [StashItem] == "true"
+[Type] == "Arcanist's Etcher" # [StashItem] == "true"
+[Type] == "Glassblower's Bauble" # [StashItem] == "true"
 [Type] == "Gemcutter's Prism" # [StashItem] == "true"
-//[Type] == "Gold" # [StashItem] == "true"
-[Type] == "Greater Jeweller's Orb" # [StashItem] == "true"
-[Type] == "Lesser Jeweller's Orb" # [StashItem] == "true"
-[Type] == "Mirror of Kalandra" # [StashItem] == "true"
-[Type] == "Orb of Alchemy" # [StashItem] == "true"
-[Type] == "Orb of Augmentation" # [StashItem] == "true"
-[Type] == "Orb of Annulment" # [StashItem] == "true"
-[Type] == "Orb of Chance" # [StashItem] == "true"
-[Type] == "Orb of Transmutation" # [StashItem] == "true"
-[Type] == "Perfect Jeweller's Orb" # [StashItem] == "true"
-[Type] == "Regal Orb" # [StashItem] == "true"
-[Type] == "Regal Shard" # [StashItem] == "true"
 [Type] == "Scroll of Wisdom" # [StashItem] == "true"
-[Type] == "Transmutation Shard" # [StashItem] == "true"
-[Type] == "Vaal Orb" # [StashItem] == "true"
+[Type] == "Cowardly Fate" # [StashItem] == "true"
+[Type] == "Deadly Fate" # [StashItem] == "true"
+[Type] == "Victorious Fate" # [StashItem] == "true"
+[Type] == "Ancient Crisis Fragment" # [StashItem] == "true"
+[Type] == "Faded Crisis Fragment" # [StashItem] == "true"
+[Type] == "Weathered Crisis Fragment" # [StashItem] == "true"
+[Type] == "Primary Calamity Fragment" # [StashItem] == "true"
+[Type] == "Secondary Calamity Fragment" # [StashItem] == "true"
+[Type] == "Tertiary Calamity Fragment" # [StashItem] == "true"
+[Type] == "Twilight Reliquary Key" # [StashItem] == "true"
+[Type] == "Xesht's Reliquary Key" # [StashItem] == "true"
+[Type] == "The Trialmaster's Reliquary Key" # [StashItem] == "true"
+[Type] == "Ritualistic Reliquary Key" # [StashItem] == "true"
+[Type] == "Tangmazu's Reliquary Key" # [StashItem] == "true"
+[Type] == "Olroth's Reliquary Key" # [StashItem] == "true"
+[Type] == "The Arbiter's Reliquary Key" # [StashItem] == "true"
+[Type] == "Zarokh's Reliquary Key: Against the Darkness" # [StashItem] == "true"
+[Type] == "Zarokh's Reliquary Key: Sandstorm Visage" # [StashItem] == "true"
+[Type] == "Zarokh's Reliquary Key: Blessed Bonds" # [StashItem] == "true"
+[Type] == "Zarokh's Reliquary Key: Sekhema's Resolve" # [StashItem] == "true"
+[Type] == "Zarokh's Reliquary Key: Temporalis" # [StashItem] == "true"
+[Type] == "Petition Splinter" # [StashItem] == "true"
+[Type] == "Omen of Sinistral Alchemy" # [StashItem] == "true"
+[Type] == "Omen of Dextral Alchemy" # [StashItem] == "true"
+[Type] == "Omen of Sinistral Coronation" # [StashItem] == "true"
+[Type] == "Omen of Dextral Coronation" # [StashItem] == "true"
+[Type] == "Omen of Homogenising Coronation" # [StashItem] == "true"
+[Type] == "Omen of Refreshment" # [StashItem] == "true"
+[Type] == "Omen of Resurgence" # [StashItem] == "true"
+[Type] == "Omen of Corruption" # [StashItem] == "true"
+[Type] == "Omen of Amelioration" # [StashItem] == "true"
+[Type] == "Omen of Sinistral Exaltation" # [StashItem] == "true"
+[Type] == "Omen of Dextral Exaltation" # [StashItem] == "true"
+[Type] == "Omen of Homogenising Exaltation" # [StashItem] == "true"
+[Type] == "Omen of Catalysing Exaltation" # [StashItem] == "true"
+[Type] == "Omen of Answered Prayers" # [StashItem] == "true"
+[Type] == "Omen of the Hunt" # [StashItem] == "true"
+[Type] == "Omen of Reinforcements" # [StashItem] == "true"
+[Type] == "Omen of Secret Compartments" # [StashItem] == "true"
+[Type] == "Omen of Greater Annulment" # [StashItem] == "true"
+[Type] == "Omen of Whittling" # [StashItem] == "true"
+[Type] == "Omen of Sinistral Erasure" # [StashItem] == "true"
+[Type] == "Omen of Dextral Erasure" # [StashItem] == "true"
+[Type] == "Omen of Chaotic Rarity" # [StashItem] == "true"
+[Type] == "Omen of Chaotic Quantity" # [StashItem] == "true"
+[Type] == "Omen of Chaotic Monsters" # [StashItem] == "true"
+[Type] == "Omen of Sinistral Annulment" # [StashItem] == "true"
+[Type] == "Omen of Dextral Annulment" # [StashItem] == "true"
+[Type] == "Omen of Chance" # [StashItem] == "true"
+[Type] == "Omen of the Ancients" # [StashItem] == "true"
+[Type] == "Omen of Dextral Crystallisation" # [StashItem] == "true"
+[Type] == "Omen of Sinistral Crystallisation" # [StashItem] == "true"
+[Type] == "Omen of Greater Exaltation" # [StashItem] == "true"
+[Type] == "Omen of the Blessed" # [StashItem] == "true"
+[Type] == "Omen of Sanctification" # [StashItem] == "true"
+[Type] == "Omen of Gambling" # [StashItem] == "true"
+[Type] == "Omen of Bartering" # [StashItem] == "true"
+[Type] == "Omen of Recombination" # [StashItem] == "true"
+[Type] == "Lesser Essence of the Body" # [StashItem] == "true"
+[Type] == "Lesser Essence of the Mind" # [StashItem] == "true"
+[Type] == "Lesser Essence of Enhancement" # [StashItem] == "true"
+[Type] == "Lesser Essence of Abrasion" # [StashItem] == "true"
+[Type] == "Lesser Essence of Flames" # [StashItem] == "true"
+[Type] == "Lesser Essence of Insulation" # [StashItem] == "true"
+[Type] == "Lesser Essence of Ice" # [StashItem] == "true"
+[Type] == "Lesser Essence of Thawing" # [StashItem] == "true"
+[Type] == "Lesser Essence of Electricity" # [StashItem] == "true"
+[Type] == "Lesser Essence of Grounding" # [StashItem] == "true"
+[Type] == "Lesser Essence of Ruin" # [StashItem] == "true"
+[Type] == "Lesser Essence of Command" # [StashItem] == "true"
+[Type] == "Lesser Essence of Battle" # [StashItem] == "true"
+[Type] == "Lesser Essence of Sorcery" # [StashItem] == "true"
+[Type] == "Lesser Essence of Haste" # [StashItem] == "true"
+[Type] == "Lesser Essence of Alacrity" # [StashItem] == "true"
+[Type] == "Lesser Essence of the Infinite" # [StashItem] == "true"
+[Type] == "Lesser Essence of Seeking" # [StashItem] == "true"
+[Type] == "Lesser Essence of Opulence" # [StashItem] == "true"
+[Type] == "Essence of the Body" # [StashItem] == "true"
+[Type] == "Essence of the Mind" # [StashItem] == "true"
+[Type] == "Essence of Enhancement" # [StashItem] == "true"
+[Type] == "Essence of Abrasion" # [StashItem] == "true"
+[Type] == "Essence of Flames" # [StashItem] == "true"
+[Type] == "Essence of Insulation" # [StashItem] == "true"
+[Type] == "Essence of Ice" # [StashItem] == "true"
+[Type] == "Essence of Thawing" # [StashItem] == "true"
+[Type] == "Essence of Electricity" # [StashItem] == "true"
+[Type] == "Essence of Grounding" # [StashItem] == "true"
+[Type] == "Essence of Ruin" # [StashItem] == "true"
+[Type] == "Essence of Command" # [StashItem] == "true"
+[Type] == "Essence of Battle" # [StashItem] == "true"
+[Type] == "Essence of Sorcery" # [StashItem] == "true"
+[Type] == "Essence of Haste" # [StashItem] == "true"
+[Type] == "Essence of Alacrity" # [StashItem] == "true"
+[Type] == "Essence of the Infinite" # [StashItem] == "true"
+[Type] == "Essence of Seeking" # [StashItem] == "true"
+[Type] == "Essence of Opulence" # [StashItem] == "true"
+[Type] == "Greater Essence of the Body" # [StashItem] == "true"
+[Type] == "Greater Essence of the Mind" # [StashItem] == "true"
+[Type] == "Greater Essence of Enhancement" # [StashItem] == "true"
+[Type] == "Greater Essence of the Infinite" # [StashItem] == "true"
+[Type] == "Greater Essence of Flames" # [StashItem] == "true"
+[Type] == "Greater Essence of Insulation" # [StashItem] == "true"
+[Type] == "Greater Essence of Ice" # [StashItem] == "true"
+[Type] == "Greater Essence of Thawing" # [StashItem] == "true"
+[Type] == "Greater Essence of Electricity" # [StashItem] == "true"
+[Type] == "Greater Essence of Grounding" # [StashItem] == "true"
+[Type] == "Greater Essence of Abrasion" # [StashItem] == "true"
+[Type] == "Greater Essence of Battle" # [StashItem] == "true"
+[Type] == "Greater Essence of Sorcery" # [StashItem] == "true"
+[Type] == "Greater Essence of Ruin" # [StashItem] == "true"
+[Type] == "Greater Essence of Command" # [StashItem] == "true"
+[Type] == "Greater Essence of Haste" # [StashItem] == "true"
+[Type] == "Greater Essence of Alacrity" # [StashItem] == "true"
+[Type] == "Greater Essence of Seeking" # [StashItem] == "true"
+[Type] == "Greater Essence of Opulence" # [StashItem] == "true"
+[Type] == "Perfect Essence of the Body" # [StashItem] == "true"
+[Type] == "Perfect Essence of the Mind" # [StashItem] == "true"
+[Type] == "Perfect Essence of Enhancement" # [StashItem] == "true"
+[Type] == "Perfect Essence of Abrasion" # [StashItem] == "true"
+[Type] == "Perfect Essence of Flames" # [StashItem] == "true"
+[Type] == "Perfect Essence of Insulation" # [StashItem] == "true"
+[Type] == "Perfect Essence of Ice" # [StashItem] == "true"
+[Type] == "Perfect Essence of Thawing" # [StashItem] == "true"
+[Type] == "Perfect Essence of Electricity" # [StashItem] == "true"
+[Type] == "Perfect Essence of Grounding" # [StashItem] == "true"
+[Type] == "Perfect Essence of Ruin" # [StashItem] == "true"
+[Type] == "Perfect Essence of Command" # [StashItem] == "true"
+[Type] == "Perfect Essence of Battle" # [StashItem] == "true"
+[Type] == "Perfect Essence of Sorcery" # [StashItem] == "true"
+[Type] == "Perfect Essence of Haste" # [StashItem] == "true"
+[Type] == "Perfect Essence of Alacrity" # [StashItem] == "true"
+[Type] == "Perfect Essence of the Infinite" # [StashItem] == "true"
+[Type] == "Perfect Essence of Seeking" # [StashItem] == "true"
+[Type] == "Perfect Essence of Opulence" # [StashItem] == "true"
+[Type] == "Essence of Hysteria" # [StashItem] == "true"
+[Type] == "Essence of Delirium" # [StashItem] == "true"
+[Type] == "Essence of Horror" # [StashItem] == "true"
+[Type] == "Essence of Insanity" # [StashItem] == "true"
+[Type] == "Essence of the Abyss" # [StashItem] == "true"
+[Type] == "Breach Splinter" # [StashItem] == "true"
+[Type] == "Flesh Catalyst" # [StashItem] == "true"
+[Type] == "Neural Catalyst" # [StashItem] == "true"
+[Type] == "Carapace Catalyst" # [StashItem] == "true"
+[Type] == "Adaptive Catalyst" # [StashItem] == "true"
+[Type] == "Xoph's Catalyst" # [StashItem] == "true"
+[Type] == "Tul's Catalyst" # [StashItem] == "true"
+[Type] == "Esh's Catalyst" # [StashItem] == "true"
+[Type] == "Uul-Netol's Catalyst" # [StashItem] == "true"
+[Type] == "Reaver Catalyst" # [StashItem] == "true"
+[Type] == "Sibilant Catalyst" # [StashItem] == "true"
+[Type] == "Chayula's Catalyst" # [StashItem] == "true"
+[Type] == "Skittering Catalyst" # [StashItem] == "true"
+[Type] == "Simulacrum Splinter" # [StashItem] == "true"
+[Type] == "Diluted Liquid Ire" # [StashItem] == "true"
+[Type] == "Diluted Liquid Guilt" # [StashItem] == "true"
+[Type] == "Diluted Liquid Greed" # [StashItem] == "true"
+[Type] == "Liquid Paranoia" # [StashItem] == "true"
+[Type] == "Liquid Envy" # [StashItem] == "true"
+[Type] == "Liquid Disgust" # [StashItem] == "true"
+[Type] == "Liquid Despair" # [StashItem] == "true"
+[Type] == "Concentrated Liquid Fear" # [StashItem] == "true"
+[Type] == "Concentrated Liquid Suffering" # [StashItem] == "true"
+[Type] == "Concentrated Liquid Isolation" # [StashItem] == "true"
+[Type] == "Runic Splinter" # [StashItem] == "true"
+[Type] == "Broken Circle Artifact" # [StashItem] == "true"
+[Type] == "Black Scythe Artifact" # [StashItem] == "true"
+[Type] == "Order Artifact" # [StashItem] == "true"
+[Type] == "Sun Artifact" # [StashItem] == "true"
+[Type] == "Exotic Coinage" # [StashItem] == "true"
+[Type] == "Lesser Desert Rune" # [StashItem] == "true"
+[Type] == "Desert Rune" # [StashItem] == "true"
+[Type] == "Greater Desert Rune" # [StashItem] == "true"
+[Type] == "Lesser Glacial Rune" # [StashItem] == "true"
+[Type] == "Glacial Rune" # [StashItem] == "true"
+[Type] == "Greater Glacial Rune" # [StashItem] == "true"
+[Type] == "Lesser Storm Rune" # [StashItem] == "true"
+[Type] == "Storm Rune" # [StashItem] == "true"
+[Type] == "Greater Storm Rune" # [StashItem] == "true"
+[Type] == "Lesser Iron Rune" # [StashItem] == "true"
+[Type] == "Iron Rune" # [StashItem] == "true"
+[Type] == "Greater Iron Rune" # [StashItem] == "true"
+[Type] == "Lesser Body Rune" # [StashItem] == "true"
+[Type] == "Body Rune" # [StashItem] == "true"
+[Type] == "Greater Body Rune" # [StashItem] == "true"
+[Type] == "Lesser Mind Rune" # [StashItem] == "true"
+[Type] == "Mind Rune" # [StashItem] == "true"
+[Type] == "Greater Mind Rune" # [StashItem] == "true"
+[Type] == "Lesser Vision Rune" # [StashItem] == "true"
+[Type] == "Vision Rune" # [StashItem] == "true"
+[Type] == "Greater Vision Rune" # [StashItem] == "true"
+[Type] == "Lesser Rebirth Rune" # [StashItem] == "true"
+[Type] == "Rebirth Rune" # [StashItem] == "true"
+[Type] == "Greater Rebirth Rune" # [StashItem] == "true"
+[Type] == "Lesser Inspiration Rune" # [StashItem] == "true"
+[Type] == "Inspiration Rune" # [StashItem] == "true"
+[Type] == "Greater Inspiration Rune" # [StashItem] == "true"
+[Type] == "Lesser Stone Rune" # [StashItem] == "true"
+[Type] == "Stone Rune" # [StashItem] == "true"
+[Type] == "Greater Stone Rune" # [StashItem] == "true"
+[Type] == "Greater Rune of Leadership" # [StashItem] == "true"
+[Type] == "Greater Rune of Tithing" # [StashItem] == "true"
+[Type] == "Greater Rune of Alacrity" # [StashItem] == "true"
+[Type] == "Greater Rune of Nobility" # [StashItem] == "true"
+[Type] == "Farrul's Rune of the Hunt" # [StashItem] == "true"
+[Type] == "Thane Myrk's Rune of Summer" # [StashItem] == "true"
+[Type] == "Lady Hestra's Rune of Winter" # [StashItem] == "true"
+[Type] == "Thane Leld's Rune of Spring" # [StashItem] == "true"
+[Type] == "Fenumus' Rune of Agony" # [StashItem] == "true"
+[Type] == "Thane Girt's Rune of Wildness" # [StashItem] == "true"
+[Type] == "Hedgewitch Assandra's Rune of Wisdom" # [StashItem] == "true"
+[Type] == "Saqawal's Rune of the Sky" # [StashItem] == "true"
+[Type] == "The Greatwolf's Rune of Willpower" # [StashItem] == "true"
+[Type] == "Craiceann's Rune of Recovery" # [StashItem] == "true"
+[Type] == "Craiceann's Rune of Warding" # [StashItem] == "true"
+[Type] == "Countess Seske's Rune of Archery" # [StashItem] == "true"
+[Type] == "Saqawal's Rune of Erosion" # [StashItem] == "true"
+[Type] == "Saqawal's Rune of Memory" # [StashItem] == "true"
+[Type] == "The Greatwolf's Rune of Claws" # [StashItem] == "true"
+[Type] == "Courtesan Mannan's Rune of Cruelty" # [StashItem] == "true"
+[Type] == "Thane Grannell's Rune of Mastery" # [StashItem] == "true"
+[Type] == "Fenumus' Rune of Spinning" # [StashItem] == "true"
+[Type] == "Fenumus' Rune of Draining" # [StashItem] == "true"
+[Type] == "Farrul's Rune of Grace" # [StashItem] == "true"
+[Type] == "Farrul's Rune of the Chase" # [StashItem] == "true"
+[Type] == "Lesser Robust Rune" # [StashItem] == "true"
+[Type] == "Robust Rune" # [StashItem] == "true"
+[Type] == "Greater Robust Rune" # [StashItem] == "true"
+[Type] == "Lesser Adept Rune" # [StashItem] == "true"
+[Type] == "Adept Rune" # [StashItem] == "true"
+[Type] == "Greater Adept Rune" # [StashItem] == "true"
+[Type] == "Lesser Resolve Rune" # [StashItem] == "true"
+[Type] == "Resolve Rune" # [StashItem] == "true"
+[Type] == "Greater Resolve Rune" # [StashItem] == "true"
+[Type] == "Soul Core of Topotante" # [StashItem] == "true"
+[Type] == "Soul Core of Tacati" # [StashItem] == "true"
+[Type] == "Soul Core of Opiloti" # [StashItem] == "true"
+[Type] == "Soul Core of Jiquani" # [StashItem] == "true"
+[Type] == "Soul Core of Zalatl" # [StashItem] == "true"
+[Type] == "Soul Core of Citaqualotl" # [StashItem] == "true"
+[Type] == "Soul Core of Puhuarte" # [StashItem] == "true"
+[Type] == "Soul Core of Tzamoto" # [StashItem] == "true"
+[Type] == "Soul Core of Xopec" # [StashItem] == "true"
+[Type] == "Soul Core of Quipolatl" # [StashItem] == "true"
+[Type] == "Soul Core of Ticaba" # [StashItem] == "true"
+[Type] == "Soul Core of Atmohua" # [StashItem] == "true"
+[Type] == "Soul Core of Cholotl" # [StashItem] == "true"
+[Type] == "Soul Core of Zantipi" # [StashItem] == "true"
+[Type] == "Soul Core of Azcapa" # [StashItem] == "true"
+[Type] == "Atmohua's Soul Core of Retreat" # [StashItem] == "true"
+[Type] == "Hayoxi's Soul Core of Heatproofing" # [StashItem] == "true"
+[Type] == "Zalatl's Soul Core of Insulation" # [StashItem] == "true"
+[Type] == "Topotante's Soul Core of Dampening" # [StashItem] == "true"
+[Type] == "Opiloti's Soul Core of Assault" # [StashItem] == "true"
+[Type] == "Guatelitzi's Soul Core of Endurance" # [StashItem] == "true"
+[Type] == "Xopec's Soul Core of Power" # [StashItem] == "true"
+[Type] == "Xipocado's Soul Core of Dominion" # [StashItem] == "true"
+[Type] == "Citaqualotl's Soul Core of Foulness" # [StashItem] == "true"
+[Type] == "Cholotl's Soul Core of War" # [StashItem] == "true"
+[Type] == "Tacati's Soul Core of Affliction" # [StashItem] == "true"
+[Type] == "Quipolatl's Soul Core of Flow" # [StashItem] == "true"
+[Type] == "Tzamoto's Soul Core of Ferocity" # [StashItem] == "true"
+[Type] == "Uromoti's Soul Core of Attenuation" # [StashItem] == "true"
+[Type] == "Estazunti's Soul Core of Convalescence" # [StashItem] == "true"
+[Type] == "Bear Talisman" # [StashItem] == "true"
+[Type] == "Primate Talisman" # [StashItem] == "true"
+[Type] == "Stag Talisman" # [StashItem] == "true"
+[Type] == "Boar Talisman" # [StashItem] == "true"
+[Type] == "Serpent Talisman" # [StashItem] == "true"
+[Type] == "Wolf Talisman" # [StashItem] == "true"
+[Type] == "Cat Talisman" # [StashItem] == "true"
+[Type] == "Owl Talisman" # [StashItem] == "true"
+[Type] == "Ox Talisman" # [StashItem] == "true"
+[Type] == "Fox Talisman" # [StashItem] == "true"
+[Type] == "Rabbit Talisman" # [StashItem] == "true"
+[Type] == "Talisman of Thruldana" # [StashItem] == "true"
+[Type] == "Talisman of Maxarius" # [StashItem] == "true"
+[Type] == "Talisman of Eeshta" # [StashItem] == "true"
+[Type] == "Talisman of Egrin" # [StashItem] == "true"
+[Type] == "Talisman of Ralakesh" # [StashItem] == "true"
+[Type] == "Talisman of Sirrius" # [StashItem] == "true"
+[Type] == "Talisman of Grold" # [StashItem] == "true"
+[Type] == "Gnawed Jawbone" # [StashItem] == "true"
+[Type] == "Preserved Jawbone" # [StashItem] == "true"
+[Type] == "Ancient Jawbone" # [StashItem] == "true"
+[Type] == "Gnawed Rib" # [StashItem] == "true"
+[Type] == "Preserved Rib" # [StashItem] == "true"
+[Type] == "Ancient Rib" # [StashItem] == "true"
+[Type] == "Gnawed Collarbone" # [StashItem] == "true"
+[Type] == "Preserved Collarbone" # [StashItem] == "true"
+[Type] == "Ancient Collarbone" # [StashItem] == "true"
+[Type] == "Preserved Cranium" # [StashItem] == "true"
+[Type] == "Preserved Vertebrae" # [StashItem] == "true"
+[Type] == "Omen of Abyssal Echoes" # [StashItem] == "true"
+[Type] == "Omen of the Sovereign" # [StashItem] == "true"
+[Type] == "Omen of the Liege" # [StashItem] == "true"
+[Type] == "Omen of the Blackblooded" # [StashItem] == "true"
+[Type] == "Omen of Putrefaction" # [StashItem] == "true"
+[Type] == "Omen of Light" # [StashItem] == "true"
+[Type] == "Omen of Sinistral Necromancy" # [StashItem] == "true"
+[Type] == "Omen of Dextral Necromancy" # [StashItem] == "true"
+[Type] == "Kulemak's Invitation" # [StashItem] == "true"
+[Type] == "Atalui's Bloodletting" # [StashItem] == "true"
+[Type] == "Einhar's Beastrite" # [StashItem] == "true"
+[Type] == "Brutus' Brain" # [StashItem] == "true"
+[Type] == "Uruk's Smelting" # [StashItem] == "true"
+[Type] == "Paquate's Pact" # [StashItem] == "true"
+[Type] == "Vilenta's Propulsion" # [StashItem] == "true"
+[Type] == "Ailith's Chimes" # [StashItem] == "true"
+[Type] == "Tecrod's Revenge" # [StashItem] == "true"
+[Type] == "Doedre's Undoing" # [StashItem] == "true"
+[Type] == "Ratha's Assault" # [StashItem] == "true"
+[Type] == "Arjun's Medal" # [StashItem] == "true"
+[Type] == "Kaom's Madness" # [StashItem] == "true"
+[Type] == "Sione's Temper" # [StashItem] == "true"
+[Type] == "Ixchel's Torment" # [StashItem] == "true"
+[Type] == "Romira's Requital" # [StashItem] == "true"
+[Type] == "Tawhoa's Tending" # [StashItem] == "true"
+[Type] == "Piety's Mercy" # [StashItem] == "true"
+[Type] == "Dialla's Desire" # [StashItem] == "true"
+[Type] == "Kalisa's Crescendo" # [StashItem] == "true"
+[Type] == "Kulemak's Dominion" # [StashItem] == "true"
+[Type] == "Xoph's Pyre" # [StashItem] == "true"
+[Type] == "Esh's Radiance" # [StashItem] == "true"
+[Type] == "Tul's Stillness" # [StashItem] == "true"
+[Type] == "Uul-Netol's Embrace" # [StashItem] == "true"
+[Type] == "Rakiata's Flow" # [StashItem] == "true"
+[Type] == "Garukhan's Resolve" # [StashItem] == "true"
+[Type] == "Tacati's Ire" # [StashItem] == "true"
+[Type] == "Rigwald's Ferocity" # [StashItem] == "true"
+[Type] == "Uhtred's Exodus" # [StashItem] == "true"
+[Type] == "Uhtred's Omen" # [StashItem] == "true"
+[Type] == "Uhtred's Augury" # [StashItem] == "true"
+[Type] == "Daresso's Passion" # [StashItem] == "true"
+[Type] == "Ahn's Citadel" # [StashItem] == "true"
+[Type] == "Atziri's Allure" # [StashItem] == "true"
+[Type] == "Zarokh's Refrain" # [StashItem] == "true"
+[Type] == "Kurgal's Leash" # [StashItem] == "true"
+[Type] == "Varashta's Blessing" # [StashItem] == "true"
+[Type] == "Arbiter's Ignition" # [StashItem] == "true"
+[Type] == "Arakaali's Lust" # [StashItem] == "true"
+
+
+/////////////////////////////////////////////////////////////////////////////////////
+//                                                                                 //
+//                                     Gems     	                               //
+//                                                                                 //
+/////////////////////////////////////////////////////////////////////////////////////
+
+
+[Type] == "Uncut Skill Gem" && [GemLevel] >= "20" # [StashItem] == "true"
+[Type] == "Uncut Spirit Gem" && [GemLevel] >= "20" # [StashItem] == "true"
+
+
+/////////////////////////////////////////////////////////////////////////////////////
+//                                                                                 //
+//                         Disenchant Uniques for Chance Orbs    	               //
+//                                                                                 //
+/////////////////////////////////////////////////////////////////////////////////////
+
+// With this rule uncommented, bot will pickup every uniques and disenchant them if they don't match another stashitem rule in the pickit
+[Rarity] == "Unique" # [UniqueName] == "PICK ME AND DISENCHANT ME" && [StashItem] == "true" 
 
 
 /////////////////////////////////////////////////////////////////////////////////////
@@ -328,6 +704,7 @@
 [Type] == "Reaver Catalyst" # [StashItem] == "true"
 [Type] == "Sibilant Catalyst" # [StashItem] == "true"
 [Type] == "Volatile Catalyst" # [StashItem] == "true"
+[Type] == "Adaptive Catalyst" # [StashItem] == "true"
 
 
 /////////////////////////////////////////////////////////////////////////////////////
@@ -373,145 +750,23 @@
 /////////////////////////////////////////////////////////////////////////////////////
 
 
-[Type] == "Waystone (Tier 1)" && [Rarity] == "Normal" # [StashItem] == "true"
-[Type] == "Waystone (Tier 1)" && [Rarity] == "Magic" # [StashItem] == "true"
-[Type] == "Waystone (Tier 1)" && [Rarity] == "Rare" # [StashItem] == "true"
-
-[Type] == "Waystone (Tier 2)" && [Rarity] == "Normal" # [StashItem] == "true"
-[Type] == "Waystone (Tier 2)" && [Rarity] == "Magic" # [StashItem] == "true"
-[Type] == "Waystone (Tier 2)" && [Rarity] == "Rare" # [StashItem] == "true"
-
-[Type] == "Waystone (Tier 3)" && [Rarity] == "Normal" # [StashItem] == "true"
-[Type] == "Waystone (Tier 3)" && [Rarity] == "Magic" # [StashItem] == "true"
-[Type] == "Waystone (Tier 3)" && [Rarity] == "Rare" # [StashItem] == "true"
-
-[Type] == "Waystone (Tier 4)" && [Rarity] == "Normal" # [StashItem] == "true"
-[Type] == "Waystone (Tier 4)" && [Rarity] == "Magic" # [StashItem] == "true"
-[Type] == "Waystone (Tier 4)" && [Rarity] == "Rare" # [StashItem] == "true"
-
-[Type] == "Waystone (Tier 5)" && [Rarity] == "Normal" # [StashItem] == "true"
-[Type] == "Waystone (Tier 5)" && [Rarity] == "Magic" # [StashItem] == "true"
-[Type] == "Waystone (Tier 5)" && [Rarity] == "Rare" # [StashItem] == "true"
-
-[Type] == "Waystone (Tier 6)" && [Rarity] == "Normal" # [StashItem] == "true"
-[Type] == "Waystone (Tier 6)" && [Rarity] == "Magic" # [StashItem] == "true"
-[Type] == "Waystone (Tier 6)" && [Rarity] == "Rare" # [StashItem] == "true"
-
-[Type] == "Waystone (Tier 7)" && [Rarity] == "Normal" # [StashItem] == "true"
-[Type] == "Waystone (Tier 7)" && [Rarity] == "Magic" # [StashItem] == "true"
-[Type] == "Waystone (Tier 7)" && [Rarity] == "Rare" # [StashItem] == "true"
-
-[Type] == "Waystone (Tier 8)" && [Rarity] == "Normal" # [StashItem] == "true"
-[Type] == "Waystone (Tier 8)" && [Rarity] == "Magic" # [StashItem] == "true"
-[Type] == "Waystone (Tier 8)" && [Rarity] == "Rare" # [StashItem] == "true"
-
-[Type] == "Waystone (Tier 9)" && [Rarity] == "Normal" # [StashItem] == "true"
-[Type] == "Waystone (Tier 9)" && [Rarity] == "Magic" # [StashItem] == "true"
-[Type] == "Waystone (Tier 9)" && [Rarity] == "Rare" # [StashItem] == "true"
-
-[Type] == "Waystone (Tier 10)" && [Rarity] == "Normal" # [StashItem] == "true"
-[Type] == "Waystone (Tier 10)" && [Rarity] == "Magic" # [StashItem] == "true"
-[Type] == "Waystone (Tier 10)" && [Rarity] == "Rare" # [StashItem] == "true"
-
-[Type] == "Waystone (Tier 11)" && [Rarity] == "Normal" # [StashItem] == "true"
-[Type] == "Waystone (Tier 11)" && [Rarity] == "Magic" # [StashItem] == "true"
-[Type] == "Waystone (Tier 11)" && [Rarity] == "Rare" # [StashItem] == "true"
-
-[Type] == "Waystone (Tier 12)" && [Rarity] == "Normal" # [StashItem] == "true"
-[Type] == "Waystone (Tier 12)" && [Rarity] == "Magic" # [StashItem] == "true"
-[Type] == "Waystone (Tier 12)" && [Rarity] == "Rare" # [StashItem] == "true"
-
-[Type] == "Waystone (Tier 13)" && [Rarity] == "Normal" # [StashItem] == "true"
-[Type] == "Waystone (Tier 13)" && [Rarity] == "Magic" # [StashItem] == "true"
-[Type] == "Waystone (Tier 13)" && [Rarity] == "Rare" # [StashItem] == "true"
-
-[Type] == "Waystone (Tier 14)" && [Rarity] == "Normal" # [StashItem] == "true"
-[Type] == "Waystone (Tier 14)" && [Rarity] == "Magic" # [StashItem] == "true"
-[Type] == "Waystone (Tier 14)" && [Rarity] == "Rare" # [StashItem] == "true"
-
-[Type] == "Waystone (Tier 15)" && [Rarity] == "Normal" # [StashItem] == "true"
-[Type] == "Waystone (Tier 15)" && [Rarity] == "Magic" # [StashItem] == "true"
-[Type] == "Waystone (Tier 15)" && [Rarity] == "Rare" # [StashItem] == "true"
-
-[Type] == "Waystone (Tier 16)" && [Rarity] == "Normal" # [StashItem] == "true"
-[Type] == "Waystone (Tier 16)" && [Rarity] == "Magic" # [StashItem] == "true"
-[Type] == "Waystone (Tier 16)" && [Rarity] == "Rare" # [StashItem] == "true"
+[Category] == "Waystone" && [Rarity] == "Normal" && [WaystoneTier] >= "1" # [StashItem] == "true"
+[Category] == "Waystone" && [Rarity] == "Magic" && [WaystoneTier] >= "1" # [StashItem] == "true"
+[Category] == "Waystone" && [Rarity] == "Rare" && [WaystoneTier] >= "1" # [StashItem] == "true"
 
 
 /////////////////////////////////////////
 ///                                   ///
-///          Delirious Maps           ///
+///        Delirious Waystones        ///
 ///                                   ///
 /////////////////////////////////////////
 
-
-[Type] == "Waystone (Tier 1)" && [Rarity] == "Normal" # [map_endgame_fog_depth] >= "1" [StashItem] == "true"
-[Type] == "Waystone (Tier 1)" && [Rarity] == "Magic" # [map_endgame_fog_depth] >= "1" [StashItem] == "true"
-[Type] == "Waystone (Tier 1)" && [Rarity] == "Rare" # [map_endgame_fog_depth] >= "1" [StashItem] == "true"
-
-[Type] == "Waystone (Tier 2)" && [Rarity] == "Normal" # [map_endgame_fog_depth] >= "1" [StashItem] == "true"
-[Type] == "Waystone (Tier 2)" && [Rarity] == "Magic" # [map_endgame_fog_depth] >= "1" [StashItem] == "true"
-[Type] == "Waystone (Tier 2)" && [Rarity] == "Rare" # [map_endgame_fog_depth] >= "1" [StashItem] == "true"
-
-[Type] == "Waystone (Tier 3)" && [Rarity] == "Normal" # [map_endgame_fog_depth] >= "1" [StashItem] == "true"
-[Type] == "Waystone (Tier 3)" && [Rarity] == "Magic" # [map_endgame_fog_depth] >= "1" [StashItem] == "true"
-[Type] == "Waystone (Tier 3)" && [Rarity] == "Rare" # [map_endgame_fog_depth] >= "1" [StashItem] == "true"
-
-[Type] == "Waystone (Tier 4)" && [Rarity] == "Normal" # [map_endgame_fog_depth] >= "1" [StashItem] == "true"
-[Type] == "Waystone (Tier 4)" && [Rarity] == "Magic" # [map_endgame_fog_depth] >= "1" [StashItem] == "true"
-[Type] == "Waystone (Tier 4)" && [Rarity] == "Rare" # [map_endgame_fog_depth] >= "1" [StashItem] == "true"
-
-[Type] == "Waystone (Tier 5)" && [Rarity] == "Normal" # [map_endgame_fog_depth] >= "1" [StashItem] == "true"
-[Type] == "Waystone (Tier 5)" && [Rarity] == "Magic" # [map_endgame_fog_depth] >= "1" [StashItem] == "true"
-[Type] == "Waystone (Tier 5)" && [Rarity] == "Rare" # [map_endgame_fog_depth] >= "1" [StashItem] == "true"
-
-[Type] == "Waystone (Tier 6)" && [Rarity] == "Normal" # [map_endgame_fog_depth] >= "1" [StashItem] == "true"
-[Type] == "Waystone (Tier 6)" && [Rarity] == "Magic" # [map_endgame_fog_depth] >= "1" [StashItem] == "true"
-[Type] == "Waystone (Tier 6)" && [Rarity] == "Rare" # [map_endgame_fog_depth] >= "1" [StashItem] == "true"
-
-[Type] == "Waystone (Tier 7)" && [Rarity] == "Normal" # [map_endgame_fog_depth] >= "1" [StashItem] == "true"
-[Type] == "Waystone (Tier 7)" && [Rarity] == "Magic" # [map_endgame_fog_depth] >= "1" [StashItem] == "true"
-[Type] == "Waystone (Tier 7)" && [Rarity] == "Rare" # [map_endgame_fog_depth] >= "1" [StashItem] == "true"
-
-[Type] == "Waystone (Tier 8)" && [Rarity] == "Normal" # [map_endgame_fog_depth] >= "1" [StashItem] == "true"
-[Type] == "Waystone (Tier 8)" && [Rarity] == "Magic" # [map_endgame_fog_depth] >= "1" [StashItem] == "true"
-[Type] == "Waystone (Tier 8)" && [Rarity] == "Rare" # [map_endgame_fog_depth] >= "1" [StashItem] == "true"
-
-[Type] == "Waystone (Tier 9)" && [Rarity] == "Normal" # [map_endgame_fog_depth] >= "1" [StashItem] == "true"
-[Type] == "Waystone (Tier 9)" && [Rarity] == "Magic" # [map_endgame_fog_depth] >= "1" [StashItem] == "true"
-[Type] == "Waystone (Tier 9)" && [Rarity] == "Rare" # [map_endgame_fog_depth] >= "1" [StashItem] == "true"
-
-[Type] == "Waystone (Tier 10)" && [Rarity] == "Normal" # [map_endgame_fog_depth] >= "1" [StashItem] == "true"
-[Type] == "Waystone (Tier 10)" && [Rarity] == "Magic" # [map_endgame_fog_depth] >= "1" [StashItem] == "true"
-[Type] == "Waystone (Tier 10)" && [Rarity] == "Rare" # [map_endgame_fog_depth] >= "1" [StashItem] == "true"
-
-[Type] == "Waystone (Tier 11)" && [Rarity] == "Normal" # [map_endgame_fog_depth] >= "1" [StashItem] == "true"
-[Type] == "Waystone (Tier 11)" && [Rarity] == "Magic" # [map_endgame_fog_depth] >= "1" [StashItem] == "true"
-[Type] == "Waystone (Tier 11)" && [Rarity] == "Rare" # [map_endgame_fog_depth] >= "1" [StashItem] == "true"
-
-[Type] == "Waystone (Tier 12)" && [Rarity] == "Normal" # [map_endgame_fog_depth] >= "1" [StashItem] == "true"
-[Type] == "Waystone (Tier 12)" && [Rarity] == "Magic" # [map_endgame_fog_depth] >= "1" [StashItem] == "true"
-[Type] == "Waystone (Tier 12)" && [Rarity] == "Rare" # [map_endgame_fog_depth] >= "1" [StashItem] == "true"
-
-[Type] == "Waystone (Tier 13)" && [Rarity] == "Normal" # [map_endgame_fog_depth] >= "1" [StashItem] == "true"
-[Type] == "Waystone (Tier 13)" && [Rarity] == "Magic" # [map_endgame_fog_depth] >= "1" [StashItem] == "true"
-[Type] == "Waystone (Tier 13)" && [Rarity] == "Rare" # [map_endgame_fog_depth] >= "1" [StashItem] == "true"
-
-[Type] == "Waystone (Tier 14)" && [Rarity] == "Normal" # [map_endgame_fog_depth] >= "1" [StashItem] == "true"
-[Type] == "Waystone (Tier 14)" && [Rarity] == "Magic" # [map_endgame_fog_depth] >= "1" [StashItem] == "true"
-[Type] == "Waystone (Tier 14)" && [Rarity] == "Rare" # [map_endgame_fog_depth] >= "1" [StashItem] == "true"
-
-[Type] == "Waystone (Tier 15)" && [Rarity] == "Normal" # [map_endgame_fog_depth] >= "1" [StashItem] == "true"
-[Type] == "Waystone (Tier 15)" && [Rarity] == "Magic" # [map_endgame_fog_depth] >= "1" [StashItem] == "true"
-[Type] == "Waystone (Tier 15)" && [Rarity] == "Rare" # [map_endgame_fog_depth] >= "1" [StashItem] == "true"
-
-[Type] == "Waystone (Tier 16)" && [Rarity] == "Normal" # [map_endgame_fog_depth] >= "1" [StashItem] == "true"
-[Type] == "Waystone (Tier 16)" && [Rarity] == "Magic" # [map_endgame_fog_depth] >= "1" [StashItem] == "true"
-[Type] == "Waystone (Tier 16)" && [Rarity] == "Rare" # [map_endgame_fog_depth] >= "1" [StashItem] == "true"
-
+[Category] == "Waystone" && [Rarity] == "Normal" && [WaystoneTier] >= "1" # [map_endgame_fog_depth] >= "1" && [StashItem] == "true"
+[Category] == "Waystone" && [Rarity] == "Magic" && [WaystoneTier] >= "1" # [map_endgame_fog_depth] >= "1" && [StashItem] == "true"
+[Category] == "Waystone" && [Rarity] == "Rare" && [WaystoneTier] >= "1" # [map_endgame_fog_depth] >= "1" && [StashItem] == "true"
 /////////////////////////////////////////
 ///                                   ///
-///           Special Maps            ///
+///          Special Waystones        ///
 ///                                   ///
 /////////////////////////////////////////
 
@@ -525,7 +780,7 @@
 [Type] == "Cowardly Fate" # [StashItem] == "true"
 [Type] == "Deadly Fate" # [StashItem] == "true"
 [Type] == "Breachstone" # [StashItem] == "true"
-//[Type] == "Inscribed Ultimatum" # [StashItem] == "true"
+// [Type] == "Inscribed Ultimatum" # [StashItem] == "true"
 [Type] == "Expedition Logbook" # [StashItem] == "true"
 
 
@@ -551,9 +806,9 @@
 /////////////////////////////////////////////////////////////////////////////////////
 
 
-//[Type] == "Uncut Skill Gem" && [GemLevel] >= "19" # [StashItem] == "true"
-//[Type] == "Uncut Spirit Gem" && [GemLevel] >= "19" # [StashItem] == "true"
-//[Type] == "Uncut Support Gem" && [GemLevel] == "3" # [StashItem] == "true"
+// [Type] == "Uncut Skill Gem" && [GemLevel] >= "19" # [StashItem] == "true"
+// [Type] == "Uncut Spirit Gem" && [GemLevel] >= "19" # [StashItem] == "true"
+// [Type] == "Uncut Support Gem" && [GemLevel] == "3" # [StashItem] == "true"
 
 /////////////////////////////////////////////////////////////////////////////////////
 //                                                                                 //
@@ -706,7 +961,7 @@
 /////////////////////////////////////////
 
 
-[Type] == "Wrapped Greathelm" && [Rarity] == "Unique" # [UniqueName] == "Black Sun Crest" && [StashItem] == "true"
+//[Type] == "Wrapped Greathelm" && [Rarity] == "Unique" # [UniqueName] == "Black Sun Crest" && [StashItem] == "true"
 [Type] == "Armoured Cap" && [Rarity] == "Unique" # [UniqueName] == "Alpha's Howl" && [StashItem] == "true" 
 [Type] == "Tribal Mask" && [Rarity] == "Unique" # [UniqueName] == "The Vertex" && [StashItem] == "true" 
 [Rarity] == "Unique" # [UniqueName] == "Thrillsteel" && [StashItem] == "true" 
@@ -1524,28 +1779,6 @@
 [Category] == "Jewel" && [Rarity] == "Magic" # [WeightedSum(lightning_damage_+%:2.5,attack_damage_+%:2.5,evasion_rating_+%:2,ailment_effect_+%:2.5,bow_damage_+%:2.5,elemental_damage_+%:2.5,base_projectile_speed_+%:3.5,projectile_damage_+%:2.5,damage_+%_to_rare_and_unique_enemies:2,shock_effect_+%:2)] >= "32" && [WeightedSum(attack_critical_strike_chance_+%:2.5,attack_critical_strike_multiplier_+:2,attack_speed_+%:8.5,bow_attack_speed_+%:8.5,base_maximum_lightning_damage_resistance_%:16)] >= "32" && [StashItem] == "true"
 
 // quarter staff
-[Category] == "Jewel" && [Rarity] == "Magic" # [WeightedSum(quarterstaff_damage_+%:2.5,lightning_damage_+%:2.5,attack_damage_+%:2.5,evasion_rating_+%:2,ailment_effect_+%:2.5,elemental_damage_+%:2.5,damage_+%_to_rare_and_unique_enemies:2,shock_effect_+%:2)] >= "32" && [WeightedSum(attack_critical_strike_chance_+%:2.5,attack_critical_strike_multiplier_+:2,attack_speed_+%:8.5,quarterstaff_attack_speed_+%:8.5,base_maximum_lightning_damage_resistance_%:16)] >= "32" && [StashItem] == "true"
-
-// crossbow
-[Category] == "Jewel" && [Rarity] == "Magic" # [WeightedSum(crossbow_damage_+%:2.5,lightning_damage_+%:2.5,attack_damage_+%:2.5,evasion_rating_+%:2,ailment_effect_+%:2.5,elemental_damage_+%:2.5,damage_+%_to_rare_and_unique_enemies:2,shock_effect_+%:2,base_projectile_speed_+%:3.5,projectile_damage_+%:2.5)] >= "32" && [WeightedSum(attack_critical_strike_chance_+%:2.5,attack_critical_strike_multiplier_+:2,attack_speed_+%:8.5,crossbow_attack_speed_+%:8.5,base_maximum_lightning_damage_resistance_%:16)] >= "32" && [StashItem] == "true",shock_effect_+%:2)] >= "32" && [WeightedSum(attack_critical_strike_chance_+%:2.5,attack_critical_strike_multiplier_+:2,attack_speed_+%:8.5,bow_attack_speed_+%:8.5,base_maximum_lightning_damage_resistance_%:16)] >= "32" && [StashItem] == "true"
-//
-//	
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-// endier_+:2,attack_speed_+%:8.5,bow_att endier_+:2,attack_speed_+%:8.5,bow_att endier_+:2,attack_speed_+%:8.5,bow_att endier_+:2,attack_speed_+%:8.5,bow_attue"
-
-// quarter staff
 //[Category] == "Jewel" && [Rarity] == "Magic" # [WeightedSum(quarterstaff_damage_+%:2.5,lightning_damage_+%:2.5,attack_damage_+%:2.5,evasion_rating_+%:2,ailment_effect_+%:2.5,elemental_damage_+%:2.5,damage_+%_to_rare_and_unique_enemies:2,shock_effect_+%:2)] >= "32" && [WeightedSum(attack_critical_strike_chance_+%:2.5,attack_critical_strike_multiplier_+:2,attack_speed_+%:8.5,quarterstaff_attack_speed_+%:8.5,base_maximum_lightning_damage_resistance_%:16)] >= "32" && [StashI
 
 
@@ -1666,39 +1899,6 @@
 [Rarity] == "Unique" # [UniqueName] == "Lycosidae" && [StashItem] == "true" // Exalted: 52
 [Rarity] == "Unique" # [UniqueName] == "Mask of the Sanguimancer" && [StashItem] == "true" // Exalted: 52
 [Rarity] == "Unique" # [UniqueName] == "Rathpith Globe" && [StashItem] == "true" // Exalted: 52
-[Rarity] == "Unique" # [UniqueName] == "Queen of the Forest" && [StashItem] == "true" // Exalted: 30
-[Rarity] == "Unique" # [UniqueName] == "The Vertex" && [StashItem] == "true" // Exalted: 30
-[Rarity] == "Unique" # [UniqueName] == "The Deepest Tower" && [StashItem] == "true" // Exalted: 20
-[Rarity] == "Unique" # [UniqueName] == "Sunsplinter" && [StashItem] == "true" // Exalted: 20
-[Rarity] == "Unique" # [UniqueName] == "Bones of Ullr" && [StashItem] == "true" // Exalted: 20
-[Rarity] == "Unique" # [UniqueName] == "Thrillsteel" && [StashItem] == "true" // Exalted: 18
-[Rarity] == "Unique" # [UniqueName] == "Death Articulated" && [StashItem] == "true" // Exalted: 17
-[Rarity] == "Unique" # [UniqueName] == "Kaom's Heart" && [StashItem] == "true" // Exalted: 15
-[Rarity] == "Unique" # [UniqueName] == "Solus Ipse" && [StashItem] == "true" // Exalted: 15
-[Rarity] == "Unique" # [UniqueName] == "Skin of the Loyal" && [StashItem] == "true" // Exalted: 15
-[Rarity] == "Unique" # [UniqueName] == "Silks of Veneration" && [StashItem] == "true" // Exalted: 14
-[Rarity] == "Unique" # [UniqueName] == "Mahuxotl's Machination" && [StashItem] == "true" // Exalted: 10
-[Rarity] == "Unique" # [UniqueName] == "The Bringer of Rain" && [StashItem] == "true" // Exalted: 9
-[Rarity] == "Unique" # [UniqueName] == "Perfidy" && [StashItem] == "true" // Exalted: 8
-[Rarity] == "Unique" # [UniqueName] == "Zerphi's Serape" && [StashItem] == "true" // Exalted: 8
-[Rarity] == "Unique" # [UniqueName] == "Morior Invictus" && [StashItem] == "true" // Exalted: 8
-[Rarity] == "Unique" # [UniqueName] == "Kitoko's Current" && [StashItem] == "true" // Exalted: 5
-[Rarity] == "Unique" # [UniqueName] == "Cloak of Defiance" && [StashItem] == "true" // Exalted: 5
-[Rarity] == "Unique" # [UniqueName] == "Assailum" && [StashItem] == "true" // Exalted: 5
-[Rarity] == "Unique" # [UniqueName] == "Cornathaum" && [StashItem] == "true" // Exalted: 4
-[Rarity] == "Unique" # [UniqueName] == "The Three Dragons" && [StashItem] == "true" // Exalted: 3
-[Rarity] == "Unique" # [UniqueName] == "Aerisvane's Wings" && [StashItem] == "true" // Exalted: 3
-[Rarity] == "Unique" # [UniqueName] == "Plaguefinger" && [StashItem] == "true" // Exalted: 3
-[Rarity] == "Unique" # [UniqueName] == "Radiant Grief" && [StashItem] == "true" // Exalted: 3
-[Rarity] == "Unique" # [UniqueName] == "Svalinn" && [StashItem] == "true" // Exalted: 2
-[Rarity] == "Unique" # [UniqueName] == "Trampletoe" && [StashItem] == "true" // Exalted: 2
-[Rarity] == "Unique" # [UniqueName] == "Sine Aequo" && [StashItem] == "true" // Exalted: 2
-[Rarity] == "Unique" # [UniqueName] == "Ab Aeterno" && [StashItem] == "true" // Exalted: 2
-[Rarity] == "Unique" # [UniqueName] == "The Black Insignia" && [StashItem] == "true" // Exalted: 2
-[Rarity] == "Unique" # [UniqueName] == "The Covenant" && [StashItem] == "true" // Exalted: 2
-[Rarity] == "Unique" # [UniqueName] == "Cloak of Flame" && [StashItem] == "true" // Exalted: 2
-[Rarity] == "Unique" # [UniqueName] == "Goldrim" && [StashItem] == "true" // Exalted: 2
-[Rarity] == "Unique" # [UniqueName] == "Atziri's Disdain" && [StashItem] == "true" // Exalted: 2
 
 [Rarity] == "Unique" # [UniqueName] == "Kalandra's Touch" && [StashItem] == "true" // Exalted: 4888
 [Rarity] == "Unique" # [UniqueName] == "Astramentis" && [StashItem] == "true" // Exalted: 2200
@@ -1718,73 +1918,27 @@
 [Rarity] == "Unique" # [UniqueName] == "Sekhema's Resolve" && [StashItem] == "true" // Exalted: 104
 [Rarity] == "Unique" # [UniqueName] == "Levinstone" && [StashItem] == "true" // Exalted: 104
 [Rarity] == "Unique" # [UniqueName] == "Beacon of Azis" && [StashItem] == "true" // Exalted: 55
-[Rarity] == "Unique" # [UniqueName] == "Ingenuity" && [StashItem] == "true" // Exalted: 30
-[Rarity] == "Unique" # [UniqueName] == "Brynabas" && [StashItem] == "true" // Exalted: 20
-[Rarity] == "Unique" # [UniqueName] == "The Pandemonius" && [StashItem] == "true" // Exalted: 20
-[Rarity] == "Unique" # [UniqueName] == "Andvarius" && [StashItem] == "true" // Exalted: 15
-[Rarity] == "Unique" # [UniqueName] == "Call of the Brotherhood" && [StashItem] == "true" // Exalted: 13
-[Rarity] == "Unique" # [UniqueName] == "Doedre's Damning" && [StashItem] == "true" // Exalted: 10
-[Rarity] == "Unique" # [UniqueName] == "Thief's Torment" && [StashItem] == "true" // Exalted: 10
-[Rarity] == "Unique" # [UniqueName] == "Choir of the Storm" && [StashItem] == "true" // Exalted: 10
-[Rarity] == "Unique" # [UniqueName] == "Death Rush" && [StashItem] == "true" // Exalted: 5
-[Rarity] == "Unique" # [UniqueName] == "Infernoclasp" && [StashItem] == "true" // Exalted: 5
-[Rarity] == "Unique" # [UniqueName] == "Venopuncture" && [StashItem] == "true" // Exalted: 4
-[Rarity] == "Unique" # [UniqueName] == "Prized Pain" && [StashItem] == "true" // Exalted: 3
-[Rarity] == "Unique" # [UniqueName] == "Surefooted Sigil" && [StashItem] == "true" // Exalted: 3
-[Rarity] == "Unique" # [UniqueName] == "Carnage Heart" && [StashItem] == "true" // Exalted: 3
-[Rarity] == "Unique" # [UniqueName] == "The Anvil" && [StashItem] == "true" // Exalted: 2
-[Rarity] == "Unique" # [UniqueName] == "Blackheart" && [StashItem] == "true" // Exalted: 2
-[Rarity] == "Unique" # [UniqueName] == "Meginord's Girdle" && [StashItem] == "true" // Exalted: 2
-[Rarity] == "Unique" # [UniqueName] == "Bijouborne" && [StashItem] == "true" // Exalted: 2
-[Rarity] == "Unique" # [UniqueName] == "Fireflower" && [StashItem] == "true" // Exalted: 2
-[Rarity] == "Unique" # [UniqueName] == "Polcirkeln" && [StashItem] == "true" // Exalted: 2
 
 [Rarity] == "Unique" # [UniqueName] == "Rite of Passage" && [StashItem] == "true" // Exalted: 2600
 [Rarity] == "Unique" # [UniqueName] == "Melting Maelstrom" && [StashItem] == "true" // Exalted: 312
 [Rarity] == "Unique" # [UniqueName] == "Olroth's Resolve" && [StashItem] == "true" // Exalted: 312
 [Rarity] == "Unique" # [UniqueName] == "The Fall of the Axe" && [StashItem] == "true" // Exalted: 208
 [Rarity] == "Unique" # [UniqueName] == "For Utopia" && [StashItem] == "true" // Exalted: 104
-[Rarity] == "Unique" # [UniqueName] == "Nascent Hope" && [StashItem] == "true" // Exalted: 20
-[Rarity] == "Unique" # [UniqueName] == "Forsaken Bangle" && [StashItem] == "true" // Exalted: 15
 
 // JEWEL
 [Rarity] == "Unique" # [UniqueName] == "Megalomaniac" && [StashItem] == "true" // Exalted: 1560
 [Rarity] == "Unique" # [UniqueName] == "The Adorned" && [StashItem] == "true" // Exalted: 208
 [Rarity] == "Unique" # [UniqueName] == "Heroic Tragedy" && [StashItem] == "true" // Exalted: 104
-[Rarity] == "Unique" # [UniqueName] == "Against the Darkness" && [StashItem] == "true" // Exalted: 30
-[Rarity] == "Unique" # [UniqueName] == "Controlled Metamorphosis" && [StashItem] == "true" // Exalted: 30
-[Rarity] == "Unique" # [UniqueName] == "Grand Spectrum" && [StashItem] == "true" // Exalted: 15
-[Rarity] == "Unique" # [UniqueName] == "From Nothing" && [StashItem] == "true" // Exalted: 10
-[Rarity] == "Unique" # [UniqueName] == "Prism of Belief" && [StashItem] == "true" // Exalted: 10
 
 // WEAPON
 [Rarity] == "Unique" # [UniqueName] == "Collapsing Horizon" && [StashItem] == "true" // Exalted: 2600
 [Rarity] == "Unique" # [UniqueName] == "Sacred Flame" && [StashItem] == "true" // Exalted: 1196
 [Rarity] == "Unique" # [UniqueName] == "The Hammer of Faith" && [StashItem] == "true" // Exalted: 52
-[Rarity] == "Unique" # [UniqueName] == "Death's Harp" && [StashItem] == "true" // Exalted: 15
-[Rarity] == "Unique" # [UniqueName] == "Spire of Ire" && [StashItem] == "true" // Exalted: 12
-[Rarity] == "Unique" # [UniqueName] == "Mjölner" && [StashItem] == "true" // Exalted: 10
-[Rarity] == "Unique" # [UniqueName] == "Trenchtimbre" && [StashItem] == "true" // Exalted: 6
-[Rarity] == "Unique" # [UniqueName] == "Skysliver" && [StashItem] == "true" // Exalted: 3
-[Rarity] == "Unique" # [UniqueName] == "Saitha's Spear" && [StashItem] == "true" // Exalted: 3
-[Rarity] == "Unique" # [UniqueName] == "Tangletongue" && [StashItem] == "true" // Exalted: 2
-[Rarity] == "Unique" # [UniqueName] == "The Adorned" && [StashItem] == "true" // Exalted: 208
-[Rarity] == "Unique" # [UniqueName] == "Heroic Tragedy" && [StashItem] == "true" // Exalted: 104
-[Rarity] == "Unique" # [UniqueName] == "Against the Darkness" && [StashItem] == "true" // Exalted: 30
-[Rarity] == "Unique" # [UniqueName] == "Controlled Metamorphosis" && [StashItem] == "true" // Exalted: 30
-[Rarity] == "Unique" # [UniqueName] == "Grand Spectrum" && [StashItem] == "true" // Exalted: 15
-[Rarity] == "Unique" # [UniqueName] == "From Nothing" && [StashItem] == "true" // Exalted: 10
-[Rarity] == "Unique" # [UniqueName] == "Prism of Belief" && [StashItem] == "true" // Exalted: 10
 
 // WEAPON
 [Rarity] == "Unique" # [UniqueName] == "Collapsing Horizon" && [StashItem] == "true" // Exalted: 2600
 [Rarity] == "Unique" # [UniqueName] == "Sacred Flame" && [StashItem] == "true" // Exalted: 1196
 [Rarity] == "Unique" # [UniqueName] == "The Hammer of Faith" && [StashItem] == "true" // Exalted: 52StashItem] == "true" // Exalted: 52
-
-
-[Rarity] == "Unique" # [UniqueName] == "Grand Spectrum" && [StashItem] == "true" // Exalted: 15
-[Rarity] == "Unique" # [UniqueName] == "From Nothing" && [StashItem] == "true" // Exalted: 10
-[Rarity] == "Unique" # [UniqueName] == "Prism of Belief" && [StashItem] == "true" // Exalted: 10
 
 // WEAPON
 [Rarity] == "Unique" # [UniqueName] == "Collapsing Horizon" && [StashItem] == "true" // Exalted: 2600
@@ -1827,25 +1981,3 @@
 //[Type] == "Sandsworn Sandals" && [Rarity] >= "Magic" # [local_energy_shield_+%] >= "92" && [StashItem] == "true"
 //[Type] == "Dragonscale Boots" && [Rarity] >= "Magic" # [base_maximum_life] >= "120" && [StashItem] == "true"
 //[Type] == "Vaal Greaves" && [Rarity] >= "Magic" # [base_maximum_life] >= "120" && [StashItem] == "true"
-
-
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
