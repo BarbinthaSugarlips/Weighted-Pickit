@@ -572,6 +572,18 @@
 [Type] == "Uncut Spirit Gem" && [GemLevel] >= "20" # [StashItem] == "true"
 [Type] == "Uncut Support Gem" && [GemLevel] >= "5" # [StashItem] == "true"
 
+//added individual lines for skillgem as the gemlevel syntax is broken Atmohua
+
+[Type] == "Uncut Skill Gem (Level 18)" # [StashItem] == "true"
+[Type] == "Uncut Skill Gem (Level 19)" # [StashItem] == "true"
+[Type] == "Uncut Skill Gem (Level 20)" # [StashItem] == "true"
+
+[Type] == "Uncut Spirit Gem (Level 18)" # [StashItem] == "true"
+[Type] == "Uncut Spirit Gem (Level 19)" # [StashItem] == "true"
+[Type] == "Uncut Spirit Gem (Level 20)" # [StashItem] == "true"
+
+[Type] == "Uncut Support Gem (Level 5)" # [StashItem] == "true"
+
 
 /////////////////////////////////////////////////////////////////////////////////////
 //                                                                                 //
