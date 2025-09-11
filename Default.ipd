@@ -883,6 +883,7 @@
 
 // ABBYSS META UNIQUES
 
+
 [Type] == "Ornate Gauntlets" && [Rarity] == "Unique" # [UniqueName] == "Death Articulated" && [StashItem] == "true"
 [Type] == "Utility Wraps" && [Rarity] == "Unique" # [UniqueName] == "Thunderfist" && [StashItem] == "true"
 [Type] == "Lattice Sandals" && [Rarity] == "Unique" # [UniqueName] == "Bones of Ullr" && [StashItem] == "true"
@@ -912,6 +913,14 @@
 [Type] == "Shrine Sceptre" && [Rarity] == "Unique" # [UniqueName] == "Guiding Palm of the Eye" && [StashItem] == "true"
 [Type] == "Incense Relic" && [Rarity] == "Unique" # [UniqueName] == "The Last Flame" && [StashItem] == "true"
 [Type] == "Vase Relic" && [Rarity] == "Unique" # [UniqueName] == "The Desperate Alliance" && [StashItem] == "true"
+[Type] == "Sacred Focus" && [Rarity] == "Unique" # [UniqueName] == "Rathpith Globe" && [StashItem] == "true"
+[Type] == "Inricate Crest Shield" && [Rarity] == "Unique" # [UniqueName] == "Prism Guardian" && [StashItem] == "true"
+[Type] == "Armoured Cap" && [Rarity] == "Unique" # [UniqueName] == "Alpha's Howl" && [StashItem] == "true"
+[Type] == "Blacksteel Tower Shield" && [Rarity] == "Unique" # [UniqueName] == "Chernobog's Pillar" && [StashItem] == "true"
+[Type] == "Chain Tiara" && [Rarity] == "Unique" # [UniqueName] == "Sandstorm Visage" && [StashItem] == "true"
+[Type] == "Heroic Armour" && [Rarity] == "Unique" # [UniqueName] == "The Coming Calamity" && [StashItem] == "true"
+[Type] == "Desolate Crossbow" && [Rarity] == "Unique" # [UniqueName] == "The Last Lament" && [StashItem] == "true"
+[Type] == "Artillery Bow" && [Rarity] == "Unique" # [UniqueName] == "Fairgraves' Curse" && [StashItem] == "true"
 
 
 //////////////////////////////////////////////////////////////
@@ -2540,3 +2549,4 @@
 [Type] == "Tasalian Greaves" && [Rarity] >= "Rare" # [base_movement_velocity_+%] >= "35" && [StashItem] == "true"
 
 // end
+
