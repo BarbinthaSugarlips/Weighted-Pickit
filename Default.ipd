@@ -382,49 +382,49 @@
 [Type] == "Sun Artifact" # [StashItem] == "true"
 [Type] == "Exotic Coinage" # [StashItem] == "true"
 
-[Type] == "Lesser Desert Rune" # [StashItem] == "true"
-[Type] == "Desert Rune" # [StashItem] == "true"
+//[Type] == "Lesser Desert Rune" # [StashItem] == "true"
+//[Type] == "Desert Rune" # [StashItem] == "true"
 [Type] == "Greater Desert Rune" # [StashItem] == "true"
-[Type] == "Lesser Glacial Rune" # [StashItem] == "true"
-[Type] == "Glacial Rune" # [StashItem] == "true"
+//[Type] == "Lesser Glacial Rune" # [StashItem] == "true"
+//[Type] == "Glacial Rune" # [StashItem] == "true"
 [Type] == "Greater Glacial Rune" # [StashItem] == "true"
-[Type] == "Lesser Storm Rune" # [StashItem] == "true"
-[Type] == "Storm Rune" # [StashItem] == "true"
+//[Type] == "Lesser Storm Rune" # [StashItem] == "true"
+//[Type] == "Storm Rune" # [StashItem] == "true"
 [Type] == "Greater Storm Rune" # [StashItem] == "true"
-[Type] == "Lesser Iron Rune" # [StashItem] == "true"
-[Type] == "Iron Rune" # [StashItem] == "true"
+//[Type] == "Lesser Iron Rune" # [StashItem] == "true"
+//[Type] == "Iron Rune" # [StashItem] == "true"
 [Type] == "Greater Iron Rune" # [StashItem] == "true"
-[Type] == "Lesser Body Rune" # [StashItem] == "true"
-[Type] == "Body Rune" # [StashItem] == "true"
-[Type] == "Greater Body Rune" # [StashItem] == "true"
-[Type] == "Lesser Mind Rune" # [StashItem] == "true"
-[Type] == "Mind Rune" # [StashItem] == "true"
-[Type] == "Greater Mind Rune" # [StashItem] == "true"
-[Type] == "Lesser Vision Rune" # [StashItem] == "true"
-[Type] == "Vision Rune" # [StashItem] == "true"
-[Type] == "Greater Vision Rune" # [StashItem] == "true"
-[Type] == "Lesser Rebirth Rune" # [StashItem] == "true"
-[Type] == "Rebirth Rune" # [StashItem] == "true"
-[Type] == "Greater Rebirth Rune" # [StashItem] == "true"
-[Type] == "Lesser Inspiration Rune" # [StashItem] == "true"
-[Type] == "Inspiration Rune" # [StashItem] == "true"
+//[Type] == "Lesser Body Rune" # [StashItem] == "true"
+//[Type] == "Body Rune" # [StashItem] == "true"
+//[Type] == "Greater Body Rune" # [StashItem] == "true"
+//[Type] == "Lesser Mind Rune" # [StashItem] == "true"
+//[Type] == "Mind Rune" # [StashItem] == "true"
+//[Type] == "Greater Mind Rune" # [StashItem] == "true"
+//[Type] == "Lesser Vision Rune" # [StashItem] == "true"
+//[Type] == "Vision Rune" # [StashItem] == "true"
+//[Type] == "Greater Vision Rune" # [StashItem] == "true"
+//[Type] == "Lesser Rebirth Rune" # [StashItem] == "true"
+//[Type] == "Rebirth Rune" # [StashItem] == "true"
+//[Type] == "Greater Rebirth Rune" # [StashItem] == "true"
+//[Type] == "Lesser Inspiration Rune" # [StashItem] == "true"
+//[Type] == "Inspiration Rune" # [StashItem] == "true"
 [Type] == "Greater Inspiration Rune" # [StashItem] == "true"
-[Type] == "Lesser Stone Rune" # [StashItem] == "true"
-[Type] == "Stone Rune" # [StashItem] == "true"
+//[Type] == "Lesser Stone Rune" # [StashItem] == "true"
+//[Type] == "Stone Rune" # [StashItem] == "true"
 [Type] == "Greater Stone Rune" # [StashItem] == "true"
 [Type] == "Greater Rune of Leadership" # [StashItem] == "true"
 [Type] == "Greater Rune of Tithing" # [StashItem] == "true"
 [Type] == "Greater Rune of Alacrity" # [StashItem] == "true"
 [Type] == "Greater Rune of Nobility" # [StashItem] == "true"
-[Type] == "Lesser Robust Rune" # [StashItem] == "true"
-[Type] == "Robust Rune" # [StashItem] == "true"
-[Type] == "Greater Robust Rune" # [StashItem] == "true"
-[Type] == "Lesser Adept Rune" # [StashItem] == "true"
-[Type] == "Adept Rune" # [StashItem] == "true"
-[Type] == "Greater Adept Rune" # [StashItem] == "true"
-[Type] == "Lesser Resolve Rune" # [StashItem] == "true"
-[Type] == "Resolve Rune" # [StashItem] == "true"
-[Type] == "Greater Resolve Rune" # [StashItem] == "true"
+//[Type] == "Lesser Robust Rune" # [StashItem] == "true"
+//[Type] == "Robust Rune" # [StashItem] == "true"
+//[Type] == "Greater Robust Rune" # [StashItem] == "true"
+//[Type] == "Lesser Adept Rune" # [StashItem] == "true"
+//[Type] == "Adept Rune" # [StashItem] == "true"
+//[Type] == "Greater Adept Rune" # [StashItem] == "true"
+//[Type] == "Lesser Resolve Rune" # [StashItem] == "true"
+//[Type] == "Resolve Rune" # [StashItem] == "true"
+//[Type] == "Greater Resolve Rune" # [StashItem] == "true"
 
 [Type] == "Farrul's Rune of the Hunt" # [StashItem] == "true"
 [Type] == "Thane Myrk's Rune of Summer" # [StashItem] == "true"
@@ -2032,112 +2032,112 @@
 //----------------------------Quarterstaffs----------------------------
 
 
-[Type] == "Bolting Quarterstaff" && [ItemTier] >= "0" && [Rarity] == "Rare" # [local_critical_strike_multiplier_+] >= "23" && [StashItem] == "true"
-[Type] == "Bolting Quarterstaff" && [ItemTier] >= "0" && [Rarity] == "Rare" # [local_critical_strike_chance] >= "441" && [StashItem] == "true"
-[Type] == "Bolting Quarterstaff" && [ItemTier] >= "0" && [Rarity] == "Rare" # [local_attack_speed_+%] >= "26" && [StashItem] == "true"
-[Type] == "Bolting Quarterstaff" && [ItemTier] >= "0" && [Rarity] == "Rare" # [local_physical_damage_+%] >= "170" && [StashItem] == "true"
-[Type] == "Bolting Quarterstaff" && [ItemTier] >= "0" && [Rarity] == "Rare" # [local_maximum_added_physical_damage] >= "63" && [StashItem] == "true"
-[Type] == "Bolting Quarterstaff" && [ItemTier] >= "0" && [Rarity] == "Rare" # [attack_skill_gem_level_+] >= "6" && [StashItem] == "true"
-[Type] == "Bolting Quarterstaff" && [ItemTier] >= "0" && [Rarity] == "Rare" # [local_maximum_added_lightning_damage] >= "310" && [StashItem] == "true" // 310 for T1
-//[Type] == "Bolting Quarterstaff" && [ItemTier] >= "0" && [Rarity] == "Rare" # [local_maximum_added_fire_damage] >= "205" && [StashItem] == "true" // 205 for T1
-//[Type] == "Bolting Quarterstaff" && [ItemTier] >= "0" && [Rarity] == "Rare" # [local_maximum_added_cold_damage] >= "168" && [StashItem] == "true" // 168 for T1
+//[Type] == "Bolting Quarterstaff" && [ItemTier] >= "2" && [Rarity] == "Rare" # [local_critical_strike_multiplier_+] >= "23" && [StashItem] == "true"
+[Type] == "Bolting Quarterstaff" && [ItemTier] >= "2" && [Rarity] == "Rare" # [local_critical_strike_chance] >= "441" && [StashItem] == "true"
+[Type] == "Bolting Quarterstaff" && [ItemTier] >= "2" && [Rarity] == "Rare" # [local_attack_speed_+%] >= "26" && [StashItem] == "true"
+[Type] == "Bolting Quarterstaff" && [ItemTier] >= "2" && [Rarity] == "Rare" # [local_physical_damage_+%] >= "170" && [StashItem] == "true"
+[Type] == "Bolting Quarterstaff" && [ItemTier] >= "2" && [Rarity] == "Rare" # [local_maximum_added_physical_damage] >= "63" && [StashItem] == "true"
+[Type] == "Bolting Quarterstaff" && [ItemTier] >= "2" && [Rarity] == "Rare" # [attack_skill_gem_level_+] >= "6" && [StashItem] == "true"
+[Type] == "Bolting Quarterstaff" && [ItemTier] >= "2" && [Rarity] == "Rare" # [local_maximum_added_lightning_damage] >= "310" && [StashItem] == "true" // 310 for T1
+//[Type] == "Bolting Quarterstaff" && [ItemTier] >= "2" && [Rarity] == "Rare" # [local_maximum_added_fire_damage] >= "205" && [StashItem] == "true" // 205 for T1
+//[Type] == "Bolting Quarterstaff" && [ItemTier] >= "2" && [Rarity] == "Rare" # [local_maximum_added_cold_damage] >= "168" && [StashItem] == "true" // 168 for T1
 
-[Type] == "Bolting Quarterstaff" && [ItemTier] >= "0" && [Rarity] == "Magic" # [local_critical_strike_multiplier_+] >= "23" && [StashItem] == "true"
-[Type] == "Bolting Quarterstaff" && [ItemTier] >= "0" && [Rarity] == "Magic" # [local_critical_strike_chance] >= "441" && [StashItem] == "true"
-[Type] == "Bolting Quarterstaff" && [ItemTier] >= "0" && [Rarity] == "Magic" # [local_attack_speed_+%] >= "26" && [StashItem] == "true"
-[Type] == "Bolting Quarterstaff" && [ItemTier] >= "0" && [Rarity] == "Magic" # [local_physical_damage_+%] >= "170" && [StashItem] == "true"
-[Type] == "Bolting Quarterstaff" && [ItemTier] >= "0" && [Rarity] == "Magic" # [local_maximum_added_physical_damage] >= "63" && [StashItem] == "true"
-[Type] == "Bolting Quarterstaff" && [ItemTier] >= "0" && [Rarity] == "Magic" # [attack_skill_gem_level_+] >= "6" && [StashItem] == "true"
-[Type] == "Bolting Quarterstaff" && [ItemTier] >= "0" && [Rarity] == "Magic" # [local_maximum_added_lightning_damage] >= "310" && [StashItem] == "true" // 310 for T1
-//[Type] == "Bolting Quarterstaff" && [ItemTier] >= "0" && [Rarity] == "Magic" # [local_maximum_added_fire_damage] >= "205" && [StashItem] == "true" // 205 for T1
-//[Type] == "Bolting Quarterstaff" && [ItemTier] >= "0" && [Rarity] == "Magic" # [local_maximum_added_cold_damage] >= "168" && [StashItem] == "true" // 168 for T1
-
-
-[Type] == "Striking Quarterstaff" && [ItemTier] >= "0" && [Rarity] == "Rare" # [local_critical_strike_multiplier_+] >= "23" && [StashItem] == "true"
-[Type] == "Striking Quarterstaff" && [ItemTier] >= "0" && [Rarity] == "Rare" # [local_critical_strike_chance] >= "441" && [StashItem] == "true"
-[Type] == "Striking Quarterstaff" && [ItemTier] >= "0" && [Rarity] == "Rare" # [local_attack_speed_+%] >= "26" && [StashItem] == "true"
-[Type] == "Striking Quarterstaff" && [ItemTier] >= "0" && [Rarity] == "Rare" # [local_physical_damage_+%] >= "170" && [StashItem] == "true"
-[Type] == "Striking Quarterstaff" && [ItemTier] >= "0" && [Rarity] == "Rare" # [local_maximum_added_physical_damage] >= "63" && [StashItem] == "true"
-[Type] == "Striking Quarterstaff" && [ItemTier] >= "0" && [Rarity] == "Rare" # [attack_skill_gem_level_+] >= "6" && [StashItem] == "true"
-[Type] == "Striking Quarterstaff" && [ItemTier] >= "0" && [Rarity] == "Rare" # [local_maximum_added_lightning_damage] >= "310" && [StashItem] == "true" // 310 for T1
-//[Type] == "Striking Quarterstaff" && [ItemTier] >= "0" && [Rarity] == "Rare" # [local_maximum_added_fire_damage] >= "205" && [StashItem] == "true" // 205 for T1
-//[Type] == "Striking Quarterstaff" && [ItemTier] >= "0" && [Rarity] == "Rare" # [local_maximum_added_cold_damage] >= "168" && [StashItem] == "true" // 168 for T1
-
-[Type] == "Striking Quarterstaff" && [ItemTier] >= "0" && [Rarity] == "Magic" # [local_critical_strike_multiplier_+] >= "23" && [StashItem] == "true"
-[Type] == "Striking Quarterstaff" && [ItemTier] >= "0" && [Rarity] == "Magic" # [local_critical_strike_chance] >= "441" && [StashItem] == "true"
-[Type] == "Striking Quarterstaff" && [ItemTier] >= "0" && [Rarity] == "Magic" # [local_attack_speed_+%] >= "26" && [StashItem] == "true"
-[Type] == "Striking Quarterstaff" && [ItemTier] >= "0" && [Rarity] == "Magic" # [local_physical_damage_+%] >= "170" && [StashItem] == "true"
-[Type] == "Striking Quarterstaff" && [ItemTier] >= "0" && [Rarity] == "Magic" # [local_maximum_added_physical_damage] >= "63" && [StashItem] == "true"
-[Type] == "Striking Quarterstaff" && [ItemTier] >= "0" && [Rarity] == "Magic" # [attack_skill_gem_level_+] >= "6" && [StashItem] == "true"
-[Type] == "Striking Quarterstaff" && [ItemTier] >= "0" && [Rarity] == "Magic" # [local_maximum_added_lightning_damage] >= "310" && [StashItem] == "true" // 310 for T1
-//[Type] == "Striking Quarterstaff" && [ItemTier] >= "0" && [Rarity] == "Magic" # [local_maximum_added_fire_damage] >= "205" && [StashItem] == "true" // 205 for T1
-//[Type] == "Striking Quarterstaff" && [ItemTier] >= "0" && [Rarity] == "Magic" # [local_maximum_added_cold_damage] >= "168" && [StashItem] == "true" // 168 for T1
+//[Type] == "Bolting Quarterstaff" && [ItemTier] >= "3" && [Rarity] == "Magic" # [local_critical_strike_multiplier_+] >= "23" && [StashItem] == "true"
+[Type] == "Bolting Quarterstaff" && [ItemTier] >= "3" && [Rarity] == "Magic" # [local_critical_strike_chance] >= "441" && [StashItem] == "true"
+[Type] == "Bolting Quarterstaff" && [ItemTier] >= "3" && [Rarity] == "Magic" # [local_attack_speed_+%] >= "26" && [StashItem] == "true"
+[Type] == "Bolting Quarterstaff" && [ItemTier] >= "3" && [Rarity] == "Magic" # [local_physical_damage_+%] >= "170" && [StashItem] == "true"
+[Type] == "Bolting Quarterstaff" && [ItemTier] >= "3" && [Rarity] == "Magic" # [local_maximum_added_physical_damage] >= "63" && [StashItem] == "true"
+[Type] == "Bolting Quarterstaff" && [ItemTier] >= "3" && [Rarity] == "Magic" # [attack_skill_gem_level_+] >= "6" && [StashItem] == "true"
+[Type] == "Bolting Quarterstaff" && [ItemTier] >= "3" && [Rarity] == "Magic" # [local_maximum_added_lightning_damage] >= "310" && [StashItem] == "true" // 310 for T1
+//[Type] == "Bolting Quarterstaff" && [ItemTier] >= "3" && [Rarity] == "Magic" # [local_maximum_added_fire_damage] >= "205" && [StashItem] == "true" // 205 for T1
+//[Type] == "Bolting Quarterstaff" && [ItemTier] >= "3" && [Rarity] == "Magic" # [local_maximum_added_cold_damage] >= "168" && [StashItem] == "true" // 168 for T1
 
 
-[Type] == "Aegis Quarterstaff" && [ItemTier] >= "0" && [Rarity] == "Rare" # [local_critical_strike_multiplier_+] >= "23" && [StashItem] == "true"
-[Type] == "Aegis Quarterstaff" && [ItemTier] >= "0" && [Rarity] == "Rare" # [local_critical_strike_chance] >= "441" && [StashItem] == "true"
-[Type] == "Aegis Quarterstaff" && [ItemTier] >= "0" && [Rarity] == "Rare" # [local_attack_speed_+%] >= "26" && [StashItem] == "true"
-[Type] == "Aegis Quarterstaff" && [ItemTier] >= "0" && [Rarity] == "Rare" # [local_physical_damage_+%] >= "170" && [StashItem] == "true"
-[Type] == "Aegis Quarterstaff" && [ItemTier] >= "0" && [Rarity] == "Rare" # [local_maximum_added_physical_damage] >= "63" && [StashItem] == "true"
-[Type] == "Aegis Quarterstaff" && [ItemTier] >= "0" && [Rarity] == "Rare" # [attack_skill_gem_level_+] >= "6" && [StashItem] == "true"
-[Type] == "Aegis Quarterstaff" && [ItemTier] >= "0" && [Rarity] == "Rare" # [local_maximum_added_lightning_damage] >= "310" && [StashItem] == "true" // 310 for T1
-//[Type] == "Aegis Quarterstaff" && [ItemTier] >= "0" && [Rarity] == "Rare" # [local_maximum_added_fire_damage] >= "205" && [StashItem] == "true" // 205 for T1
-//[Type] == "Aegis Quarterstaff" && [ItemTier] >= "0" && [Rarity] == "Rare" # [local_maximum_added_cold_damage] >= "168" && [StashItem] == "true" // 168 for T1
+//[Type] == "Striking Quarterstaff" && [ItemTier] >= "2" && [Rarity] == "Rare" # [local_critical_strike_multiplier_+] >= "23" && [StashItem] == "true"
+[Type] == "Striking Quarterstaff" && [ItemTier] >= "2" && [Rarity] == "Rare" # [local_critical_strike_chance] >= "441" && [StashItem] == "true"
+[Type] == "Striking Quarterstaff" && [ItemTier] >= "2" && [Rarity] == "Rare" # [local_attack_speed_+%] >= "26" && [StashItem] == "true"
+[Type] == "Striking Quarterstaff" && [ItemTier] >= "2" && [Rarity] == "Rare" # [local_physical_damage_+%] >= "170" && [StashItem] == "true"
+[Type] == "Striking Quarterstaff" && [ItemTier] >= "2" && [Rarity] == "Rare" # [local_maximum_added_physical_damage] >= "63" && [StashItem] == "true"
+[Type] == "Striking Quarterstaff" && [ItemTier] >= "2" && [Rarity] == "Rare" # [attack_skill_gem_level_+] >= "6" && [StashItem] == "true"
+[Type] == "Striking Quarterstaff" && [ItemTier] >= "2" && [Rarity] == "Rare" # [local_maximum_added_lightning_damage] >= "310" && [StashItem] == "true" // 310 for T1
+//[Type] == "Striking Quarterstaff" && [ItemTier] >= "2" && [Rarity] == "Rare" # [local_maximum_added_fire_damage] >= "205" && [StashItem] == "true" // 205 for T1
+//[Type] == "Striking Quarterstaff" && [ItemTier] >= "2" && [Rarity] == "Rare" # [local_maximum_added_cold_damage] >= "168" && [StashItem] == "true" // 168 for T1
 
-[Type] == "Aegis Quarterstaff" && [ItemTier] >= "0" && [Rarity] == "Magic" # [local_critical_strike_multiplier_+] >= "23" && [StashItem] == "true"
-[Type] == "Aegis Quarterstaff" && [ItemTier] >= "0" && [Rarity] == "Magic" # [local_critical_strike_chance] >= "441" && [StashItem] == "true"
-[Type] == "Aegis Quarterstaff" && [ItemTier] >= "0" && [Rarity] == "Magic" # [local_attack_speed_+%] >= "26" && [StashItem] == "true"
-[Type] == "Aegis Quarterstaff" && [ItemTier] >= "0" && [Rarity] == "Magic" # [local_physical_damage_+%] >= "170" && [StashItem] == "true"
-[Type] == "Aegis Quarterstaff" && [ItemTier] >= "0" && [Rarity] == "Magic" # [local_maximum_added_physical_damage] >= "63" && [StashItem] == "true"
-[Type] == "Aegis Quarterstaff" && [ItemTier] >= "0" && [Rarity] == "Magic" # [attack_skill_gem_level_+] >= "6" && [StashItem] == "true"
-[Type] == "Aegis Quarterstaff" && [ItemTier] >= "0" && [Rarity] == "Magic" # [local_maximum_added_lightning_damage] >= "310" && [StashItem] == "true" // 310 for T1
-//[Type] == "Aegis Quarterstaff" && [ItemTier] >= "0" && [Rarity] == "Magic" # [local_maximum_added_fire_damage] >= "205" && [StashItem] == "true" // 205 for T1
-//[Type] == "Aegis Quarterstaff" && [ItemTier] >= "0" && [Rarity] == "Magic" # [local_maximum_added_cold_damage] >= "168" && [StashItem] == "true" // 168 for T1
-
-
-[Type] == "Lunar Quarterstaff" && [ItemTier] >= "0" && [Rarity] == "Rare" # [local_critical_strike_multiplier_+] >= "23" && [StashItem] == "true"
-[Type] == "Lunar Quarterstaff" && [ItemTier] >= "0" && [Rarity] == "Rare" # [local_critical_strike_chance] >= "441" && [StashItem] == "true"
-[Type] == "Lunar Quarterstaff" && [ItemTier] >= "0" && [Rarity] == "Rare" # [local_attack_speed_+%] >= "26" && [StashItem] == "true"
-[Type] == "Lunar Quarterstaff" && [ItemTier] >= "0" && [Rarity] == "Rare" # [local_physical_damage_+%] >= "170" && [StashItem] == "true"
-[Type] == "Lunar Quarterstaff" && [ItemTier] >= "0" && [Rarity] == "Rare" # [local_maximum_added_physical_damage] >= "63" && [StashItem] == "true"
-[Type] == "Lunar Quarterstaff" && [ItemTier] >= "0" && [Rarity] == "Rare" # [attack_skill_gem_level_+] >= "6" && [StashItem] == "true"
-[Type] == "Lunar Quarterstaff" && [ItemTier] >= "0" && [Rarity] == "Rare" # [local_maximum_added_lightning_damage] >= "310" && [StashItem] == "true" // 310 for T1
-//[Type] == "Lunar Quarterstaff" && [ItemTier] >= "0" && [Rarity] == "Rare" # [local_maximum_added_fire_damage] >= "205" && [StashItem] == "true" // 205 for T1
-//[Type] == "Lunar Quarterstaff" && [ItemTier] >= "0" && [Rarity] == "Rare" # [local_maximum_added_cold_damage] >= "168" && [StashItem] == "true" // 168 for T1
-
-[Type] == "Lunar Quarterstaff" && [ItemTier] >= "0" && [Rarity] == "Magic" # [local_critical_strike_multiplier_+] >= "23" && [StashItem] == "true"
-[Type] == "Lunar Quarterstaff" && [ItemTier] >= "0" && [Rarity] == "Magic" # [local_critical_strike_chance] >= "441" && [StashItem] == "true"
-[Type] == "Lunar Quarterstaff" && [ItemTier] >= "0" && [Rarity] == "Magic" # [local_attack_speed_+%] >= "26" && [StashItem] == "true"
-[Type] == "Lunar Quarterstaff" && [ItemTier] >= "0" && [Rarity] == "Magic" # [local_physical_damage_+%] >= "170" && [StashItem] == "true"
-[Type] == "Lunar Quarterstaff" && [ItemTier] >= "0" && [Rarity] == "Magic" # [local_maximum_added_physical_damage] >= "63" && [StashItem] == "true"
-[Type] == "Lunar Quarterstaff" && [ItemTier] >= "0" && [Rarity] == "Magic" # [attack_skill_gem_level_+] >= "6" && [StashItem] == "true"
-[Type] == "Lunar Quarterstaff" && [ItemTier] >= "0" && [Rarity] == "Magic" # [local_maximum_added_lightning_damage] >= "310" && [StashItem] == "true" // 310 for T1
-//[Type] == "Lunar Quarterstaff" && [ItemTier] >= "0" && [Rarity] == "Magic" # [local_maximum_added_fire_damage] >= "205" && [StashItem] == "true" // 205 for T1
-//[Type] == "Lunar Quarterstaff" && [ItemTier] >= "0" && [Rarity] == "Magic" # [local_maximum_added_cold_damage] >= "168" && [StashItem] == "true" // 168 for T1
+//[Type] == "Striking Quarterstaff" && [ItemTier] >= "3" && [Rarity] == "Magic" # [local_critical_strike_multiplier_+] >= "23" && [StashItem] == "true"
+[Type] == "Striking Quarterstaff" && [ItemTier] >= "3" && [Rarity] == "Magic" # [local_critical_strike_chance] >= "441" && [StashItem] == "true"
+[Type] == "Striking Quarterstaff" && [ItemTier] >= "3" && [Rarity] == "Magic" # [local_attack_speed_+%] >= "26" && [StashItem] == "true"
+[Type] == "Striking Quarterstaff" && [ItemTier] >= "3" && [Rarity] == "Magic" # [local_physical_damage_+%] >= "170" && [StashItem] == "true"
+[Type] == "Striking Quarterstaff" && [ItemTier] >= "3" && [Rarity] == "Magic" # [local_maximum_added_physical_damage] >= "63" && [StashItem] == "true"
+[Type] == "Striking Quarterstaff" && [ItemTier] >= "3" && [Rarity] == "Magic" # [attack_skill_gem_level_+] >= "6" && [StashItem] == "true"
+[Type] == "Striking Quarterstaff" && [ItemTier] >= "3" && [Rarity] == "Magic" # [local_maximum_added_lightning_damage] >= "310" && [StashItem] == "true" // 310 for T1
+//[Type] == "Striking Quarterstaff" && [ItemTier] >= "3" && [Rarity] == "Magic" # [local_maximum_added_fire_damage] >= "205" && [StashItem] == "true" // 205 for T1
+//[Type] == "Striking Quarterstaff" && [ItemTier] >= "3" && [Rarity] == "Magic" # [local_maximum_added_cold_damage] >= "168" && [StashItem] == "true" // 168 for T1
 
 
-[Type] == "Sinister Quarterstaff" && [ItemTier] >= "0" && [Rarity] == "Rare" # [local_critical_strike_multiplier_+] >= "23" && [StashItem] == "true"
-[Type] == "Sinister Quarterstaff" && [ItemTier] >= "0" && [Rarity] == "Rare" # [local_critical_strike_chance] >= "441" && [StashItem] == "true"
-[Type] == "Sinister Quarterstaff" && [ItemTier] >= "0" && [Rarity] == "Rare" # [local_attack_speed_+%] >= "26" && [StashItem] == "true"
-[Type] == "Sinister Quarterstaff" && [ItemTier] >= "0" && [Rarity] == "Rare" # [local_physical_damage_+%] >= "170" && [StashItem] == "true"
-[Type] == "Sinister Quarterstaff" && [ItemTier] >= "0" && [Rarity] == "Rare" # [local_maximum_added_physical_damage] >= "63" && [StashItem] == "true"
-[Type] == "Sinister Quarterstaff" && [ItemTier] >= "0" && [Rarity] == "Rare" # [attack_skill_gem_level_+] >= "6" && [StashItem] == "true"
-[Type] == "Sinister Quarterstaff" && [ItemTier] >= "0" && [Rarity] == "Rare" # [local_maximum_added_lightning_damage] >= "310" && [StashItem] == "true" // 310 for T1
-//[Type] == "Sinister Quarterstaff" && [ItemTier] >= "0" && [Rarity] == "Rare" # [local_maximum_added_fire_damage] >= "205" && [StashItem] == "true" // 205 for T1
-//[Type] == "Sinister Quarterstaff" && [ItemTier] >= "0" && [Rarity] == "Rare" # [local_maximum_added_cold_damage] >= "168" && [StashItem] == "true" // 168 for T1
+//[Type] == "Aegis Quarterstaff" && [ItemTier] >= "2" && [Rarity] == "Rare" # [local_critical_strike_multiplier_+] >= "23" && [StashItem] == "true"
+[Type] == "Aegis Quarterstaff" && [ItemTier] >= "2" && [Rarity] == "Rare" # [local_critical_strike_chance] >= "441" && [StashItem] == "true"
+[Type] == "Aegis Quarterstaff" && [ItemTier] >= "2" && [Rarity] == "Rare" # [local_attack_speed_+%] >= "26" && [StashItem] == "true"
+[Type] == "Aegis Quarterstaff" && [ItemTier] >= "2" && [Rarity] == "Rare" # [local_physical_damage_+%] >= "170" && [StashItem] == "true"
+[Type] == "Aegis Quarterstaff" && [ItemTier] >= "2" && [Rarity] == "Rare" # [local_maximum_added_physical_damage] >= "63" && [StashItem] == "true"
+[Type] == "Aegis Quarterstaff" && [ItemTier] >= "2" && [Rarity] == "Rare" # [attack_skill_gem_level_+] >= "6" && [StashItem] == "true"
+[Type] == "Aegis Quarterstaff" && [ItemTier] >= "2" && [Rarity] == "Rare" # [local_maximum_added_lightning_damage] >= "310" && [StashItem] == "true" // 310 for T1
+//[Type] == "Aegis Quarterstaff" && [ItemTier] >= "2" && [Rarity] == "Rare" # [local_maximum_added_fire_damage] >= "205" && [StashItem] == "true" // 205 for T1
+//[Type] == "Aegis Quarterstaff" && [ItemTier] >= "2" && [Rarity] == "Rare" # [local_maximum_added_cold_damage] >= "168" && [StashItem] == "true" // 168 for T1
 
-[Type] == "Sinister Quarterstaff" && [ItemTier] >= "0" && [Rarity] == "Magic" # [local_critical_strike_multiplier_+] >= "23" && [StashItem] == "true"
-[Type] == "Sinister Quarterstaff" && [ItemTier] >= "0" && [Rarity] == "Magic" # [local_critical_strike_chance] >= "441" && [StashItem] == "true"
-[Type] == "Sinister Quarterstaff" && [ItemTier] >= "0" && [Rarity] == "Magic" # [local_attack_speed_+%] >= "26" && [StashItem] == "true"
-[Type] == "Sinister Quarterstaff" && [ItemTier] >= "0" && [Rarity] == "Magic" # [local_physical_damage_+%] >= "170" && [StashItem] == "true"
-[Type] == "Sinister Quarterstaff" && [ItemTier] >= "0" && [Rarity] == "Magic" # [local_maximum_added_physical_damage] >= "63" && [StashItem] == "true"
-[Type] == "Sinister Quarterstaff" && [ItemTier] >= "0" && [Rarity] == "Magic" # [attack_skill_gem_level_+] >= "6" && [StashItem] == "true"
-[Type] == "Sinister Quarterstaff" && [ItemTier] >= "0" && [Rarity] == "Magic" # [local_maximum_added_lightning_damage] >= "310" && [StashItem] == "true" // 310 for T1
-//[Type] == "Sinister Quarterstaff" && [ItemTier] >= "0" && [Rarity] == "Magic" # [local_maximum_added_fire_damage] >= "205" && [StashItem] == "true" // 205 for T1
-//[Type] == "Sinister Quarterstaff" && [ItemTier] >= "0" && [Rarity] == "Magic" # [local_maximum_added_cold_damage] >= "168" && [StashItem] == "true" // 168 for T1
+//[Type] == "Aegis Quarterstaff" && [ItemTier] >= "3" && [Rarity] == "Magic" # [local_critical_strike_multiplier_+] >= "23" && [StashItem] == "true"
+[Type] == "Aegis Quarterstaff" && [ItemTier] >= "3" && [Rarity] == "Magic" # [local_critical_strike_chance] >= "441" && [StashItem] == "true"
+[Type] == "Aegis Quarterstaff" && [ItemTier] >= "3" && [Rarity] == "Magic" # [local_attack_speed_+%] >= "26" && [StashItem] == "true"
+[Type] == "Aegis Quarterstaff" && [ItemTier] >= "3" && [Rarity] == "Magic" # [local_physical_damage_+%] >= "170" && [StashItem] == "true"
+[Type] == "Aegis Quarterstaff" && [ItemTier] >= "3" && [Rarity] == "Magic" # [local_maximum_added_physical_damage] >= "63" && [StashItem] == "true"
+[Type] == "Aegis Quarterstaff" && [ItemTier] >= "3" && [Rarity] == "Magic" # [attack_skill_gem_level_+] >= "6" && [StashItem] == "true"
+[Type] == "Aegis Quarterstaff" && [ItemTier] >= "3" && [Rarity] == "Magic" # [local_maximum_added_lightning_damage] >= "310" && [StashItem] == "true" // 310 for T1
+//[Type] == "Aegis Quarterstaff" && [ItemTier] >= "3" && [Rarity] == "Magic" # [local_maximum_added_fire_damage] >= "205" && [StashItem] == "true" // 205 for T1
+//[Type] == "Aegis Quarterstaff" && [ItemTier] >= "3" && [Rarity] == "Magic" # [local_maximum_added_cold_damage] >= "168" && [StashItem] == "true" // 168 for T1
 
 
-[Type] == "Razor Quarterstaff" && [ItemTier] >= "2" && [Rarity] == "Rare" # [local_critical_strike_multiplier_+] >= "23" && [StashItem] == "true"
+//[Type] == "Lunar Quarterstaff" && [ItemTier] >= "2" && [Rarity] == "Rare" # [local_critical_strike_multiplier_+] >= "23" && [StashItem] == "true"
+[Type] == "Lunar Quarterstaff" && [ItemTier] >= "2" && [Rarity] == "Rare" # [local_critical_strike_chance] >= "441" && [StashItem] == "true"
+[Type] == "Lunar Quarterstaff" && [ItemTier] >= "2" && [Rarity] == "Rare" # [local_attack_speed_+%] >= "26" && [StashItem] == "true"
+[Type] == "Lunar Quarterstaff" && [ItemTier] >= "2" && [Rarity] == "Rare" # [local_physical_damage_+%] >= "170" && [StashItem] == "true"
+[Type] == "Lunar Quarterstaff" && [ItemTier] >= "2" && [Rarity] == "Rare" # [local_maximum_added_physical_damage] >= "63" && [StashItem] == "true"
+[Type] == "Lunar Quarterstaff" && [ItemTier] >= "2" && [Rarity] == "Rare" # [attack_skill_gem_level_+] >= "6" && [StashItem] == "true"
+[Type] == "Lunar Quarterstaff" && [ItemTier] >= "2" && [Rarity] == "Rare" # [local_maximum_added_lightning_damage] >= "310" && [StashItem] == "true" // 310 for T1
+//[Type] == "Lunar Quarterstaff" && [ItemTier] >= "2" && [Rarity] == "Rare" # [local_maximum_added_fire_damage] >= "205" && [StashItem] == "true" // 205 for T1
+//[Type] == "Lunar Quarterstaff" && [ItemTier] >= "2" && [Rarity] == "Rare" # [local_maximum_added_cold_damage] >= "168" && [StashItem] == "true" // 168 for T1
+
+//[Type] == "Lunar Quarterstaff" && [ItemTier] >= "3" && [Rarity] == "Magic" # [local_critical_strike_multiplier_+] >= "23" && [StashItem] == "true"
+[Type] == "Lunar Quarterstaff" && [ItemTier] >= "3" && [Rarity] == "Magic" # [local_critical_strike_chance] >= "441" && [StashItem] == "true"
+[Type] == "Lunar Quarterstaff" && [ItemTier] >= "3" && [Rarity] == "Magic" # [local_attack_speed_+%] >= "26" && [StashItem] == "true"
+[Type] == "Lunar Quarterstaff" && [ItemTier] >= "3" && [Rarity] == "Magic" # [local_physical_damage_+%] >= "170" && [StashItem] == "true"
+[Type] == "Lunar Quarterstaff" && [ItemTier] >= "3" && [Rarity] == "Magic" # [local_maximum_added_physical_damage] >= "63" && [StashItem] == "true"
+[Type] == "Lunar Quarterstaff" && [ItemTier] >= "3" && [Rarity] == "Magic" # [attack_skill_gem_level_+] >= "6" && [StashItem] == "true"
+[Type] == "Lunar Quarterstaff" && [ItemTier] >= "3" && [Rarity] == "Magic" # [local_maximum_added_lightning_damage] >= "310" && [StashItem] == "true" // 310 for T1
+//[Type] == "Lunar Quarterstaff" && [ItemTier] >= "3" && [Rarity] == "Magic" # [local_maximum_added_fire_damage] >= "205" && [StashItem] == "true" // 205 for T1
+//[Type] == "Lunar Quarterstaff" && [ItemTier] >= "3" && [Rarity] == "Magic" # [local_maximum_added_cold_damage] >= "168" && [StashItem] == "true" // 168 for T1
+
+
+//[Type] == "Sinister Quarterstaff" && [ItemTier] >= "2" && [Rarity] == "Rare" # [local_critical_strike_multiplier_+] >= "23" && [StashItem] == "true"
+[Type] == "Sinister Quarterstaff" && [ItemTier] >= "2" && [Rarity] == "Rare" # [local_critical_strike_chance] >= "441" && [StashItem] == "true"
+[Type] == "Sinister Quarterstaff" && [ItemTier] >= "2" && [Rarity] == "Rare" # [local_attack_speed_+%] >= "26" && [StashItem] == "true"
+[Type] == "Sinister Quarterstaff" && [ItemTier] >= "2" && [Rarity] == "Rare" # [local_physical_damage_+%] >= "170" && [StashItem] == "true"
+[Type] == "Sinister Quarterstaff" && [ItemTier] >= "2" && [Rarity] == "Rare" # [local_maximum_added_physical_damage] >= "63" && [StashItem] == "true"
+[Type] == "Sinister Quarterstaff" && [ItemTier] >= "2" && [Rarity] == "Rare" # [attack_skill_gem_level_+] >= "6" && [StashItem] == "true"
+[Type] == "Sinister Quarterstaff" && [ItemTier] >= "2" && [Rarity] == "Rare" # [local_maximum_added_lightning_damage] >= "310" && [StashItem] == "true" // 310 for T1
+//[Type] == "Sinister Quarterstaff" && [ItemTier] >= "2" && [Rarity] == "Rare" # [local_maximum_added_fire_damage] >= "205" && [StashItem] == "true" // 205 for T1
+//[Type] == "Sinister Quarterstaff" && [ItemTier] >= "2" && [Rarity] == "Rare" # [local_maximum_added_cold_damage] >= "168" && [StashItem] == "true" // 168 for T1
+
+//[Type] == "Sinister Quarterstaff" && [ItemTier] >= "3" && [Rarity] == "Magic" # [local_critical_strike_multiplier_+] >= "23" && [StashItem] == "true"
+[Type] == "Sinister Quarterstaff" && [ItemTier] >= "3" && [Rarity] == "Magic" # [local_critical_strike_chance] >= "441" && [StashItem] == "true"
+[Type] == "Sinister Quarterstaff" && [ItemTier] >= "3" && [Rarity] == "Magic" # [local_attack_speed_+%] >= "26" && [StashItem] == "true"
+[Type] == "Sinister Quarterstaff" && [ItemTier] >= "3" && [Rarity] == "Magic" # [local_physical_damage_+%] >= "170" && [StashItem] == "true"
+[Type] == "Sinister Quarterstaff" && [ItemTier] >= "3" && [Rarity] == "Magic" # [local_maximum_added_physical_damage] >= "63" && [StashItem] == "true"
+[Type] == "Sinister Quarterstaff" && [ItemTier] >= "3" && [Rarity] == "Magic" # [attack_skill_gem_level_+] >= "6" && [StashItem] == "true"
+[Type] == "Sinister Quarterstaff" && [ItemTier] >= "3" && [Rarity] == "Magic" # [local_maximum_added_lightning_damage] >= "310" && [StashItem] == "true" // 310 for T1
+//[Type] == "Sinister Quarterstaff" && [ItemTier] >= "3" && [Rarity] == "Magic" # [local_maximum_added_fire_damage] >= "205" && [StashItem] == "true" // 205 for T1
+//[Type] == "Sinister Quarterstaff" && [ItemTier] >= "3" && [Rarity] == "Magic" # [local_maximum_added_cold_damage] >= "168" && [StashItem] == "true" // 168 for T1
+
+
+//[Type] == "Razor Quarterstaff" && [ItemTier] >= "2" && [Rarity] == "Rare" # [local_critical_strike_multiplier_+] >= "23" && [StashItem] == "true"
 [Type] == "Razor Quarterstaff" && [ItemTier] >= "2" && [Rarity] == "Rare" # [local_critical_strike_chance] >= "441" && [StashItem] == "true"
 [Type] == "Razor Quarterstaff" && [ItemTier] >= "2" && [Rarity] == "Rare" # [local_attack_speed_+%] >= "26" && [StashItem] == "true"
 [Type] == "Razor Quarterstaff" && [ItemTier] >= "2" && [Rarity] == "Rare" # [local_physical_damage_+%] >= "170" && [StashItem] == "true"
@@ -2147,55 +2147,55 @@
 //[Type] == "Razor Quarterstaff" && [ItemTier] >= "2" && [Rarity] == "Rare" # [local_maximum_added_fire_damage] >= "205" && [StashItem] == "true" // 205 for T1
 //[Type] == "Razor Quarterstaff" && [ItemTier] >= "2" && [Rarity] == "Rare" # [local_maximum_added_cold_damage] >= "168" && [StashItem] == "true" // 168 for T1
 
-[Type] == "Razor Quarterstaff" && [ItemTier] >= "2" && [Rarity] == "Magic" # [local_critical_strike_multiplier_+] >= "23" && [StashItem] == "true"
-[Type] == "Razor Quarterstaff" && [ItemTier] >= "2" && [Rarity] == "Magic" # [local_critical_strike_chance] >= "441" && [StashItem] == "true"
-[Type] == "Razor Quarterstaff" && [ItemTier] >= "2" && [Rarity] == "Magic" # [local_attack_speed_+%] >= "26" && [StashItem] == "true"
-[Type] == "Razor Quarterstaff" && [ItemTier] >= "2" && [Rarity] == "Magic" # [local_physical_damage_+%] >= "170" && [StashItem] == "true"
-[Type] == "Razor Quarterstaff" && [ItemTier] >= "2" && [Rarity] == "Magic" # [local_maximum_added_physical_damage] >= "63" && [StashItem] == "true"
-[Type] == "Razor Quarterstaff" && [ItemTier] >= "2" && [Rarity] == "Magic" # [attack_skill_gem_level_+] >= "6" && [StashItem] == "true"
-[Type] == "Razor Quarterstaff" && [ItemTier] >= "2" && [Rarity] == "Magic" # [local_maximum_added_lightning_damage] >= "310" && [StashItem] == "true" // 310 for T1
-//[Type] == "Razor Quarterstaff" && [ItemTier] >= "2" && [Rarity] == "Magic" # [local_maximum_added_fire_damage] >= "205" && [StashItem] == "true" // 205 for T1
-//[Type] == "Razor Quarterstaff" && [ItemTier] >= "2" && [Rarity] == "Magic" # [local_maximum_added_cold_damage] >= "168" && [StashItem] == "true" // 168 for T1
+//[Type] == "Razor Quarterstaff" && [ItemTier] >= "3" && [Rarity] == "Magic" # [local_critical_strike_multiplier_+] >= "23" && [StashItem] == "true"
+[Type] == "Razor Quarterstaff" && [ItemTier] >= "3" && [Rarity] == "Magic" # [local_critical_strike_chance] >= "441" && [StashItem] == "true"
+[Type] == "Razor Quarterstaff" && [ItemTier] >= "3" && [Rarity] == "Magic" # [local_attack_speed_+%] >= "26" && [StashItem] == "true"
+[Type] == "Razor Quarterstaff" && [ItemTier] >= "3" && [Rarity] == "Magic" # [local_physical_damage_+%] >= "170" && [StashItem] == "true"
+[Type] == "Razor Quarterstaff" && [ItemTier] >= "3" && [Rarity] == "Magic" # [local_maximum_added_physical_damage] >= "63" && [StashItem] == "true"
+[Type] == "Razor Quarterstaff" && [ItemTier] >= "3" && [Rarity] == "Magic" # [attack_skill_gem_level_+] >= "6" && [StashItem] == "true"
+[Type] == "Razor Quarterstaff" && [ItemTier] >= "3" && [Rarity] == "Magic" # [local_maximum_added_lightning_damage] >= "310" && [StashItem] == "true" // 310 for T1
+//[Type] == "Razor Quarterstaff" && [ItemTier] >= "3" && [Rarity] == "Magic" # [local_maximum_added_fire_damage] >= "205" && [StashItem] == "true" // 205 for T1
+//[Type] == "Razor Quarterstaff" && [ItemTier] >= "3" && [Rarity] == "Magic" # [local_maximum_added_cold_damage] >= "168" && [StashItem] == "true" // 168 for T1
 
 
 // --------------------Bows-------------------------------
 
-//[Type] == "Warmonger Bow" && [ItemTier] >= "0" && [Rarity] == "Rare" # [local_attack_speed_+%] >= "17" && [StashItem] == "true"
-[Type] == "Warmonger Bow" && [ItemTier] >= "0" && [Rarity] == "Rare" # [local_physical_damage_+%] >= "170" && [StashItem] == "true"
-[Type] == "Warmonger Bow" && [ItemTier] >= "0" && [Rarity] == "Rare" # [local_maximum_added_physical_damage] >= "44" && [StashItem] == "true"
-[Type] == "Warmonger Bow" && [ItemTier] >= "0" && [Rarity] == "Rare" # [local_maximum_added_lightning_damage] >= "202" && [StashItem] == "true" // 202 for T1
-//[Type] == "Warmonger Bow" && [ItemTier] >= "0" && [Rarity] == "Rare" # [local_maximum_added_fire_damage] >= "133" && [StashItem] == "true" // 133 for T1
-//[Type] == "Warmonger Bow" && [ItemTier] >= "0" && [Rarity] == "Rare" # [local_maximum_added_cold_damage] >= "110" && [StashItem] == "true" // 110 for T1
-[Type] == "Warmonger Bow" && [ItemTier] >= "0" && [Rarity] == "Rare" # [number_of_additional_arrows] >= "1" && [StashItem] == "true"
-[Type] == "Warmonger Bow" && [ItemTier] >= "0" && [Rarity] == "Rare" # [projectile_skill_gem_level_+] >= "4" && [StashItem] == "true"
+//[Type] == "Warmonger Bow" && [ItemTier] >= "2" && [Rarity] == "Rare" # [local_attack_speed_+%] >= "17" && [StashItem] == "true"
+[Type] == "Warmonger Bow" && [ItemTier] >= "2" && [Rarity] == "Rare" # [local_physical_damage_+%] >= "170" && [StashItem] == "true"
+[Type] == "Warmonger Bow" && [ItemTier] >= "2" && [Rarity] == "Rare" # [local_maximum_added_physical_damage] >= "44" && [StashItem] == "true"
+[Type] == "Warmonger Bow" && [ItemTier] >= "2" && [Rarity] == "Rare" # [local_maximum_added_lightning_damage] >= "202" && [StashItem] == "true" // 202 for T1
+//[Type] == "Warmonger Bow" && [ItemTier] >= "2" && [Rarity] == "Rare" # [local_maximum_added_fire_damage] >= "133" && [StashItem] == "true" // 133 for T1
+//[Type] == "Warmonger Bow" && [ItemTier] >= "2" && [Rarity] == "Rare" # [local_maximum_added_cold_damage] >= "110" && [StashItem] == "true" // 110 for T1
+[Type] == "Warmonger Bow" && [ItemTier] >= "2" && [Rarity] == "Rare" # [number_of_additional_arrows] >= "1" && [StashItem] == "true"
+[Type] == "Warmonger Bow" && [ItemTier] >= "2" && [Rarity] == "Rare" # [projectile_skill_gem_level_+] >= "4" && [StashItem] == "true"
 
-[Type] == "Warmonger Bow" && [ItemTier] >= "0" && [Rarity] == "Magic" # [local_attack_speed_+%] >= "17" && [StashItem] == "true"
-[Type] == "Warmonger Bow" && [ItemTier] >= "0" && [Rarity] == "Magic" # [local_physical_damage_+%] >= "170" && [StashItem] == "true"
-[Type] == "Warmonger Bow" && [ItemTier] >= "0" && [Rarity] == "Magic" # [local_maximum_added_physical_damage] >= "44" && [StashItem] == "true"
-[Type] == "Warmonger Bow" && [ItemTier] >= "0" && [Rarity] == "Magic" # [local_maximum_added_lightning_damage] >= "202" && [StashItem] == "true" // 202 for T1
-//[Type] == "Warmonger Bow" && [ItemTier] >= "0" && [Rarity] == "Magic" # [local_maximum_added_fire_damage] >= "133" && [StashItem] == "true" // 133 for T1
-//[Type] == "Warmonger Bow" && [ItemTier] >= "0" && [Rarity] == "Magic" # [local_maximum_added_cold_damage] >= "110" && [StashItem] == "true" // 110 for T1
-[Type] == "Warmonger Bow" && [ItemTier] >= "0" && [Rarity] == "Magic" # [number_of_additional_arrows] >= "1" && [StashItem] == "true"
-[Type] == "Warmonger Bow" && [ItemTier] >= "0" && [Rarity] == "Magic" # [projectile_skill_gem_level_+] >= "4" && [StashItem] == "true"
+[Type] == "Warmonger Bow" && [ItemTier] >= "2" && [Rarity] == "Magic" # [local_attack_speed_+%] >= "17" && [StashItem] == "true"
+[Type] == "Warmonger Bow" && [ItemTier] >= "2" && [Rarity] == "Magic" # [local_physical_damage_+%] >= "170" && [StashItem] == "true"
+[Type] == "Warmonger Bow" && [ItemTier] >= "2" && [Rarity] == "Magic" # [local_maximum_added_physical_damage] >= "44" && [StashItem] == "true"
+[Type] == "Warmonger Bow" && [ItemTier] >= "2" && [Rarity] == "Magic" # [local_maximum_added_lightning_damage] >= "202" && [StashItem] == "true" // 202 for T1
+//[Type] == "Warmonger Bow" && [ItemTier] >= "2" && [Rarity] == "Magic" # [local_maximum_added_fire_damage] >= "133" && [StashItem] == "true" // 133 for T1
+//[Type] == "Warmonger Bow" && [ItemTier] >= "2" && [Rarity] == "Magic" # [local_maximum_added_cold_damage] >= "110" && [StashItem] == "true" // 110 for T1
+[Type] == "Warmonger Bow" && [ItemTier] >= "2" && [Rarity] == "Magic" # [number_of_additional_arrows] >= "1" && [StashItem] == "true"
+[Type] == "Warmonger Bow" && [ItemTier] >= "2" && [Rarity] == "Magic" # [projectile_skill_gem_level_+] >= "4" && [StashItem] == "true"
 
 
-[Type] == "Obliterator Bow" && [ItemTier] >= "0" && [Rarity] == "Rare" # [local_attack_speed_+%] >= "17" && [StashItem] == "true"
-[Type] == "Obliterator Bow" && [ItemTier] >= "0" && [Rarity] == "Rare" # [local_physical_damage_+%] >= "170" && [StashItem] == "true"
-[Type] == "Obliterator Bow" && [ItemTier] >= "0" && [Rarity] == "Rare" # [local_maximum_added_physical_damage] >= "44" && [StashItem] == "true"
-[Type] == "Obliterator Bow" && [ItemTier] >= "0" && [Rarity] == "Rare" # [local_maximum_added_lightning_damage] >= "202" && [StashItem] == "true" // 202 for T1
-//[Type] == "Obliterator Bow" && [ItemTier] >= "0" && [Rarity] == "Rare" # [local_maximum_added_fire_damage] >= "133" && [StashItem] == "true" // 133 for T1
-//[Type] == "Obliterator Bow" && [ItemTier] >= "0" && [Rarity] == "Rare" # [local_maximum_added_cold_damage] >= "110" && [StashItem] == "true" // 110 for T1
-[Type] == "Obliterator Bow" && [ItemTier] >= "0" && [Rarity] == "Rare" # [number_of_additional_arrows] >= "2" && [StashItem] == "true"
-[Type] == "Obliterator Bow" && [ItemTier] >= "0" && [Rarity] == "Rare" # [projectile_skill_gem_level_+] >= "4" && [StashItem] == "true"
+[Type] == "Obliterator Bow" && [ItemTier] >= "2" && [Rarity] == "Rare" # [local_attack_speed_+%] >= "17" && [StashItem] == "true"
+[Type] == "Obliterator Bow" && [ItemTier] >= "2" && [Rarity] == "Rare" # [local_physical_damage_+%] >= "170" && [StashItem] == "true"
+[Type] == "Obliterator Bow" && [ItemTier] >= "2" && [Rarity] == "Rare" # [local_maximum_added_physical_damage] >= "44" && [StashItem] == "true"
+[Type] == "Obliterator Bow" && [ItemTier] >= "2" && [Rarity] == "Rare" # [local_maximum_added_lightning_damage] >= "202" && [StashItem] == "true" // 202 for T1
+//[Type] == "Obliterator Bow" && [ItemTier] >= "2" && [Rarity] == "Rare" # [local_maximum_added_fire_damage] >= "133" && [StashItem] == "true" // 133 for T1
+//[Type] == "Obliterator Bow" && [ItemTier] >= "2" && [Rarity] == "Rare" # [local_maximum_added_cold_damage] >= "110" && [StashItem] == "true" // 110 for T1
+[Type] == "Obliterator Bow" && [ItemTier] >= "2" && [Rarity] == "Rare" # [number_of_additional_arrows] >= "2" && [StashItem] == "true"
+[Type] == "Obliterator Bow" && [ItemTier] >= "2" && [Rarity] == "Rare" # [projectile_skill_gem_level_+] >= "4" && [StashItem] == "true"
 
-[Type] == "Obliterator Bow" && [ItemTier] >= "0" && [Rarity] == "Magic" # [local_attack_speed_+%] >= "17" && [StashItem] == "true"
-[Type] == "Obliterator Bow" && [ItemTier] >= "0" && [Rarity] == "Magic" # [local_physical_damage_+%] >= "170" && [StashItem] == "true"
-[Type] == "Obliterator Bow" && [ItemTier] >= "0" && [Rarity] == "Magic" # [local_maximum_added_physical_damage] >= "44" && [StashItem] == "true"
-[Type] == "Obliterator Bow" && [ItemTier] >= "0" && [Rarity] == "Magic" # [local_maximum_added_lightning_damage] >= "202" && [StashItem] == "true" // 202 for T1
-//[Type] == "Obliterator Bow" && [ItemTier] >= "0" && [Rarity] == "Magic" # [local_maximum_added_fire_damage] >= "133" && [StashItem] == "true" // 133 for T1
-//[Type] == "Obliterator Bow" && [ItemTier] >= "0" && [Rarity] == "Magic" # [local_maximum_added_cold_damage] >= "110" && [StashItem] == "true" // 110 for T1
-[Type] == "Obliterator Bow" && [ItemTier] >= "0" && [Rarity] == "Magic" # [number_of_additional_arrows] >= "2" && [StashItem] == "true"
-[Type] == "Obliterator Bow" && [ItemTier] >= "0" && [Rarity] == "Magic" # [projectile_skill_gem_level_+] >= "4" && [StashItem] == "true"
+[Type] == "Obliterator Bow" && [ItemTier] >= "2" && [Rarity] == "Magic" # [local_attack_speed_+%] >= "17" && [StashItem] == "true"
+[Type] == "Obliterator Bow" && [ItemTier] >= "2" && [Rarity] == "Magic" # [local_physical_damage_+%] >= "170" && [StashItem] == "true"
+[Type] == "Obliterator Bow" && [ItemTier] >= "2" && [Rarity] == "Magic" # [local_maximum_added_physical_damage] >= "44" && [StashItem] == "true"
+[Type] == "Obliterator Bow" && [ItemTier] >= "2" && [Rarity] == "Magic" # [local_maximum_added_lightning_damage] >= "202" && [StashItem] == "true" // 202 for T1
+//[Type] == "Obliterator Bow" && [ItemTier] >= "2" && [Rarity] == "Magic" # [local_maximum_added_fire_damage] >= "133" && [StashItem] == "true" // 133 for T1
+//[Type] == "Obliterator Bow" && [ItemTier] >= "2" && [Rarity] == "Magic" # [local_maximum_added_cold_damage] >= "110" && [StashItem] == "true" // 110 for T1
+[Type] == "Obliterator Bow" && [ItemTier] >= "2" && [Rarity] == "Magic" # [number_of_additional_arrows] >= "2" && [StashItem] == "true"
+[Type] == "Obliterator Bow" && [ItemTier] >= "2" && [Rarity] == "Magic" # [projectile_skill_gem_level_+] >= "4" && [StashItem] == "true"
 
 
 [Type] == "Gemini Bow" && [ItemTier] >= "0" && [Rarity] == "Rare" # [local_attack_speed_+%] >= "17" && [StashItem] == "true"
@@ -2215,6 +2215,18 @@
 //[Type] == "Gemini Bow" && [ItemTier] >= "0" && [Rarity] == "Magic" # [local_maximum_added_cold_damage] >= "110" && [StashItem] == "true" // 110 for T1
 [Type] == "Gemini Bow" && [ItemTier] >= "0" && [Rarity] == "Magic" # [number_of_additional_arrows] >= "2" && [StashItem] == "true"
 [Type] == "Gemini Bow" && [ItemTier] >= "0" && [Rarity] == "Magic" # [projectile_skill_gem_level_+] >= "4" && [StashItem] == "true"
+
+// --------------------CROSSBOWS-------------------------------
+
+
+[Type] == "Siege Crossbow" && [ItemTier] >= "4" && [Rarity] == "Magic" # [local_physical_damage_+%] >= "170" && [local_accuracy_rating] <= "201" && [ && [StashItem] == "true"
+[Type] == "Siege Crossbow" && [ItemTier] >= "4" && [Rarity] == "Rare" # [local_physical_damage_+%] >= "170" && [local_accuracy_rating] <= "201" && [StashItem] == "true"
+
+[Type] == "Gemini Crossbow" && [ItemTier] >= "4" && [Rarity] == "Magic" # [local_physical_damage_+%] >= "170" && [local_accuracy_rating] <= "201" && [StashItem] == "true"
+[Type] == "Gemini Crossbow" && [ItemTier] >= "4" && [Rarity] == "Rare" # [local_physical_damage_+%] >= "170" && [local_accuracy_rating] <= "201" && [StashItem] == "true"
+
+[Type] == "Elegant Crossbow" && [ItemTier] >= "4" && [Rarity] == "Magic" # [local_physical_damage_+%] >= "170" && [local_accuracy_rating] <= "201" && [StashItem] == "true"
+[Type] == "Elegant Crossbow" && [ItemTier] >= "4" && [Rarity] == "Rare" # [local_physical_damage_+%] >= "170" && [local_accuracy_rating] <= "201" && [StashItem] == "true"
 
 
 /////////////////////////////
@@ -2520,6 +2532,7 @@
 //[Type] == "Austere Garb" && [ItemTier] >= "4" && [Rarity] == "Rare" # [base_deflection_rating_%_of_evasion_rating] >= "24" && [StashItem] == "true"
 
 
+
 /////////////////////////////
 ///                       ///
 ///         Boots         ///
@@ -2540,9 +2553,20 @@
 
 
 [Type] == "Sandsworn Sandals" && [Rarity] >= "Magic" # [base_movement_velocity_+%] >= "35" && [StashItem] == "true"
+[Type] == "Sandsworn Sandals" && [Rarity] >= "Magic" # [maximum_energy_shield_+%] >= "92" && [stun_threshold_+] <= "0" && [StashItem] == "true"
+[Type] == "Sandsworn Sandals" && [Rarity] >= "Magic" # [base_maximum_energy_shield] <= "48" && [StashItem] == "true"
+
 [Type] == "Sandsworn Sandals" && [Rarity] >= "Rare" # [base_movement_velocity_+%] >= "35" && [StashItem] == "true"
+[Type] == "Sandsworn Sandals" && [Rarity] >= "Rare" # [maximum_energy_shield_+%] >= "92" && [stun_threshold_+] <= "0" && [StashItem] == "true"
+[Type] == "Sandsworn Sandals" && [Rarity] >= "Rare" # [base_maximum_energy_shield] >= "48" && [StashItem] == "true"
+
 [Type] == "Sekhema Sandals" && [Rarity] >= "Magic" # [base_movement_velocity_+%] >= "35" && [StashItem] == "true"
+[Type] == "Sekhema Sandals" && [Rarity] >= "Magic" # [maximum_energy_shield_+%] >= "92" && [stun_threshold_+] <= "0" && [StashItem] == "true"
+[Type] == "Sekhema Sandals" && [Rarity] >= "Magic" # [base_maximum_energy_shield] >= "48" && [StashItem] == "true"
+
 [Type] == "Sekhema Sandals" && [Rarity] >= "Rare" # [base_movement_velocity_+%] >= "35" && [StashItem] == "true"
+[Type] == "Sekhema Sandals" && [Rarity] >= "Rare" # [maximum_energy_shield_+%] >= "92" && [stun_threshold_+] <= "0" && [StashItem] == "true"
+[Type] == "Sekhema Sandals" && [Rarity] >= "Rare" # [base_maximum_energy_shield] >= "48" && [StashItem] == "true"
 
 
 [Type] == "Dragonscale Boots" && [Rarity] >= "Magic" # [base_movement_velocity_+%] >= "35" && [StashItem] == "true"
@@ -2556,8 +2580,15 @@
 [Type] == "Tasalian Greaves" && [Rarity] >= "Magic" # [base_movement_velocity_+%] >= "35" && [StashItem] == "true"
 [Type] == "Tasalian Greaves" && [Rarity] >= "Rare" # [base_movement_velocity_+%] >= "35" && [StashItem] == "true"
 
-// end%] >= "35" && [StashItem] == "true"
 
 
+/////////////////////////////
+///                       ///
+///       Flasks          ///
+///                       ///
+/////////////////////////////
+
+[Type] == "Ultimate Mana Flask" && [Rarity] >= "Magic" # [local_max_charges_+%] >= "63" && [StashItem] == "true" 
+[Type] == "Ultimate Life Flask" && [Rarity] >= "Magic" # [local_max_charges_+%] >= "63" && [local_flask_recovery_amount_%_to_recover_instantly] >= "25" && [StashItem] == "true" 
 
 // end
