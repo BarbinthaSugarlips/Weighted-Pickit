@@ -1707,6 +1707,17 @@
 // CHAOS
 [WeaponCategory] == "Wand" && [Rarity] == "Rare" # [WeightedSum(spell_physical_damage_+%:3,base_cast_speed_+%:7,spell_critical_strike_chance_+%:3,base_spell_critical_strike_multiplier_+:2.5,mana_regeneration_rate_+%:1.8,additional_intelligence:2,base_maximum_mana:1,physical_spell_skill_gem_level_+:150)] >= "800" && [StashItem] == "true"
 
+[WeaponCategory] == "Wand" && [Rarity] == "Rare" # [chaos_spell_skill_gem_level_+] >= "5" && [Stashitem] == "true"
+[WeaponCategory] == "Wand" && [Rarity] == "Magic" # [chaos_spell_skill_gem_level_+] >= "5" && [Stashitem] == "true"
+
+[WeaponCategory] == "Wand" && [Rarity] == "Rare" # [cold_spell_skill_gem_level_+] >= "5" && [Stashitem] == "true"
+[WeaponCategory] == "Wand" && [Rarity] == "Magic" # [cold_spell_skill_gem_level_+] >= "5" && [Stashitem] == "true"
+
+[WeaponCategory] == "Wand" && [Rarity] == "Rare" # [fire_spell_skill_gem_level_+] >= "5" && [Stashitem] == "true"
+[WeaponCategory] == "Wand" && [Rarity] == "Magic" # [fire_spell_skill_gem_level_+] >= "5" && [Stashitem] == "true"
+
+[WeaponCategory] == "Wand" && [Rarity] == "Rare" # [lightning_spell_skill_gem_level_+] >= "5" && [Stashitem] == "true"
+[WeaponCategory] == "Wand" && [Rarity] == "Magic" # [lightning_spell_skill_gem_level_+] >= "5" && [Stashitem] == "true"
 
 // OTHERS
 [WeaponCategory] == "Sceptre" && [ItemTier] >= "0" && [Rarity] == "Rare" # [WeightedSum(allies_in_presence_cast_speed_+%:3,allies_in_presence_critical_strike_chance_+%:4,allies_in_presence_critical_strike_multiplier_+:4,allies_in_presence_attack_speed_+%:3,minion_skill_gem_level_+:55,minion_maximum_life_+%:2)] >= "370" && [StashItem] == "true"
@@ -2579,4 +2590,5 @@
 [Category] == "Ultimate Life Flask" && [Rarity] >= "Magic" # [local_max_charges_+%] >= "63" && [local_flask_recovery_amount_%_to_recover_instantly] >= "25" && [StashItem] == "true" 
 
 // end5"
+
 
