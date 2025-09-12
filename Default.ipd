@@ -883,7 +883,6 @@
 
 // ABBYSS META UNIQUES
 
-
 [Type] == "Ornate Gauntlets" && [Rarity] == "Unique" # [UniqueName] == "Death Articulated" && [StashItem] == "true"
 [Type] == "Utility Wraps" && [Rarity] == "Unique" # [UniqueName] == "Thunderfist" && [StashItem] == "true"
 [Type] == "Lattice Sandals" && [Rarity] == "Unique" # [UniqueName] == "Bones of Ullr" && [StashItem] == "true"
@@ -914,13 +913,21 @@
 [Type] == "Incense Relic" && [Rarity] == "Unique" # [UniqueName] == "The Last Flame" && [StashItem] == "true"
 [Type] == "Vase Relic" && [Rarity] == "Unique" # [UniqueName] == "The Desperate Alliance" && [StashItem] == "true"
 [Type] == "Sacred Focus" && [Rarity] == "Unique" # [UniqueName] == "Rathpith Globe" && [StashItem] == "true"
+
 [Type] == "Inricate Crest Shield" && [Rarity] == "Unique" # [UniqueName] == "Prism Guardian" && [StashItem] == "true"
+
 [Type] == "Armoured Cap" && [Rarity] == "Unique" # [UniqueName] == "Alpha's Howl" && [StashItem] == "true"
+
 [Type] == "Blacksteel Tower Shield" && [Rarity] == "Unique" # [UniqueName] == "Chernobog's Pillar" && [StashItem] == "true"
+
 [Type] == "Chain Tiara" && [Rarity] == "Unique" # [UniqueName] == "Sandstorm Visage" && [StashItem] == "true"
+
 [Type] == "Heroic Armour" && [Rarity] == "Unique" # [UniqueName] == "The Coming Calamity" && [StashItem] == "true"
+
 [Type] == "Desolate Crossbow" && [Rarity] == "Unique" # [UniqueName] == "The Last Lament" && [StashItem] == "true"
+
 [Type] == "Artillery Bow" && [Rarity] == "Unique" # [UniqueName] == "Fairgraves' Curse" && [StashItem] == "true"
+
 
 
 //////////////////////////////////////////////////////////////
@@ -1992,6 +1999,7 @@
 [Type] == "Exceptional Blacksteel Crest Shield" && [Rarity] == "Normal" && [StashItem] == "true"
 [Type] == "Exceptional Tawhoan Tower Shield" && [Rarity] == "Normal" && [StashItem] == "true"
 
+
 //////////////////////////////////////////////////////////////////
 ///                                                            ///
 ///                  Recombination Bases                       ///
@@ -2313,87 +2321,87 @@
 
 
 //73
-//[Type] == "Armoured Vest" && [ItemTier] >= "1" && [Rarity] == "Magic" # [base_deflection_rating_%_of_evasion_rating] >= "24" && [StashItem] == "true"
-//[Type] == "Armoured Vest" && [ItemTier] >= "1" && [Rarity] == "Magic" # [local_base_evasion_rating] >= "233" && [base_maximum_life] <= "0" && [evasion_rating_+%] <= "0" && [StashItem] == "true"
-[Type] == "Armoured Vest" && [ItemTier] >= "1" && [Rarity] == "Magic" # [evasion_rating_+%] >= "101" && [local_base_evasion_rating] <= "0" && [base_maximum_life] <= "0" && [StashItem] == "true"
-[Type] == "Armoured Vest" && [ItemTier] >= "1" && [Rarity] == "Magic" # [local_spirit_+%] >= "57" && [StashItem] == "true"
-[Type] == "Armoured Vest" && [ItemTier] >= "0" && [Rarity] == "Magic" # [base_maximum_life] >= "200" && [local_base_evasion_rating] <= "0" && [evasion_rating_+%] <= "0" && [StashItem] == "true"
+//[Type] == "Armoured Vest" && [ItemTier] >= "4" && [Rarity] == "Magic" # [base_deflection_rating_%_of_evasion_rating] >= "24" && [StashItem] == "true"
+//[Type] == "Armoured Vest" && [ItemTier] >= "4" && [Rarity] == "Magic" # [local_base_evasion_rating] >= "233" && [base_maximum_life] <= "0" && [evasion_rating_+%] <= "0" && [StashItem] == "true"
+[Type] == "Armoured Vest" && [ItemTier] >= "4" && [Rarity] == "Magic" # [evasion_rating_+%] >= "101" && [local_base_evasion_rating] <= "0" && [base_maximum_life] <= "0" && [StashItem] == "true"
+[Type] == "Armoured Vest" && [ItemTier] >= "4" && [Rarity] == "Magic" # [local_spirit_+%] >= "57" && [StashItem] == "true"
+[Type] == "Armoured Vest" && [ItemTier] >= "4" && [Rarity] == "Magic" # [base_maximum_life] >= "200" && [local_base_evasion_rating] <= "0" && [evasion_rating_+%] <= "0" && [StashItem] == "true"
 
-//[Type] == "Armoured Vest" && [ItemTier] >= "0" && [Rarity] == "Rare" # [base_deflection_rating_%_of_evasion_rating] >= "24" && [StashItem] == "true"
-//[Type] == "Armoured Vest" && [ItemTier] >= "0" && [Rarity] == "Rare" # [local_base_evasion_rating] >= "233" && [base_maximum_life] <= "0" && [evasion_rating_+%] <= "0" && [StashItem] == "true"
-[Type] == "Armoured Vest" && [ItemTier] >= "0" && [Rarity] == "Rare" # [evasion_rating_+%] >= "101" && [local_base_evasion_rating] <= "0" && [base_maximum_life] <= "0" && [StashItem] == "true"
-[Type] == "Armoured Vest" && [ItemTier] >= "0" && [Rarity] == "Rare" # [local_spirit_+%] >= "57" && [StashItem] == "true"
-[Type] == "Armoured Vest" && [ItemTier] >= "0" && [Rarity] == "Rare" # [base_maximum_life] >= "200" && [local_base_evasion_rating] <= "0" && [evasion_rating_+%] <= "0" && [StashItem] == "true"
+//[Type] == "Armoured Vest" && [ItemTier] >= "4" && [Rarity] == "Rare" # [base_deflection_rating_%_of_evasion_rating] >= "24" && [StashItem] == "true"
+//[Type] == "Armoured Vest" && [ItemTier] >= "4" && [Rarity] == "Rare" # [local_base_evasion_rating] >= "233" && [base_maximum_life] <= "0" && [evasion_rating_+%] <= "0" && [StashItem] == "true"
+[Type] == "Armoured Vest" && [ItemTier] >= "4" && [Rarity] == "Rare" # [evasion_rating_+%] >= "101" && [local_base_evasion_rating] <= "0" && [base_maximum_life] <= "0" && [StashItem] == "true"
+[Type] == "Armoured Vest" && [ItemTier] >= "4" && [Rarity] == "Rare" # [local_spirit_+%] >= "57" && [StashItem] == "true"
+[Type] == "Armoured Vest" && [ItemTier] >= "4" && [Rarity] == "Rare" # [base_maximum_life] >= "200" && [local_base_evasion_rating] <= "0" && [evasion_rating_+%] <= "0" && [StashItem] == "true"
 
 
 //70
-//[Type] == "Slipstrike Vest" && [ItemTier] >= "2" && [Rarity] == "Magic" # [base_deflection_rating_%_of_evasion_rating] >= "24" && [StashItem] == "true"
-//[Type] == "Slipstrike Vest" && [ItemTier] >= "2" && [Rarity] == "Magic" # [local_base_evasion_rating] >= "233" && [base_maximum_life] <= "0" && [evasion_rating_+%] <= "0" && [StashItem] == "true"
-[Type] == "Slipstrike Vest" && [ItemTier] >= "2" && [Rarity] == "Magic" # [evasion_rating_+%] >= "101" && [local_base_evasion_rating] <= "0" && [base_maximum_life] <= "0" && [StashItem] == "true"
-[Type] == "Slipstrike Vest" && [ItemTier] >= "2" && [Rarity] == "Magic" # [local_spirit_+%] >= "57" && [StashItem] == "true"
-[Type] == "Slipstrike Vest" && [ItemTier] >= "0" && [Rarity] == "Magic" # [base_maximum_life] >= "200" && [local_base_evasion_rating] <= "0" && [evasion_rating_+%] <= "0" && [StashItem] == "true"
+//[Type] == "Slipstrike Vest" && [ItemTier] >= "4" && [Rarity] == "Magic" # [base_deflection_rating_%_of_evasion_rating] >= "24" && [StashItem] == "true"
+//[Type] == "Slipstrike Vest" && [ItemTier] >= "4" && [Rarity] == "Magic" # [local_base_evasion_rating] >= "233" && [base_maximum_life] <= "0" && [evasion_rating_+%] <= "0" && [StashItem] == "true"
+[Type] == "Slipstrike Vest" && [ItemTier] >= "4" && [Rarity] == "Magic" # [evasion_rating_+%] >= "101" && [local_base_evasion_rating] <= "0" && [base_maximum_life] <= "0" && [StashItem] == "true"
+[Type] == "Slipstrike Vest" && [ItemTier] >= "4" && [Rarity] == "Magic" # [local_spirit_+%] >= "57" && [StashItem] == "true"
+[Type] == "Slipstrike Vest" && [ItemTier] >= "4" && [Rarity] == "Magic" # [base_maximum_life] >= "200" && [local_base_evasion_rating] <= "0" && [evasion_rating_+%] <= "0" && [StashItem] == "true"
 
-//[Type] == "Slipstrike Vest" && [ItemTier] >= "1" && [Rarity] == "Rare" # [base_deflection_rating_%_of_evasion_rating] >= "24" && [StashItem] == "true"
-//[Type] == "Slipstrike Vest" && [ItemTier] >= "1" && [Rarity] == "Rare" # [local_base_evasion_rating] >= "233" && [base_maximum_life] <= "0" && [evasion_rating_+%] <= "0" && [StashItem] == "true"
-[Type] == "Slipstrike Vest" && [ItemTier] >= "1" && [Rarity] == "Rare" # [evasion_rating_+%] >= "101" && [local_base_evasion_rating] <= "0" && [base_maximum_life] <= "0" && [StashItem] == "true"
-[Type] == "Slipstrike Vest" && [ItemTier] >= "1" && [Rarity] == "Rare" # [local_spirit_+%] >= "57" && [StashItem] == "true"
-[Type] == "Slipstrike Vest" && [ItemTier] >= "0" && [Rarity] == "Rare" # [base_maximum_life] >= "200" && [local_base_evasion_rating] <= "0" && [evasion_rating_+%] <= "0" && [StashItem] == "true"
+//[Type] == "Slipstrike Vest" && [ItemTier] >= "4" && [Rarity] == "Rare" # [base_deflection_rating_%_of_evasion_rating] >= "24" && [StashItem] == "true"
+//[Type] == "Slipstrike Vest" && [ItemTier] >= "4" && [Rarity] == "Rare" # [local_base_evasion_rating] >= "233" && [base_maximum_life] <= "0" && [evasion_rating_+%] <= "0" && [StashItem] == "true"
+[Type] == "Slipstrike Vest" && [ItemTier] >= "4" && [Rarity] == "Rare" # [evasion_rating_+%] >= "101" && [local_base_evasion_rating] <= "0" && [base_maximum_life] <= "0" && [StashItem] == "true"
+[Type] == "Slipstrike Vest" && [ItemTier] >= "4" && [Rarity] == "Rare" # [local_spirit_+%] >= "57" && [StashItem] == "true"
+[Type] == "Slipstrike Vest" && [ItemTier] >= "4" && [Rarity] == "Rare" # [base_maximum_life] >= "200" && [local_base_evasion_rating] <= "0" && [evasion_rating_+%] <= "0" && [StashItem] == "true"
 
 // 75
-//[Type] == "Wyrmscale Coat" && [ItemTier] >= "1" && [Rarity] == "Magic" # [base_deflection_rating_%_of_evasion_rating] >= "24" && [StashItem] == "true"
-//[Type] == "Wyrmscale Coat" && [ItemTier] >= "1" && [Rarity] == "Magic" # [local_base_evasion_rating] >= "233" && [base_maximum_life] <= "0" && [evasion_rating_+%] <= "0" && [StashItem] == "true"
-[Type] == "Wyrmscale Coat" && [ItemTier] >= "1" && [Rarity] == "Magic" # [evasion_rating_+%] >= "101" && [local_base_evasion_rating] <= "0" && [base_maximum_life] <= "0" && [StashItem] == "true"
-[Type] == "Wyrmscale Coat" && [ItemTier] >= "1" && [Rarity] == "Magic" # [local_spirit_+%] >= "57" && [StashItem] == "true"
-[Type] == "Wyrmscale Coat" && [ItemTier] >= "0" && [Rarity] == "Magic" # [base_maximum_life] >= "200" && [local_base_evasion_rating] <= "0" && [evasion_rating_+%] <= "0" && [StashItem] == "true"
+//[Type] == "Wyrmscale Coat" && [ItemTier] >= "4" && [Rarity] == "Magic" # [base_deflection_rating_%_of_evasion_rating] >= "24" && [StashItem] == "true"
+//[Type] == "Wyrmscale Coat" && [ItemTier] >= "4" && [Rarity] == "Magic" # [local_base_evasion_rating] >= "233" && [base_maximum_life] <= "0" && [evasion_rating_+%] <= "0" && [StashItem] == "true"
+[Type] == "Wyrmscale Coat" && [ItemTier] >= "4" && [Rarity] == "Magic" # [evasion_rating_+%] >= "101" && [local_base_evasion_rating] <= "0" && [base_maximum_life] <= "0" && [StashItem] == "true"
+[Type] == "Wyrmscale Coat" && [ItemTier] >= "4" && [Rarity] == "Magic" # [local_spirit_+%] >= "57" && [StashItem] == "true"
+[Type] == "Wyrmscale Coat" && [ItemTier] >= "4" && [Rarity] == "Magic" # [base_maximum_life] >= "200" && [local_base_evasion_rating] <= "0" && [evasion_rating_+%] <= "0" && [StashItem] == "true"
 
-//[Type] == "Wyrmscale Coat" && [ItemTier] >= "0" && [Rarity] == "Rare" # [base_deflection_rating_%_of_evasion_rating] >= "24" && [StashItem] == "true"
-//[Type] == "Wyrmscale Coat" && [ItemTier] >= "0" && [Rarity] == "Rare" # [local_base_evasion_rating] >= "233" && [base_maximum_life] <= "0" && [evasion_rating_+%] <= "0" && [StashItem] == "true"
-[Type] == "Wyrmscale Coat" && [ItemTier] >= "0" && [Rarity] == "Rare" # [evasion_rating_+%] >= "101" && [local_base_evasion_rating] <= "0" && [base_maximum_life] <= "0" && [StashItem] == "true"
-[Type] == "Wyrmscale Coat" && [ItemTier] >= "0" && [Rarity] == "Rare" # [local_spirit_+%] >= "57" && [StashItem] == "true"
-[Type] == "Wyrmscale Coat" && [ItemTier] >= "0" && [Rarity] == "Rare" # [base_maximum_life] >= "200" && [local_base_evasion_rating] <= "0" && [evasion_rating_+%] <= "0" && [StashItem] == "true"
+//[Type] == "Wyrmscale Coat" && [ItemTier] >= "4" && [Rarity] == "Rare" # [base_deflection_rating_%_of_evasion_rating] >= "24" && [StashItem] == "true"
+//[Type] == "Wyrmscale Coat" && [ItemTier] >= "4" && [Rarity] == "Rare" # [local_base_evasion_rating] >= "233" && [base_maximum_life] <= "0" && [evasion_rating_+%] <= "0" && [StashItem] == "true"
+[Type] == "Wyrmscale Coat" && [ItemTier] >= "4" && [Rarity] == "Rare" # [evasion_rating_+%] >= "101" && [local_base_evasion_rating] <= "0" && [base_maximum_life] <= "0" && [StashItem] == "true"
+[Type] == "Wyrmscale Coat" && [ItemTier] >= "4" && [Rarity] == "Rare" # [local_spirit_+%] >= "57" && [StashItem] == "true"
+[Type] == "Wyrmscale Coat" && [ItemTier] >= "4" && [Rarity] == "Rare" # [base_maximum_life] >= "200" && [local_base_evasion_rating] <= "0" && [evasion_rating_+%] <= "0" && [StashItem] == "true"
 
 // 80
-[Type] == "Corsair Coat" && [ItemTier] >= "0" && [Rarity] == "Magic" # [base_deflection_rating_%_of_evasion_rating] >= "24" && [StashItem] == "true"
-//[Type] == "Corsair Coat" && [ItemTier] >= "0" && [Rarity] == "Magic" # [local_base_evasion_rating] >= "233" && [base_maximum_life] <= "0" && [evasion_rating_+%] <= "0" && [StashItem] == "true"
-[Type] == "Corsair Coat" && [ItemTier] >= "0" && [Rarity] == "Magic" # [evasion_rating_+%] >= "101" && [local_base_evasion_rating] <= "0" && [base_maximum_life] <= "0" && [StashItem] == "true"
-[Type] == "Corsair Coat" && [ItemTier] >= "0" && [Rarity] == "Magic" # [local_spirit_+%] >= "57" && [StashItem] == "true"
-[Type] == "Corsair Coat" && [ItemTier] >= "0" && [Rarity] == "Magic" # [base_maximum_life] >= "200" && [local_base_evasion_rating] <= "0" && [evasion_rating_+%] <= "0" && [StashItem] == "true"
+[Type] == "Corsair Coat" && [ItemTier] >= "4" && [Rarity] == "Magic" # [base_deflection_rating_%_of_evasion_rating] >= "24" && [StashItem] == "true"
+//[Type] == "Corsair Coat" && [ItemTier] >= "4" && [Rarity] == "Magic" # [local_base_evasion_rating] >= "233" && [base_maximum_life] <= "0" && [evasion_rating_+%] <= "0" && [StashItem] == "true"
+[Type] == "Corsair Coat" && [ItemTier] >= "4" && [Rarity] == "Magic" # [evasion_rating_+%] >= "101" && [local_base_evasion_rating] <= "0" && [base_maximum_life] <= "0" && [StashItem] == "true"
+[Type] == "Corsair Coat" && [ItemTier] >= "4" && [Rarity] == "Magic" # [local_spirit_+%] >= "57" && [StashItem] == "true"
+[Type] == "Corsair Coat" && [ItemTier] >= "4" && [Rarity] == "Magic" # [base_maximum_life] >= "200" && [local_base_evasion_rating] <= "0" && [evasion_rating_+%] <= "0" && [StashItem] == "true"
 
-[Type] == "Corsair Coat" && [ItemTier] >= "0" && [Rarity] == "Rare" # [base_deflection_rating_%_of_evasion_rating] >= "24" && [StashItem] == "true"
-//[Type] == "Corsair Coat" && [ItemTier] >= "0" && [Rarity] == "Rare" # [local_base_evasion_rating] >= "233" && [base_maximum_life] <= "0" && [evasion_rating_+%] <= "0" && [StashItem] == "true"
-[Type] == "Corsair Coat" && [ItemTier] >= "0" && [Rarity] == "Rare" # [evasion_rating_+%] >= "101" && [local_base_evasion_rating] <= "0" && [base_maximum_life] <= "0" && [StashItem] == "true"
-[Type] == "Corsair Coat" && [ItemTier] >= "0" && [Rarity] == "Rare" # [local_spirit_+%] >= "57" && [StashItem] == "true"
-[Type] == "Corsair Coat" && [ItemTier] >= "0" && [Rarity] == "Rare" # [base_maximum_life] >= "200" && [local_base_evasion_rating] <= "0" && [evasion_rating_+%] <= "0" && [StashItem] == "true"
+[Type] == "Corsair Coat" && [ItemTier] >= "4" && [Rarity] == "Rare" # [base_deflection_rating_%_of_evasion_rating] >= "24" && [StashItem] == "true"
+//[Type] == "Corsair Coat" && [ItemTier] >= "4" && [Rarity] == "Rare" # [local_base_evasion_rating] >= "233" && [base_maximum_life] <= "0" && [evasion_rating_+%] <= "0" && [StashItem] == "true"
+[Type] == "Corsair Coat" && [ItemTier] >= "4" && [Rarity] == "Rare" # [evasion_rating_+%] >= "101" && [local_base_evasion_rating] <= "0" && [base_maximum_life] <= "0" && [StashItem] == "true"
+[Type] == "Corsair Coat" && [ItemTier] >= "4" && [Rarity] == "Rare" # [local_spirit_+%] >= "57" && [StashItem] == "true"
+[Type] == "Corsair Coat" && [ItemTier] >= "4" && [Rarity] == "Rare" # [base_maximum_life] >= "200" && [local_base_evasion_rating] <= "0" && [evasion_rating_+%] <= "0" && [StashItem] == "true"
 
 
 // Energy Shield Base //
 
 //73
-[Type] == "Arcane Raiment" && [ItemTier] >= "1" && [Rarity] == "Magic" # [maximum_energy_shield_+%] >= "101" && [base_maximum_energy_shield] <= "0" && [base_maximum_life] <= "0" && [StashItem] == "true"
-[Type] == "Arcane Raiment" && [ItemTier] >= "1" && [Rarity] == "Magic" # [local_spirit_+%] >= "57" && [StashItem] == "true"
-[Type] == "Arcane Raiment" && [ItemTier] >= "1" && [Rarity] == "Magic" # [base_maximum_energy_shield] >= "91" && [maximum_energy_shield_+%] <= "0" && [base_maximum_life] <= "0" && [StashItem] == "true"
+[Type] == "Arcane Raiment" && [ItemTier] >= "4" && [Rarity] == "Magic" # [maximum_energy_shield_+%] >= "101" && [base_maximum_energy_shield] <= "0" && [base_maximum_life] <= "0" && [StashItem] == "true"
+[Type] == "Arcane Raiment" && [ItemTier] >= "4" && [Rarity] == "Magic" # [local_spirit_+%] >= "57" && [StashItem] == "true"
+[Type] == "Arcane Raiment" && [ItemTier] >= "4" && [Rarity] == "Magic" # [base_maximum_energy_shield] >= "91" && [maximum_energy_shield_+%] <= "0" && [base_maximum_life] <= "0" && [StashItem] == "true"
 
-[Type] == "Arcane Raiment" && [ItemTier] >= "0" && [Rarity] == "Rare" # [maximum_energy_shield_+%] >= "101" && [base_maximum_energy_shield] <= "0" && [base_maximum_life] <= "0" && [StashItem] == "true"
-[Type] == "Arcane Raiment" && [ItemTier] >= "0" && [Rarity] == "Rare" # [local_spirit_+%] >= "57" && [StashItem] == "true"
-[Type] == "Arcane Raiment" && [ItemTier] >= "0" && [Rarity] == "Rare" # [base_maximum_energy_shield] >= "91" && [maximum_energy_shield_+%] <= "0" && [base_maximum_life] <= "0" && [StashItem] == "true"
+[Type] == "Arcane Raiment" && [ItemTier] >= "4" && [Rarity] == "Rare" # [maximum_energy_shield_+%] >= "101" && [base_maximum_energy_shield] <= "0" && [base_maximum_life] <= "0" && [StashItem] == "true"
+[Type] == "Arcane Raiment" && [ItemTier] >= "4" && [Rarity] == "Rare" # [local_spirit_+%] >= "57" && [StashItem] == "true"
+[Type] == "Arcane Raiment" && [ItemTier] >= "4" && [Rarity] == "Rare" # [base_maximum_energy_shield] >= "91" && [maximum_energy_shield_+%] <= "0" && [base_maximum_life] <= "0" && [StashItem] == "true"
 
 //75
-[Type] == "Sacramental Robe" && [ItemTier] >= "1" && [Rarity] == "Magic" # [maximum_energy_shield_+%] >= "101" && [base_maximum_energy_shield] <= "0" && [base_maximum_life] <= "0" && [StashItem] == "true"
-[Type] == "Sacramental Robe" && [ItemTier] >= "1" && [Rarity] == "Magic" # [local_spirit_+%] >= "57" && [StashItem] == "true"
-[Type] == "Sacramental Robe" && [ItemTier] >= "1" && [Rarity] == "Magic" # [base_maximum_energy_shield] >= "91" && [maximum_energy_shield_+%] <= "0" && [base_maximum_life] <= "0" && [StashItem] == "true"
+[Type] == "Sacramental Robe" && [ItemTier] >= "4" && [Rarity] == "Magic" # [maximum_energy_shield_+%] >= "101" && [base_maximum_energy_shield] <= "0" && [base_maximum_life] <= "0" && [StashItem] == "true"
+[Type] == "Sacramental Robe" && [ItemTier] >= "4" && [Rarity] == "Magic" # [local_spirit_+%] >= "57" && [StashItem] == "true"
+[Type] == "Sacramental Robe" && [ItemTier] >= "4" && [Rarity] == "Magic" # [base_maximum_energy_shield] >= "91" && [maximum_energy_shield_+%] <= "0" && [base_maximum_life] <= "0" && [StashItem] == "true"
 
-[Type] == "Sacramental Robe" && [ItemTier] >= "0" && [Rarity] == "Rare" # [maximum_energy_shield_+%] >= "101" && [base_maximum_energy_shield] <= "0" && [base_maximum_life] <= "0" && [StashItem] == "true"
-[Type] == "Sacramental Robe" && [ItemTier] >= "0" && [Rarity] == "Rare" # [local_spirit_+%] >= "57" && [StashItem] == "true"
-[Type] == "Sacramental Robe" && [ItemTier] >= "0" && [Rarity] == "Rare" # [base_maximum_energy_shield] >= "91" && [maximum_energy_shield_+%] <= "0" && [base_maximum_life] <= "0" && [StashItem] == "true"
+[Type] == "Sacramental Robe" && [ItemTier] >= "4" && [Rarity] == "Rare" # [maximum_energy_shield_+%] >= "101" && [base_maximum_energy_shield] <= "0" && [base_maximum_life] <= "0" && [StashItem] == "true"
+[Type] == "Sacramental Robe" && [ItemTier] >= "4" && [Rarity] == "Rare" # [local_spirit_+%] >= "57" && [StashItem] == "true"
+[Type] == "Sacramental Robe" && [ItemTier] >= "4" && [Rarity] == "Rare" # [base_maximum_energy_shield] >= "91" && [maximum_energy_shield_+%] <= "0" && [base_maximum_life] <= "0" && [StashItem] == "true"
 
 //80
-[Type] == "Feathered Raiment" && [ItemTier] >= "0" && [Rarity] == "Magic" # [maximum_energy_shield_+%] >= "101" && [base_maximum_energy_shield] <= "0" && [base_maximum_life] <= "0" && [StashItem] == "true"
-[Type] == "Feathered Raiment" && [ItemTier] >= "0" && [Rarity] == "Magic" # [local_spirit_+%] >= "57" && [StashItem] == "true"
-[Type] == "Feathered Raiment" && [ItemTier] >= "0" && [Rarity] == "Magic" # [base_maximum_energy_shield] >= "91" && [maximum_energy_shield_+%] <= "0" && [base_maximum_life] <= "0" && [StashItem] == "true"
+[Type] == "Feathered Raiment" && [ItemTier] >= "4" && [Rarity] == "Magic" # [maximum_energy_shield_+%] >= "101" && [base_maximum_energy_shield] <= "0" && [base_maximum_life] <= "0" && [StashItem] == "true"
+[Type] == "Feathered Raiment" && [ItemTier] >= "4" && [Rarity] == "Magic" # [local_spirit_+%] >= "57" && [StashItem] == "true"
+[Type] == "Feathered Raiment" && [ItemTier] >= "4" && [Rarity] == "Magic" # [base_maximum_energy_shield] >= "91" && [maximum_energy_shield_+%] <= "0" && [base_maximum_life] <= "0" && [StashItem] == "true"
 
-[Type] == "Feathered Raiment" && [ItemTier] >= "0" && [Rarity] == "Rare" # [maximum_energy_shield_+%] >= "101" && [base_maximum_energy_shield] <= "0" && [base_maximum_life] <= "0" && [StashItem] == "true"
-[Type] == "Feathered Raiment" && [ItemTier] >= "0" && [Rarity] == "Rare" # [local_spirit_+%] >= "57" && [StashItem] == "true"
-[Type] == "Feathered Raiment" && [ItemTier] >= "0" && [Rarity] == "Rare" # [base_maximum_energy_shield] >= "91" && [maximum_energy_shield_+%] <= "0" && [base_maximum_life] <= "0" && [StashItem] == "true"
+[Type] == "Feathered Raiment" && [ItemTier] >= "4" && [Rarity] == "Rare" # [maximum_energy_shield_+%] >= "101" && [base_maximum_energy_shield] <= "0" && [base_maximum_life] <= "0" && [StashItem] == "true"
+[Type] == "Feathered Raiment" && [ItemTier] >= "4" && [Rarity] == "Rare" # [local_spirit_+%] >= "57" && [StashItem] == "true"
+[Type] == "Feathered Raiment" && [ItemTier] >= "4" && [Rarity] == "Rare" # [base_maximum_energy_shield] >= "91" && [maximum_energy_shield_+%] <= "0" && [base_maximum_life] <= "0" && [StashItem] == "true"
 
 
 // Armour + Evasion Base //
@@ -2413,9 +2421,9 @@
 [Type] == "Death Mail" && [ItemTier] >= "4" && [Rarity] == "Magic" # [local_spirit_+%] >= "57" && [StashItem] == "true"
 [Type] == "Death Mail" && [ItemTier] >= "4" && [Rarity] == "Magic" # [base_maximum_life] >= "200" && [local_base_evasion_rating] <= "0" && [evasion_rating_+%] <= "0" && [StashItem] == "true"
 
-[Type] == "Death Mail" && [ItemTier] >= "3" && [Rarity] == "Rare" # [local_armour_and_evasion_+%] >= "101" && [base_maximum_life] <= "0" && [local_base_evasion_rating] <= "0" && [StashItem] == "true"
-[Type] == "Death Mail" && [ItemTier] >= "3" && [Rarity] == "Rare" # [local_spirit_+%] >= "57" && [StashItem] == "true"
-[Type] == "Death Mail" && [ItemTier] >= "3" && [Rarity] == "Rare" # [base_maximum_life] >= "200" && [local_base_evasion_rating] <= "0" && [evasion_rating_+%] <= "0" && [StashItem] == "true"
+[Type] == "Death Mail" && [ItemTier] >= "4" && [Rarity] == "Rare" # [local_armour_and_evasion_+%] >= "101" && [base_maximum_life] <= "0" && [local_base_evasion_rating] <= "0" && [StashItem] == "true"
+[Type] == "Death Mail" && [ItemTier] >= "4" && [Rarity] == "Rare" # [local_spirit_+%] >= "57" && [StashItem] == "true"
+[Type] == "Death Mail" && [ItemTier] >= "4" && [Rarity] == "Rare" # [base_maximum_life] >= "200" && [local_base_evasion_rating] <= "0" && [evasion_rating_+%] <= "0" && [StashItem] == "true"
 
 
 // Armour + Energy Shield Base //
@@ -2468,48 +2476,48 @@
 // Evasion + Energy Shield Base //
 
 
-[Type] == "Sleek Jacket" && [ItemTier] >= "3" && [Rarity] == "Magic" # [local_evasion_and_energy_shield_+%] >= "101" && [base_maximum_life] <= "0" && [local_base_evasion_rating] <= "0" && [StashItem] == "true"
-[Type] == "Sleek Jacket" && [ItemTier] >= "3" && [Rarity] == "Magic" # [local_spirit_+%] >= "57" && [StashItem] == "true"
-[Type] == "Sleek Jacket" && [ItemTier] >= "3" && [Rarity] == "Magic" # [base_maximum_life] >= "200" && [local_evasion_and_energy_shield_+%] <= "0" && [local_base_evasion_rating] <= "0" && [StashItem] == "true"
-//[Type] == "Sleek Jacket" && [ItemTier] >= "3" && [Rarity] == "Magic" # [base_deflection_rating_%_of_evasion_rating] >= "24" && [StashItem] == "true"
+[Type] == "Sleek Jacket" && [ItemTier] >= "4" && [Rarity] == "Magic" # [local_evasion_and_energy_shield_+%] >= "101" && [base_maximum_life] <= "0" && [local_base_evasion_rating] <= "0" && [StashItem] == "true"
+[Type] == "Sleek Jacket" && [ItemTier] >= "4" && [Rarity] == "Magic" # [local_spirit_+%] >= "57" && [StashItem] == "true"
+[Type] == "Sleek Jacket" && [ItemTier] >= "4" && [Rarity] == "Magic" # [base_maximum_life] >= "200" && [local_evasion_and_energy_shield_+%] <= "0" && [local_base_evasion_rating] <= "0" && [StashItem] == "true"
+//[Type] == "Sleek Jacket" && [ItemTier] >= "4" && [Rarity] == "Magic" # [base_deflection_rating_%_of_evasion_rating] >= "24" && [StashItem] == "true"
 
-[Type] == "Sleek Jacket" && [ItemTier] >= "2" && [Rarity] == "Rare" # [local_evasion_and_energy_shield_+%] >= "101" && [base_maximum_life] <= "0" && [local_base_evasion_rating] <= "0" && [StashItem] == "true"
-[Type] == "Sleek Jacket" && [ItemTier] >= "2" && [Rarity] == "Rare" # [local_spirit_+%] >= "57" && [StashItem] == "true"
-[Type] == "Sleek Jacket" && [ItemTier] >= "2" && [Rarity] == "Rare" # [base_maximum_life] >= "200" && [local_evasion_and_energy_shield_+%] <= "0" && [local_base_evasion_rating] <= "0" && [StashItem] == "true"
-//[Type] == "Sleek Jacket" && [ItemTier] >= "2" && [Rarity] == "Rare" # [base_deflection_rating_%_of_evasion_rating] >= "24" && [StashItem] == "true"
-
-
-[Type] == "Rambler Jacket" && [ItemTier] >= "3" && [Rarity] == "Magic" # [local_evasion_and_energy_shield_+%] >= "101" && [base_maximum_life] <= "0" && [local_base_evasion_rating] <= "0" && [StashItem] == "true"
-[Type] == "Rambler Jacket" && [ItemTier] >= "3" && [Rarity] == "Magic" # [local_spirit_+%] >= "57" && [StashItem] == "true"
-[Type] == "Rambler Jacket" && [ItemTier] >= "3" && [Rarity] == "Magic" # [base_maximum_life] >= "200" && [local_evasion_and_energy_shield_+%] <= "0" && [local_base_evasion_rating] <= "0" && [StashItem] == "true"
-//[Type] == "Rambler Jacket" && [ItemTier] >= "3" && [Rarity] == "Magic" # [base_deflection_rating_%_of_evasion_rating] >= "24" && [StashItem] == "true"
-
-[Type] == "Rambler Jacket" && [ItemTier] >= "2" && [Rarity] == "Rare" # [local_evasion_and_energy_shield_+%] >= "101" && [base_maximum_life] <= "0" && [local_base_evasion_rating] <= "0" && [StashItem] == "true"
-[Type] == "Rambler Jacket" && [ItemTier] >= "2" && [Rarity] == "Rare" # [local_spirit_+%] >= "57" && [StashItem] == "true"
-[Type] == "Rambler Jacket" && [ItemTier] >= "2" && [Rarity] == "Rare" # [base_maximum_life] >= "200" && [local_evasion_and_energy_shield_+%] <= "0" && [local_base_evasion_rating] <= "0" && [StashItem] == "true"
-//[Type] == "Rambler Jacket" && [ItemTier] >= "2" && [Rarity] == "Rare" # [base_deflection_rating_%_of_evasion_rating] >= "24" && [StashItem] == "true"
+[Type] == "Sleek Jacket" && [ItemTier] >= "4" && [Rarity] == "Rare" # [local_evasion_and_energy_shield_+%] >= "101" && [base_maximum_life] <= "0" && [local_base_evasion_rating] <= "0" && [StashItem] == "true"
+[Type] == "Sleek Jacket" && [ItemTier] >= "4" && [Rarity] == "Rare" # [local_spirit_+%] >= "57" && [StashItem] == "true"
+[Type] == "Sleek Jacket" && [ItemTier] >= "4" && [Rarity] == "Rare" # [base_maximum_life] >= "200" && [local_evasion_and_energy_shield_+%] <= "0" && [local_base_evasion_rating] <= "0" && [StashItem] == "true"
+//[Type] == "Sleek Jacket" && [ItemTier] >= "4" && [Rarity] == "Rare" # [base_deflection_rating_%_of_evasion_rating] >= "24" && [StashItem] == "true"
 
 
-[Type] == "Falconer's Jacket" && [ItemTier] >= "3" && [Rarity] == "Magic" # [local_evasion_and_energy_shield_+%] >= "101" && [base_maximum_life] <= "0" && [local_base_evasion_rating] <= "0" && [StashItem] == "true"
-[Type] == "Falconer's Jacket" && [ItemTier] >= "3" && [Rarity] == "Magic" # [local_spirit_+%] >= "57" && [StashItem] == "true"
-[Type] == "Falconer's Jacket" && [ItemTier] >= "3" && [Rarity] == "Magic" # [base_maximum_life] >= "200" && [local_evasion_and_energy_shield_+%] <= "0" && [local_base_evasion_rating] <= "0" && [StashItem] == "true"
-//[Type] == "Falconer's Jacket" && [ItemTier] >= "3" && [Rarity] == "Magic" # [base_deflection_rating_%_of_evasion_rating] >= "24" && [StashItem] == "true"
+[Type] == "Rambler Jacket" && [ItemTier] >= "4" && [Rarity] == "Magic" # [local_evasion_and_energy_shield_+%] >= "101" && [base_maximum_life] <= "0" && [local_base_evasion_rating] <= "0" && [StashItem] == "true"
+[Type] == "Rambler Jacket" && [ItemTier] >= "4" && [Rarity] == "Magic" # [local_spirit_+%] >= "57" && [StashItem] == "true"
+[Type] == "Rambler Jacket" && [ItemTier] >= "4" && [Rarity] == "Magic" # [base_maximum_life] >= "200" && [local_evasion_and_energy_shield_+%] <= "0" && [local_base_evasion_rating] <= "0" && [StashItem] == "true"
+//[Type] == "Rambler Jacket" && [ItemTier] >= "4" && [Rarity] == "Magic" # [base_deflection_rating_%_of_evasion_rating] >= "24" && [StashItem] == "true"
 
-[Type] == "Falconer's Jacket" && [ItemTier] >= "2" && [Rarity] == "Rare" # [local_evasion_and_energy_shield_+%] >= "101" && [base_maximum_life] <= "0" && [local_base_evasion_rating] <= "0" && [StashItem] == "true"
-[Type] == "Falconer's Jacket" && [ItemTier] >= "2" && [Rarity] == "Rare" # [local_spirit_+%] >= "57" && [StashItem] == "true"
-[Type] == "Falconer's Jacket" && [ItemTier] >= "2" && [Rarity] == "Rare" # [base_maximum_life] >= "200" && [local_evasion_and_energy_shield_+%] <= "0" && [local_base_evasion_rating] <= "0" && [StashItem] == "true"
-//[Type] == "Falconer's Jacket" && [ItemTier] >= "2" && [Rarity] == "Rare" # [base_deflection_rating_%_of_evasion_rating] >= "24" && [StashItem] == "true"
+[Type] == "Rambler Jacket" && [ItemTier] >= "4" && [Rarity] == "Rare" # [local_evasion_and_energy_shield_+%] >= "101" && [base_maximum_life] <= "0" && [local_base_evasion_rating] <= "0" && [StashItem] == "true"
+[Type] == "Rambler Jacket" && [ItemTier] >= "4" && [Rarity] == "Rare" # [local_spirit_+%] >= "57" && [StashItem] == "true"
+[Type] == "Rambler Jacket" && [ItemTier] >= "4" && [Rarity] == "Rare" # [base_maximum_life] >= "200" && [local_evasion_and_energy_shield_+%] <= "0" && [local_base_evasion_rating] <= "0" && [StashItem] == "true"
+//[Type] == "Rambler Jacket" && [ItemTier] >= "4" && [Rarity] == "Rare" # [base_deflection_rating_%_of_evasion_rating] >= "24" && [StashItem] == "true"
 
 
-[Type] == "Austere Garb" && [ItemTier] >= "3" && [Rarity] == "Magic" # [local_evasion_and_energy_shield_+%] >= "101" && [base_maximum_life] <= "0" && [local_base_evasion_rating] <= "0" && [StashItem] == "true"
-[Type] == "Austere Garb" && [ItemTier] >= "3" && [Rarity] == "Magic" # [local_spirit_+%] >= "57" && [StashItem] == "true"
-[Type] == "Austere Garb" && [ItemTier] >= "3" && [Rarity] == "Magic" # [base_maximum_life] >= "200" && [local_evasion_and_energy_shield_+%] <= "0" && [local_base_evasion_rating] <= "0" && [StashItem] == "true"
-//[Type] == "Austere Garb" && [ItemTier] >= "3" && [Rarity] == "Magic" # [base_deflection_rating_%_of_evasion_rating] >= "24" && [StashItem] == "true"
+[Type] == "Falconer's Jacket" && [ItemTier] >= "4" && [Rarity] == "Magic" # [local_evasion_and_energy_shield_+%] >= "101" && [base_maximum_life] <= "0" && [local_base_evasion_rating] <= "0" && [StashItem] == "true"
+[Type] == "Falconer's Jacket" && [ItemTier] >= "4" && [Rarity] == "Magic" # [local_spirit_+%] >= "57" && [StashItem] == "true"
+[Type] == "Falconer's Jacket" && [ItemTier] >= "4" && [Rarity] == "Magic" # [base_maximum_life] >= "200" && [local_evasion_and_energy_shield_+%] <= "0" && [local_base_evasion_rating] <= "0" && [StashItem] == "true"
+//[Type] == "Falconer's Jacket" && [ItemTier] >= "4" && [Rarity] == "Magic" # [base_deflection_rating_%_of_evasion_rating] >= "24" && [StashItem] == "true"
 
-[Type] == "Austere Garb" && [ItemTier] >= "2" && [Rarity] == "Rare" # [local_evasion_and_energy_shield_+%] >= "101" && [base_maximum_life] <= "0" && [local_base_evasion_rating] <= "0" && [StashItem] == "true"
-[Type] == "Austere Garb" && [ItemTier] >= "2" && [Rarity] == "Rare" # [local_spirit_+%] >= "57" && [StashItem] == "true"
-[Type] == "Austere Garb" && [ItemTier] >= "2" && [Rarity] == "Rare" # [base_maximum_life] >= "200" && [local_evasion_and_energy_shield_+%] <= "0" && [local_base_evasion_rating] <= "0" && [StashItem] == "true"
-//[Type] == "Austere Garb" && [ItemTier] >= "2" && [Rarity] == "Rare" # [base_deflection_rating_%_of_evasion_rating] >= "24" && [StashItem] == "true"
+[Type] == "Falconer's Jacket" && [ItemTier] >= "4" && [Rarity] == "Rare" # [local_evasion_and_energy_shield_+%] >= "101" && [base_maximum_life] <= "0" && [local_base_evasion_rating] <= "0" && [StashItem] == "true"
+[Type] == "Falconer's Jacket" && [ItemTier] >= "4" && [Rarity] == "Rare" # [local_spirit_+%] >= "57" && [StashItem] == "true"
+[Type] == "Falconer's Jacket" && [ItemTier] >= "4" && [Rarity] == "Rare" # [base_maximum_life] >= "200" && [local_evasion_and_energy_shield_+%] <= "0" && [local_base_evasion_rating] <= "0" && [StashItem] == "true"
+//[Type] == "Falconer's Jacket" && [ItemTier] >= "4" && [Rarity] == "Rare" # [base_deflection_rating_%_of_evasion_rating] >= "24" && [StashItem] == "true"
+
+
+[Type] == "Austere Garb" && [ItemTier] >= "4" && [Rarity] == "Magic" # [local_evasion_and_energy_shield_+%] >= "101" && [base_maximum_life] <= "0" && [local_base_evasion_rating] <= "0" && [StashItem] == "true"
+[Type] == "Austere Garb" && [ItemTier] >= "4" && [Rarity] == "Magic" # [local_spirit_+%] >= "57" && [StashItem] == "true"
+[Type] == "Austere Garb" && [ItemTier] >= "4" && [Rarity] == "Magic" # [base_maximum_life] >= "200" && [local_evasion_and_energy_shield_+%] <= "0" && [local_base_evasion_rating] <= "0" && [StashItem] == "true"
+//[Type] == "Austere Garb" && [ItemTier] >= "4" && [Rarity] == "Magic" # [base_deflection_rating_%_of_evasion_rating] >= "24" && [StashItem] == "true"
+
+[Type] == "Austere Garb" && [ItemTier] >= "4" && [Rarity] == "Rare" # [local_evasion_and_energy_shield_+%] >= "101" && [base_maximum_life] <= "0" && [local_base_evasion_rating] <= "0" && [StashItem] == "true"
+[Type] == "Austere Garb" && [ItemTier] >= "4" && [Rarity] == "Rare" # [local_spirit_+%] >= "57" && [StashItem] == "true"
+[Type] == "Austere Garb" && [ItemTier] >= "4" && [Rarity] == "Rare" # [base_maximum_life] >= "200" && [local_evasion_and_energy_shield_+%] <= "0" && [local_base_evasion_rating] <= "0" && [StashItem] == "true"
+//[Type] == "Austere Garb" && [ItemTier] >= "4" && [Rarity] == "Rare" # [base_deflection_rating_%_of_evasion_rating] >= "24" && [StashItem] == "true"
 
 
 /////////////////////////////
@@ -2548,5 +2556,8 @@
 [Type] == "Tasalian Greaves" && [Rarity] >= "Magic" # [base_movement_velocity_+%] >= "35" && [StashItem] == "true"
 [Type] == "Tasalian Greaves" && [Rarity] >= "Rare" # [base_movement_velocity_+%] >= "35" && [StashItem] == "true"
 
-// end
+// end%] >= "35" && [StashItem] == "true"
 
+
+
+// end
