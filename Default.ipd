@@ -1864,33 +1864,57 @@
 //////////////////////////////////////////////////////////////////
 
 
-[Type] == "Exceptional Gemini Bow" && [Rarity] == "Normal" && [StashItem] == "true"
-[Type] == "Exceptional Warmonger Bow" && [Rarity] == "Normal" && [StashItem] == "true"
-[Type] == "Exceptional Obliterator Bow" && [Rarity] == "Normal" && [StashItem] == "true"
+/////////////////////////////
+///                       ///
+///       Weapons         ///
+///                       ///
+/////////////////////////////
 
-[Type] == "Exceptional Sinister Quarterstaff" && [Rarity] == "Normal" && [StashItem] == "true"
-[Type] == "Exceptional Lunar Quarterstaff" && [Rarity] == "Normal" && [StashItem] == "true"
-[Type] == "Exceptional Aegis Quarterstaff" && [Rarity] == "Normal" && [StashItem] == "true"
-[Type] == "Exceptional Bolting Quarterstaff" && [Rarity] == "Normal" && [StashItem] == "true"
+[Type] == "Gemini Bow" && [Quality] >= "21" && [StashItem] == "true"
+[Type] == "Gemini Bow" && [Sockets] >= "3" && [StashItem] == "true"
+[Type] == "Warmonger Bow" && [Quality] >= "21" && [StashItem] == "true"
+[Type] == "Warmonger Bow" && [Sockets] >= "3" && [StashItem] == "true"
+[Type] == "Obliterator Bow" && [Quality] >= "21" && [StashItem] == "true"
+[Type] == "Obliterator Bow" && [Sockets] >= "3" && [StashItem] == "true"
 
-[Type] == "Exceptional Talon Claw" && [Rarity] == "Normal" && [StashItem] == "true"
+[Type] == "Sinister Quarterstaff" && [Quality] >= "21" && [StashItem] == "true"
+[Type] == "Sinister Quarterstaff" && [Sockets] >= "3" && [StashItem] == "true"
+[Type] == "Lunar Quarterstaff" && [Quality] >= "21" && [StashItem] == "true"
+[Type] == "Lunar Quarterstaff" && [Sockets] >= "3" && [StashItem] == "true"
+[Type] == "Aegis Quarterstaff" && [Quality] >= "21" && [StashItem] == "true"
+[Type] == "Aegis Quarterstaff" && [Sockets] >= "3" && [StashItem] == "true"
+[Type] == "Bolting Quarterstaff" && [Quality] >= "21" && [StashItem] == "true"
+[Type] == "Bolting Quarterstaff" && [Sockets] >= "3" && [StashItem] == "true"
 
-[Type] == "Exceptional Cinquedea" && [Rarity] == "Normal" && [StashItem] == "true"
+[Type] == "Talon Claw" && [Quality] >= "21" && [StashItem] == "true"
+[Type] == "Talon Claw" && [Sockets] >= "3" && [StashItem] == "true"
 
-[Type] == "Exceptional Dark Blade" && [Rarity] == "Normal" && [StashItem] == "true"
+[Type] == "Cinquedea" && [Quality] >= "21" && [StashItem] == "true"
+[Type] == "Cinquedea" && [Sockets] >= "3" && [StashItem] == "true"
 
-[Type] == "Exceptional Dread Hatchet" && [Rarity] == "Normal" && [StashItem] == "true"
+[Type] == "Dark Blade" && [Quality] >= "21" && [StashItem] == "true"
+[Type] == "Dark Blade" && [Sockets] >= "3" && [StashItem] == "true"
 
-[Type] == "Exceptional Akoyan Club" && [Rarity] == "Normal" && [StashItem] == "true"
-[Type] == "Exceptional Strife Pick" && [Rarity] == "Normal" && [StashItem] == "true"
+[Type] == "Dread Hatchet" && [Quality] >= "21" && [StashItem] == "true"
+[Type] == "Dread Hatchet" && [Sockets] >= "3" && [StashItem] == "true"
 
-[Type] == "Exceptional Akoyan Spear" && [Rarity] == "Normal" && [StashItem] == "true"
-[Type] == "Exceptional Spiked Spear" && [Rarity] == "Normal" && [StashItem] == "true"
+[Type] == "Akoyan Club" && [Quality] >= "21" && [StashItem] == "true"
+[Type] == "Akoyan Club" && [Sockets] >= "3" && [StashItem] == "true"
+[Type] == "Strife Pick" && [Quality] >= "21" && [StashItem] == "true"
+[Type] == "Strife Pick" && [Sockets] >= "3" && [StashItem] == "true"
 
-[Type] == "Exceptional Siege Crossbow" && [Rarity] == "Normal" && [StashItem] == "true"
+[Type] == "Akoyan Spear" && [Quality] >= "21" && [StashItem] == "true"
+[Type] == "Akoyan Spear" && [Sockets] >= "3" && [StashItem] == "true"
+[Type] == "Spiked Spear" && [Quality] >= "21" && [StashItem] == "true"
+[Type] == "Spiked Spear" && [Sockets] >= "3" && [StashItem] == "true"
 
-[Type] == "Exceptional Elegant Crossbow" && [Rarity] == "Normal" && [StashItem] == "true"
-[Type] == "Exceptional Gemini Crossbow" && [Rarity] == "Normal" && [StashItem] == "true"
+[Type] == "Siege Crossbow" && [Quality] >= "21" && [StashItem] == "true"
+[Type] == "Siege Crossbow" && [Sockets] >= "3" && [StashItem] == "true"
+
+[Type] == "Elegant Crossbow" && [Quality] >= "21" && [StashItem] == "true"
+[Type] == "Elegant Crossbow" && [Sockets] >= "3" && [StashItem] == "true"
+[Type] == "Gemini Crossbow" && [Quality] >= "21" && [StashItem] == "true"
+[Type] == "Gemini Crossbow" && [Sockets] >= "3" && [StashItem] == "true"
 
 
 /////////////////////////////
@@ -1900,103 +1924,147 @@
 /////////////////////////////
 
 
-// Energy Shield
-[Type] == "Exceptional Flowing Raiment" && [Rarity] == "Normal" && [StashItem] == "true"
-[Type] == "Exceptional Sacramental Robe" && [Rarity] == "Normal" && [StashItem] == "true"
-[Type] == "Exceptional Feathered Raiment" && [Rarity] == "Normal" && [StashItem] == "true"
-[Type] == "Exceptional Enlightened Robe" && [Rarity] == "Normal" && [StashItem] == "true"
-[Type] == "Exceptional Havoc Raiment" && [Rarity] == "Normal" && [StashItem] == "true"
+[Type] == "Flowing Raiment" && [Quality] >= "21" && [StashItem] == "true"
+[Type] == "Flowing Raiment" && [Sockets] >= "3" && [StashItem] == "true"
+[Type] == "Sacramental Robe" && [Quality] >= "21" && [StashItem] == "true"
+[Type] == "Sacramental Robe" && [Sockets] >= "3" && [StashItem] == "true"
+[Type] == "Feathered Raiment" && [Quality] >= "21" && [StashItem] == "true"
+[Type] == "Feathered Raiment" && [Sockets] >= "3" && [StashItem] == "true"
+[Type] == "Enlightened Robe" && [Quality] >= "21" && [StashItem] == "true"
+[Type] == "Enlightened Robe" && [Sockets] >= "3" && [StashItem] == "true"
+[Type] == "Havoc Raiment" && [Quality] >= "21" && [StashItem] == "true"
+[Type] == "Havoc Raiment" && [Sockets] >= "3" && [StashItem] == "true"
 
-// Evasion + Energy Shield
-[Type] == "Exceptional Exquisite Vest" && [Rarity] == "Normal" && [StashItem] == "true"
-[Type] == "Exceptional Mail Coat" && [Rarity] == "Normal" && [StashItem] == "true"
-[Type] == "Exceptional Armoured Vest" && [Rarity] == "Normal" && [StashItem] == "true"
-[Type] == "Exceptional Swiftstalker Coat" && [Rarity] == "Normal" && [StashItem] == "true"
-[Type] == "Exceptional Slipstrike Vest" && [Rarity] == "Normal" && [StashItem] == "true"
-[Type] == "Exceptional Wyrmscale Coat" && [Rarity] == "Normal" && [StashItem] == "true"
-[Type] == "Exceptional Corsair Coat" && [Rarity] == "Normal" && [StashItem] == "true"
+[Type] == "Exquisite Vest" && [Quality] >= "21" && [StashItem] == "true"
+[Type] == "Exquisite Vest" && [Sockets] >= "3" && [StashItem] == "true"
+[Type] == "Mail Coat" && [Quality] >= "21" && [StashItem] == "true"
+[Type] == "Mail Coat" && [Sockets] >= "3" && [StashItem] == "true"
+[Type] == "Armoured Vest" && [Quality] >= "21" && [StashItem] == "true"
+[Type] == "Armoured Vest" && [Sockets] >= "3" && [StashItem] == "true"
+[Type] == "Swiftstalker Coat" && [Quality] >= "21" && [StashItem] == "true"
+[Type] == "Swiftstalker Coat" && [Sockets] >= "3" && [StashItem] == "true"
+[Type] == "Slipstrike Vest" && [Quality] >= "21" && [StashItem] == "true"
+[Type] == "Slipstrike Vest" && [Sockets] >= "3" && [StashItem] == "true"
+[Type] == "Wyrmscale Coat" && [Quality] >= "21" && [StashItem] == "true"
+[Type] == "Wyrmscale Coat" && [Sockets] >= "3" && [StashItem] == "true"
+[Type] == "Corsair Coat" && [Quality] >= "21" && [StashItem] == "true"
+[Type] == "Corsair Coat" && [Sockets] >= "3" && [StashItem] == "true"
 
-// Evasion 
-[Type] == "Exceptional Sleek Jacket" && [Rarity] == "Normal" && [StashItem] == "true"
-[Type] == "Exceptional Rambler Jacket" && [Rarity] == "Normal" && [StashItem] == "true"
-[Type] == "Exceptional Falconer's Jacket" && [Rarity] == "Normal" && [StashItem] == "true"
-[Type] == "Exceptional Austere Garb" && [Rarity] == "Normal" && [StashItem] == "true"
+[Type] == "Sleek Jacket" && [Quality] >= "21" && [StashItem] == "true"
+[Type] == "Sleek Jacket" && [Sockets] >= "3" && [StashItem] == "true"
+[Type] == "Rambler Jacket" && [Quality] >= "21" && [StashItem] == "true"
+[Type] == "Rambler Jacket" && [Sockets] >= "3" && [StashItem] == "true"
+[Type] == "Falconer's Jacket" && [Quality] >= "21" && [StashItem] == "true"
+[Type] == "Falconer's Jacket" && [Sockets] >= "3" && [StashItem] == "true"
+[Type] == "Austere Garb" && [Quality] >= "21" && [StashItem] == "true"
+[Type] == "Austere Garb" && [Sockets] >= "3" && [StashItem] == "true"
 
-// Armour + Energy Shield
-[Type] == "Exceptional Conjurer Mantle" && [Rarity] == "Normal" && [StashItem] == "true"
-[Type] == "Exceptional Death Mantle" && [Rarity] == "Normal" && [StashItem] == "true"
-[Type] == "Exceptional Seastorm Mantle" && [Rarity] == "Normal" && [StashItem] == "true"
-[Type] == "Exceptional Corvus Mantle" && [Rarity] == "Normal" && [StashItem] == "true"
-[Type] == "Exceptional Revered Vestments" && [Rarity] == "Normal" && [StashItem] == "true"
+[Type] == "Conjurer Mantle" && [Quality] >= "21" && [StashItem] == "true"
+[Type] == "Conjurer Mantle" && [Sockets] >= "3" && [StashItem] == "true"
+[Type] == "Death Mantle" && [Quality] >= "21" && [StashItem] == "true"
+[Type] == "Death Mantle" && [Sockets] >= "3" && [StashItem] == "true"
+[Type] == "Seastorm Mantle" && [Quality] >= "21" && [StashItem] == "true"
+[Type] == "Seastorm Mantle" && [Sockets] >= "3" && [StashItem] == "true"
+[Type] == "Corvus Mantle" && [Quality] >= "21" && [StashItem] == "true"
+[Type] == "Corvus Mantle" && [Sockets] >= "3" && [StashItem] == "true"
+[Type] == "Revered Vestments" && [Quality] >= "21" && [StashItem] == "true"
+[Type] == "Revered Vestments" && [Sockets] >= "3" && [StashItem] == "true"
 
-// Armour + Evasion 
-[Type] == "Exceptional Death Mail" && [Rarity] == "Normal" && [StashItem] == "true"
-[Type] == "Exceptional Thane Mail" && [Rarity] == "Normal" && [StashItem] == "true"
- 
-// Armour
-[Type] == "Exceptional Abyssal Cuirass" && [Rarity] == "Normal" && [StashItem] == "true"
-[Type] == "Exceptional Conqueror Plate" && [Rarity] == "Normal" && [StashItem] == "true"
-[Type] == "Exceptional Glorious Plate" && [Rarity] == "Normal" && [StashItem] == "true"
-[Type] == "Exceptional Soldier Cuirass" && [Rarity] == "Normal" && [StashItem] == "true"
-[Type] == "Exceptional Ornate Plate" && [Rarity] == "Normal" && [StashItem] == "true"
-[Type] == "Exceptional Utzaal Cuirass" && [Rarity] == "Normal" && [StashItem] == "true"
-[Type] == "Exceptional Warlord Cuirass" && [Rarity] == "Normal" && [StashItem] == "true"
+[Type] == "Death Mail" && [Quality] >= "21" && [StashItem] == "true"
+[Type] == "Death Mail" && [Sockets] >= "3" && [StashItem] == "true"
+[Type] == "Thane Mail" && [Quality] >= "21" && [StashItem] == "true"
+[Type] == "Thane Mail" && [Sockets] >= "3" && [StashItem] == "true"
+
+[Type] == "Abyssal Cuirass" && [Quality] >= "21" && [StashItem] == "true"
+[Type] == "Abyssal Cuirass" && [Sockets] >= "3" && [StashItem] == "true"
+[Type] == "Conqueror Plate" && [Quality] >= "21" && [StashItem] == "true"
+[Type] == "Conqueror Plate" && [Sockets] >= "3" && [StashItem] == "true"
+[Type] == "Glorious Plate" && [Quality] >= "21" && [StashItem] == "true"
+[Type] == "Glorious Plate" && [Sockets] >= "3" && [StashItem] == "true"
+[Type] == "Soldier Cuirass" && [Quality] >= "21" && [StashItem] == "true"
+[Type] == "Soldier Cuirass" && [Sockets] >= "3" && [StashItem] == "true"
+[Type] == "Ornate Plate" && [Quality] >= "21" && [StashItem] == "true"
+[Type] == "Ornate Plate" && [Sockets] >= "3" && [StashItem] == "true"
+[Type] == "Utzaal Cuirass" && [Quality] >= "21" && [StashItem] == "true"
+[Type] == "Utzaal Cuirass" && [Sockets] >= "3" && [StashItem] == "true"
+[Type] == "Warlord Cuirass" && [Quality] >= "21" && [StashItem] == "true"
+[Type] == "Warlord Cuirass" && [Sockets] >= "3" && [StashItem] == "true"
+
 
 /////////////////////////////
 ///                       ///
 ///        Gloves         ///
 ///                       ///
 /////////////////////////////
- 
 
-[Type] == "Exceptional Massive Mitts" && [Rarity] == "Normal" && [StashItem] == "true" 
-[Type] == "Exceptional Polished Bracers" && [Rarity] == "Normal" && [StashItem] == "true"
-[Type] == "Exceptional Sirenscale Gloves" && [Rarity] == "Normal" && [StashItem] == "true"
-[Type] == "Exceptional Blacksteel Gauntlets" && [Rarity] == "Normal" && [StashItem] == "true"
-[Type] == "Exceptional Adherent Cuffs" && [Rarity] == "Normal" && [StashItem] == "true"
-[Type] == "Exceptional Secured Wraps" && [Rarity] == "Normal" && [StashItem] == "true"
-
-/////////////////////////////
-///                       ///
-///       Boots           ///
-///                       ///
-/////////////////////////////
- 
-
-[Type] == "Exceptional Tasalian Greaves" && [Rarity] == "Normal" && [StashItem] == "true"
-[Type] == "Exceptional Drakeskin Boots" && [Rarity] == "Normal" && [StashItem] == "true"
-[Type] == "Exceptional Sekhema Sandals" && [Rarity] == "Normal" && [StashItem] == "true"
-[Type] == "Exceptional Blacksteel Sabatons" && [Rarity] == "Normal" && [StashItem] == "true"
-[Type] == "Exceptional Cryptic Leggings" && [Rarity] == "Normal" && [StashItem] == "true"
-[Type] == "Exceptional Daggerfoot Shoes" && [Rarity] == "Normal" && [StashItem] == "true"
+[Type] == "Massive Mitts" && [Quality] >= "21" && [StashItem] == "true" 
+[Type] == "Massive Mitts" && [Sockets] >= "3" && [StashItem] == "true"
+[Type] == "Polished Bracers" && [Quality] >= "21" && [StashItem] == "true"
+[Type] == "Polished Bracers" && [Sockets] >= "3" && [StashItem] == "true"
+[Type] == "Sirenscale Gloves" && [Quality] >= "21" && [StashItem] == "true"
+[Type] == "Sirenscale Gloves" && [Sockets] >= "3" && [StashItem] == "true"
+[Type] == "Blacksteel Gauntlets" && [Quality] >= "21" && [StashItem] == "true"
+[Type] == "Blacksteel Gauntlets" && [Sockets] >= "3" && [StashItem] == "true"
+[Type] == "Adherent Cuffs" && [Quality] >= "21" && [StashItem] == "true"
+[Type] == "Adherent Cuffs" && [Sockets] >= "3" && [StashItem] == "true"
+[Type] == "Secured Wraps" && [Quality] >= "21" && [StashItem] == "true"
+[Type] == "Secured Wraps" && [Sockets] >= "3" && [StashItem] == "true"
 
 /////////////////////////////
 ///                       ///
-///       Helmets         ///
+///        Boots          ///
 ///                       ///
 /////////////////////////////
- 
 
-[Type] == "Exceptional Imperial Greathelm" && [Rarity] == "Normal" && [StashItem] == "true"
-[Type] == "Exceptional Freebooter Cap" && [Rarity] == "Normal" && [StashItem] == "true"
-[Type] == "Exceptional Ancestral Tiara" && [Rarity] == "Normal" && [StashItem] == "true"
-[Type] == "Exceptional Gladiatorial Helm" && [Rarity] == "Normal" && [StashItem] == "true"
-[Type] == "Exceptional Cryptic Crown" && [Rarity] == "Normal" && [StashItem] == "true"
-[Type] == "Exceptional Grinning Mask" && [Rarity] == "Normal" && [StashItem] == "true"
+[Type] == "Tasalian Greaves" && [Quality] >= "21" && [StashItem] == "true"
+[Type] == "Tasalian Greaves" && [Sockets] >= "3" && [StashItem] == "true"
+[Type] == "Drakeskin Boots" && [Quality] >= "21" && [StashItem] == "true"
+[Type] == "Drakeskin Boots" && [Sockets] >= "3" && [StashItem] == "true"
+[Type] == "Sekhema Sandals" && [Quality] >= "21" && [StashItem] == "true"
+[Type] == "Sekhema Sandals" && [Sockets] >= "3" && [StashItem] == "true"
+[Type] == "Blacksteel Sabatons" && [Quality] >= "21" && [StashItem] == "true"
+[Type] == "Blacksteel Sabatons" && [Sockets] >= "3" && [StashItem] == "true"
+[Type] == "Cryptic Leggings" && [Quality] >= "21" && [StashItem] == "true"
+[Type] == "Cryptic Leggings" && [Sockets] >= "3" && [StashItem] == "true"
+[Type] == "Daggerfoot Shoes" && [Quality] >= "21" && [StashItem] == "true"
+[Type] == "Daggerfoot Shoes" && [Sockets] >= "3" && [StashItem] == "true"
+
 
 /////////////////////////////
 ///                       ///
-///      Shields          ///
+///        Helmets        ///
 ///                       ///
 /////////////////////////////
- 
 
-[Type] == "Exceptional Desert Buckler" && [Rarity] == "Normal" && [StashItem] == "true"
-[Type] == "Exceptional Tasalian Focus" && [Rarity] == "Normal" && [StashItem] == "true"
-[Type] == "Exceptional Golden Targe" && [Rarity] == "Normal" && [StashItem] == "true"
-[Type] == "Exceptional Blacksteel Crest Shield" && [Rarity] == "Normal" && [StashItem] == "true"
-[Type] == "Exceptional Tawhoan Tower Shield" && [Rarity] == "Normal" && [StashItem] == "true"
+[Type] == "Imperial Greathelm" && [Quality] >= "21" && [StashItem] == "true"
+[Type] == "Imperial Greathelm" && [Sockets] >= "3" && [StashItem] == "true"
+[Type] == "Freebooter Cap" && [Quality] >= "21" && [StashItem] == "true"
+[Type] == "Freebooter Cap" && [Sockets] >= "3" && [StashItem] == "true"
+[Type] == "Ancestral Tiara" && [Quality] >= "21" && [StashItem] == "true"
+[Type] == "Ancestral Tiara" && [Sockets] >= "3" && [StashItem] == "true"
+[Type] == "Gladiatorial Helm" && [Quality] >= "21" && [StashItem] == "true"
+[Type] == "Gladiatorial Helm" && [Sockets] >= "3" && [StashItem] == "true"
+[Type] == "Cryptic Crown" && [Quality] >= "21" && [StashItem] == "true"
+[Type] == "Cryptic Crown" && [Sockets] >= "3" && [StashItem] == "true"
+[Type] == "Grinning Mask" && [Quality] >= "21" && [StashItem] == "true"
+[Type] == "Grinning Mask" && [Sockets] >= "3" && [StashItem] == "true"
 
+/////////////////////////////
+///                       ///
+///        Shields        ///
+///                       ///
+/////////////////////////////
+
+[Type] == "Desert Buckler" && [Quality] >= "21" && [StashItem] == "true"
+[Type] == "Desert Buckler" && [Sockets] >= "3" && [StashItem] == "true"
+[Type] == "Tasalian Focus" && [Quality] >= "21" && [StashItem] == "true"
+[Type] == "Tasalian Focus" && [Sockets] >= "3" && [StashItem] == "true"
+[Type] == "Golden Targe" && [Quality] >= "21" && [StashItem] == "true"
+[Type] == "Golden Targe" && [Sockets] >= "3" && [StashItem] == "true"
+[Type] == "Blacksteel Crest Shield" && [Quality] >= "21" && [StashItem] == "true"
+[Type] == "Blacksteel Crest Shield" && [Sockets] >= "3" && [StashItem] == "true"
+[Type] == "Tawhoan Tower Shield" && [Quality] >= "21" && [StashItem] == "true"
+[Type] == "Tawhoan Tower Shield" && [Sockets] >= "3" && [StashItem] == "true"
 
 //////////////////////////////////////////////////////////////////
 ///                                                            ///
@@ -2590,6 +2658,7 @@
 [Category] == "Ultimate Life Flask" && [Rarity] >= "Magic" # [local_max_charges_+%] >= "63" && [local_flask_recovery_amount_%_to_recover_instantly] >= "25" && [StashItem] == "true" 
 
 // end5"
+
 
 
 
