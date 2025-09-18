@@ -2251,7 +2251,7 @@
 [Type] == "Warmonger Bow" && [ItemTier] >= "3" && [Rarity] == "Rare" # [number_of_additional_arrows] >= "1" && [StashItem] == "true"
 [Type] == "Warmonger Bow" && [ItemTier] >= "3" && [Rarity] == "Rare" # [projectile_skill_gem_level_+] >= "6" && [StashItem] == "true"
 
-[Type] == "Warmonger Bow" && [ItemTier] >= "3" && [Rarity] == "Magic" # [local_attack_speed_+%] >= "17" && [StashItem] == "true"
+//[Type] == "Warmonger Bow" && [ItemTier] >= "3" && [Rarity] == "Magic" # [local_attack_speed_+%] >= "17" && [StashItem] == "true"
 [Type] == "Warmonger Bow" && [ItemTier] >= "3" && [Rarity] == "Magic" # [local_physical_damage_+%] >= "170" && [StashItem] == "true"
 [Type] == "Warmonger Bow" && [ItemTier] >= "3" && [Rarity] == "Magic" # [local_maximum_added_physical_damage] >= "44" && [StashItem] == "true"
 [Type] == "Warmonger Bow" && [ItemTier] >= "3" && [Rarity] == "Magic" # [local_maximum_added_lightning_damage] >= "202" && [StashItem] == "true" // 202 for T1
@@ -2260,7 +2260,7 @@
 [Type] == "Warmonger Bow" && [ItemTier] >= "3" && [Rarity] == "Magic" # [number_of_additional_arrows] >= "1" && [StashItem] == "true"
 [Type] == "Warmonger Bow" && [ItemTier] >= "3" && [Rarity] == "Magic" # [projectile_skill_gem_level_+] >= "6" && [StashItem] == "true"
 
-[Type] == "Obliterator Bow" && [ItemTier] >= "3" && [Rarity] == "Rare" # [local_attack_speed_+%] >= "17" && [StashItem] == "true"
+//[Type] == "Obliterator Bow" && [ItemTier] >= "3" && [Rarity] == "Rare" # [local_attack_speed_+%] >= "17" && [StashItem] == "true"
 [Type] == "Obliterator Bow" && [ItemTier] >= "3" && [Rarity] == "Rare" # [local_physical_damage_+%] >= "170" && [StashItem] == "true"
 [Type] == "Obliterator Bow" && [ItemTier] >= "3" && [Rarity] == "Rare" # [local_maximum_added_physical_damage] >= "44" && [StashItem] == "true"
 [Type] == "Obliterator Bow" && [ItemTier] >= "3" && [Rarity] == "Rare" # [local_maximum_added_lightning_damage] >= "202" && [StashItem] == "true" // 202 for T1
@@ -2734,3 +2734,4 @@
 
 
 ////// END
+
